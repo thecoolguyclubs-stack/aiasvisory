@@ -2793,3 +2793,12 @@
     animation: none;
   }
 }
+
+.birthdayInputs { display: grid; grid-template-columns: minmax(64px, .7fr) minmax(105px, 1.5fr) minmax(85px, 1fr); gap: 10px; }
+.birthdayInputs label { display: grid; gap: 6px; min-width: 0; font-size: 13px; color: #39515a; }
+.birthdayInputs select { width: 100%; min-height: 48px; border: 1px solid #bad0d3; border-radius: 12px; background: white; color: #183c46; font: inherit; font-size: 16px; padding: 8px; }
+.birthdayInputs select:focus-visible { outline: 3px solid #008b8b; outline-offset: 2px; }
+.birthdayInputs select[aria-invalid="true"] { border-color: #b42318; }
+.careAccessQuestion { margin-top: 28px; border-top: 1px solid #dce8e8; padding-top: 24px; }
+.careAccessQuestion h2 { margin: 0 0 16px; font-size: clamp(18px, 3vw, 23px); line-height: 1.4; }
+@media (max-width: 420px) { .birthdayInputs { gap: 6px; } .birthdayInputs select { padding: 6px 3px; } }

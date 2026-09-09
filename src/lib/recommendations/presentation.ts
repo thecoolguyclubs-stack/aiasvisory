@@ -1,4 +1,5 @@
 import type { AssessmentSubmission } from "@/lib/assessment/types";
+import { deductibleBands, isDeductibleBand } from "@/lib/assessment/preferences";
 
 import { toCustomerGreekText, type AllowedClaim } from "./explanation";
 import {
@@ -196,12 +197,13 @@ function needHasEvidence(
 
 function selectedSignalCodes(submission: AssessmentSubmission) {
   return unique([
+    ...(submission.answers.careAccess === "freedom" ? ["provider_freedom"] : []),
     ...submission.answers.priorities.map((value) => prioritySignals[value]),
     ...submission.answers.additionalNeeds.map(
       (value) => additionalNeedSignals[value],
     ),
-    submission.answers.deductible === "minimum" ? "low_deductible" : undefined,
-    submission.answers.deductible === "large"
+    ["minimum", "up-to-1500"].includes(submission.answers.deductible ?? "") ? "low_deductible" : undefined,
+    ["large", "over-5000"].includes(submission.answers.deductible ?? "")
       ? "deductible_flexibility"
       : undefined,
   ]);
@@ -212,6 +214,7 @@ function relatedUserNeeds(
   evidence: CustomerEvidenceItem[],
 ) {
   const descriptors: NeedDescriptor[] = [
+    ...(submission.answers.careAccess === "freedom" ? [additionalNeeds.provider_freedom] : []),
     ...submission.answers.priorities
       .map((value) => priorityNeeds[value])
       .filter((value): value is NeedDescriptor => Boolean(value)),
@@ -222,10 +225,11 @@ function relatedUserNeeds(
 
   if (submission.answers.deductible) {
     descriptors.push({
-      label:
-        submission.answers.deductible === "minimum"
+      label: isDeductibleBand(submission.answers.deductible)
+        ? `προτίμηση συμμετοχής ${deductibleBands[submission.answers.deductible].label}`
+        : ["minimum", "up-to-1500"].includes(submission.answers.deductible ?? "")
           ? "προτίμηση για ελάχιστη δυνατή συμμετοχή"
-          : submission.answers.deductible === "large"
+          : ["large", "over-5000"].includes(submission.answers.deductible ?? "")
             ? "αποδοχή μεγαλύτερης απαλλαγής"
             : "αποδοχή μικρής συμμετοχής",
       kinds: ["deductible"],

@@ -5,6 +5,7 @@ import type {
   AssessmentOption,
   OptionIcon,
 } from "@/lib/assessment/config";
+import { VISIBLE_ASSESSMENT_STEPS } from "@/lib/assessment/config";
 import type { LocalPolicyFile } from "@/lib/assessment/state";
 
 import {
@@ -154,17 +155,17 @@ const deductibleOptionMetaById: Record<
   string,
   { amountTone: DeductibleAmountTone; description: string; src: string }
 > = {
-  minimum: {
+  "up-to-1500": {
     amountTone: "low",
     description: "Μικρό ποσό πληρωμής όταν χρειαστεί κάλυψη.",
     src: "/icons/assessment-deductible-low.png",
   },
-  small: {
+  "1500-to-5000": {
     amountTone: "medium",
     description: "Μοιράζεις μέρος του κόστους για καλύτερη τιμή.",
     src: "/icons/assessment-deductible-medium.png",
   },
-  large: {
+  "over-5000": {
     amountTone: "high",
     description: "Μεγαλύτερη απαλλαγή με χαμηλότερο ασφάλιστρο.",
     src: "/icons/assessment-deductible-high.png",
@@ -290,7 +291,7 @@ export function AssessmentHeader({
   displayStep?: number;
   statusText?: string;
 }) {
-  const progress = displayStep ? `${(displayStep / 8) * 100}%` : "100%";
+  const progress = displayStep ? `${(displayStep / VISIBLE_ASSESSMENT_STEPS) * 100}%` : "100%";
 
   return (
     <header className={styles.header}>
@@ -302,10 +303,10 @@ export function AssessmentHeader({
 
         {displayStep ? (
           <div className={styles.progressBlock}>
-            <span>Βήμα {displayStep} από 8</span>
+            <span>Βήμα {displayStep} από {VISIBLE_ASSESSMENT_STEPS}</span>
             <div
-              aria-label={`Πρόοδος: βήμα ${displayStep} από 8`}
-              aria-valuemax={8}
+              aria-label={`Πρόοδος: βήμα ${displayStep} από ${VISIBLE_ASSESSMENT_STEPS}`}
+              aria-valuemax={VISIBLE_ASSESSMENT_STEPS}
               aria-valuemin={1}
               aria-valuenow={displayStep}
               className={styles.progressTrack}

@@ -113,7 +113,8 @@ const answerSchema = z
       .min(1)
       .max(3)
       .refine((values) => new Set(values).size === values.length),
-    deductible: z.enum(["minimum", "small", "large"]),
+    deductible: z.enum(["minimum", "small", "large", "up-to-1500", "1500-to-5000", "over-5000"]),
+    careAccess: z.enum(["network", "freedom", "unsure"]).nullable().optional(),
     costApproach: z.enum(["complete", "balanced", "basic"]),
     additionalNeeds: z
       .array(

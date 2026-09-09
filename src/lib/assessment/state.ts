@@ -1,5 +1,6 @@
 import type { AssessmentViewId } from "./config";
 import type { AssessmentSessionSnapshot } from "./types";
+import { deductibleBands, isDeductibleBand, type CareAccess } from "./preferences";
 
 export type PersonRole = "self" | "partner" | "child" | "other";
 
@@ -24,6 +25,7 @@ export interface AssessmentAnswers {
   deductible: string | null;
   costApproach: string | null;
   additionalNeeds: string[];
+  careAccess?: CareAccess | null;
 }
 
 export interface AssessmentState {
@@ -49,6 +51,7 @@ type SingleAnswerKey =
 type MultiAnswerKey = "priorities" | "additionalNeeds";
 
 export type AssessmentAction =
+  | { type: "set-care-access"; value: CareAccess }
   | { type: "hydrate"; snapshot: AssessmentSessionSnapshot }
   | { type: "set-composition"; value: string }
   | {
@@ -130,6 +133,7 @@ export const initialAssessmentState: AssessmentState = {
     deductible: null,
     costApproach: null,
     additionalNeeds: [],
+    careAccess: null,
   },
   people: [],
   nextPersonId: 1,
@@ -158,8 +162,8 @@ export function assessmentReducer(
     case "hydrate":
       return {
         ...state,
-        view: action.snapshot.navigation.view,
-        history: [...action.snapshot.navigation.history],
+        view: action.snapshot.navigation.view === "costApproach" ? "deductible" : action.snapshot.navigation.view,
+        history: action.snapshot.navigation.history.filter((view) => view !== "costApproach"),
         answers: {
           ...action.snapshot.submission.answers,
           priorities: [...action.snapshot.submission.answers.priorities],
@@ -186,10 +190,18 @@ export function assessmentReducer(
         answers: { ...state.answers, insuredPeople: action.value },
         people: peopleForComposition(action.value, state.people),
       };
+    case "set-care-access":
+      return { ...state, answers: { ...state.answers, careAccess: action.value } };
     case "set-single":
       return {
         ...state,
-        answers: { ...state.answers, [action.key]: action.value },
+        answers: {
+          ...state.answers,
+          [action.key]: action.value,
+          ...(action.key === "deductible" && isDeductibleBand(action.value)
+            ? { costApproach: deductibleBands[action.value].approach }
+            : {}),
+        },
       };
     case "toggle-multi": {
       const selected = state.answers[action.key];

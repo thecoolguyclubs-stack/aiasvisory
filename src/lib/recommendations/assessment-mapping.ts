@@ -1,4 +1,5 @@
 import type { AssessmentSubmission } from "@/lib/assessment/types";
+import { deductibleBands, isDeductibleBand } from "@/lib/assessment/preferences";
 
 export interface DatabaseAssessmentAnswers {
   insured_people: "self" | "self_spouse" | "family" | "child";
@@ -99,6 +100,9 @@ const prioritiesMap = {
 } as const;
 
 const deductibleMap = {
+  "up-to-1500": "minimum",
+  "1500-to-5000": "balanced",
+  "over-5000": "higher_for_lower_premium",
   minimum: "minimum",
   small: "balanced",
   large: "higher_for_lower_premium",
@@ -222,7 +226,9 @@ export function mapAssessmentSubmissionToDatabase(
   );
   const costApproach = mapSingleValue(
     "costApproach",
-    submission.answers.costApproach,
+    isDeductibleBand(submission.answers.deductible)
+      ? deductibleBands[submission.answers.deductible].approach
+      : submission.answers.costApproach,
     costApproachMap,
     errors,
   );
@@ -239,6 +245,7 @@ export function mapAssessmentSubmissionToDatabase(
     errors,
   );
   const selectedAdditionalNeeds = new Set(mappedAdditionalNeeds);
+  if (submission.answers.careAccess === "freedom") selectedAdditionalNeeds.add("provider_freedom");
   const additionalNeeds = additionalNeedsContractOrder.filter((value) =>
     selectedAdditionalNeeds.has(value),
   );

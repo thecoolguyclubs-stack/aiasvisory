@@ -1,6 +1,7 @@
 import { assessmentConfig } from "./config";
 import type { AssessmentOption } from "./config";
 import type { AssessmentSubmission, InsuranceProfile } from "./types";
+import { deductibleBands, isDeductibleBand } from "./preferences";
 
 const insuredTitles: Record<string, string> = {
   self: "Μόνο εμένα",
@@ -26,7 +27,12 @@ const insuranceDetails: Record<string, string> = {
 const optionLabel = (
   options: readonly AssessmentOption[],
   value: string | null,
-) => options.find((option) => option.id === value)?.label ?? "Δεν δηλώθηκε";
+) => options.find((option) => option.id === value)?.label ?? ({
+  minimum: "Θέλω μηδενική ή ελάχιστη δυνατή συμμετοχή",
+  small: "Μπορώ να δεχτώ μια μικρή συμμετοχή για καλύτερη τιμή",
+  large: "Μπορώ να δεχτώ μεγάλη απαλλαγή για χαμηλό ασφάλιστρο",
+  "low-deductible": "Μηδενική ή χαμηλή συμμετοχή",
+} as Record<string, string>)[value ?? ""] ?? "Δεν δηλώθηκε";
 
 const optionLabels = (
   options: readonly AssessmentOption[],
@@ -137,7 +143,9 @@ export function generateInsuranceProfile(
       assessmentConfig.priorities.options,
       submission.answers.priorities,
     ),
-    deductiblePreference: optionLabel(
+    deductiblePreference: isDeductibleBand(submission.answers.deductible)
+      ? deductibleBands[submission.answers.deductible].label
+      : optionLabel(
       assessmentConfig.deductible.options,
       submission.answers.deductible,
     ),
@@ -147,7 +155,8 @@ export function generateInsuranceProfile(
     ),
     additionalNeeds: optionLabels(
       assessmentConfig.additionalNeeds.options,
-      submission.answers.additionalNeeds,
+      [...new Set([...submission.answers.additionalNeeds,
+        ...(submission.answers.careAccess === "freedom" ? ["provider_freedom"] : [])])],
     ),
     hasUploadedPolicy: Boolean(submission.policyFile),
     generatedAt: referenceDate,

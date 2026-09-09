@@ -48,10 +48,11 @@ import {
 import { clearLeadSubmission } from "@/lib/leads/session";
 import { clearRecommendationSnapshot } from "@/lib/recommendations/storage";
 import { clearExplanations } from "@/lib/recommendations/explanation-storage";
+import { careAccessOptions, isDeductibleBand, type CareAccess } from "@/lib/assessment/preferences";
+import { BirthdayInput } from "./BirthdayInput";
 
 import { CalendarIcon, CheckIcon, PlusIcon, UploadIcon } from "./AssessmentIcons";
 import {
-  ApproachCards,
   AssessmentHeader,
   MultiChoiceOptions,
   SingleChoiceOptions,
@@ -434,23 +435,18 @@ export function AssessmentFlow() {
                         </button>
                       )}
                     </div>
-                    <span className={styles.dateInputWrap}>
-                      <input
-                        aria-label={`Ημερομηνία γέννησης για ${insured.label}`}
+                      <BirthdayInput
+                        label={insured.label}
                         id={`birth-date-${insured.id}`}
-                        lang="el-GR"
-                        onChange={(event) =>
+                        onChange={(value) =>
                           dispatch({
                             type: "set-birth-date",
                             personId: insured.id,
-                            value: event.target.value,
+                            value,
                           })
                         }
-                        type="date"
                         value={insured.birthDate}
                       />
-                      <CalendarIcon />
-                    </span>
                   </div>
                 </div>
               ))}
@@ -581,8 +577,17 @@ export function AssessmentFlow() {
               options={assessmentConfig.priorities.options}
               values={state.answers.priorities}
             />
+            <section className={styles.careAccessQuestion}>
+              <h2>Πόσο σημαντικό είναι να επιλέγεις γιατρό ή νοσοκομείο εκτός δικτύου;</h2>
+              <SingleChoiceOptions
+                name="care-access"
+                options={careAccessOptions}
+                value={state.answers.careAccess ?? null}
+                onChange={(value) => dispatch({ type: "set-care-access", value: value as CareAccess })}
+              />
+            </section>
             <StepNavigation
-              disabled={state.answers.priorities.length === 0}
+              disabled={state.answers.priorities.length === 0 || !state.answers.careAccess}
               onBack={back}
               onNext={() => dispatch({ type: "navigate", to: "deductible" })}
             />
@@ -611,32 +616,9 @@ export function AssessmentFlow() {
               value={state.answers.deductible}
             />
             <StepNavigation
-              disabled={!state.answers.deductible}
+              disabled={!isDeductibleBand(state.answers.deductible)}
               onBack={back}
-              onNext={() => dispatch({ type: "navigate", to: "costApproach" })}
-            />
-          </StepCard>
-        )}
-
-        {state.view === "costApproach" && (
-          <StepCard eyebrow={step.eyebrow} size="wide" title={step.title}>
-            <ApproachCards
-              onChange={(value) =>
-                dispatch({
-                  type: "set-single",
-                  key: "costApproach",
-                  value,
-                })
-              }
-              options={assessmentConfig.costApproach.options}
-              value={state.answers.costApproach}
-            />
-            <StepNavigation
-              disabled={!state.answers.costApproach}
-              onBack={back}
-              onNext={() =>
-                dispatch({ type: "navigate", to: "additionalNeeds" })
-              }
+              onNext={() => dispatch({ type: "navigate", to: "additionalNeeds" })}
             />
           </StepCard>
         )}

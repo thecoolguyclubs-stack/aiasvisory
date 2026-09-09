@@ -1,3 +1,7 @@
+import { deductibleBands } from "./preferences";
+
+export const VISIBLE_ASSESSMENT_STEPS = 7;
+
 export type AssessmentStepId =
   | "insuredPeople"
   | "birthDates"
@@ -150,10 +154,6 @@ export const assessmentConfig = {
         id: "high-limit",
         label: "Υψηλό όριο κάλυψης για μακροχρόνια νοσηλεία",
       },
-      {
-        id: "low-deductible",
-        label: "Μηδενική ή χαμηλή συμμετοχή",
-      },
     ],
   },
   deductible: {
@@ -167,19 +167,19 @@ export const assessmentConfig = {
       "Χαμηλότερη συμμετοχή συνήθως συνδέεται με υψηλότερο ασφάλιστρο.",
     options: [
       {
-        id: "minimum",
-        label: "Θέλω μηδενική ή ελάχιστη δυνατή συμμετοχή",
-        description: "0€ - 500€",
+        id: "up-to-1500",
+        label: "Προτιμώ μικρότερη προσωπική συμμετοχή",
+        description: deductibleBands["up-to-1500"].label,
       },
       {
-        id: "small",
-        label: "Μπορώ να δεχτώ μια μικρή συμμετοχή για καλύτερη τιμή",
-        description: "500€ - 1.500€",
+        id: "1500-to-5000",
+        label: "Μπορώ να αναλάβω ένα μεγαλύτερο μέρος των εξόδων",
+        description: deductibleBands["1500-to-5000"].label,
       },
       {
-        id: "large",
-        label: "Μπορώ να δεχτώ μεγάλη απαλλαγή για χαμηλό ασφάλιστρο",
-        description: "1.500€ και άνω",
+        id: "over-5000",
+        label: "Μπορώ να αναλάβω υψηλή απαλλαγή",
+        description: deductibleBands["over-5000"].label,
       },
     ],
   },
@@ -218,7 +218,7 @@ export const assessmentConfig = {
   },
   additionalNeeds: {
     id: "additionalNeeds",
-    displayStep: 8,
+    displayStep: 7,
     kind: "multi",
     eyebrow: "ΠΡΟΣΘΕΤΕΣ ΑΣΦΑΛΙΣΤΙΚΕΣ ΑΝΑΓΚΕΣ",
     title:

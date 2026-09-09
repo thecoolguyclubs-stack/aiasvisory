@@ -1,5 +1,6 @@
 import type { AssessmentSubmission } from "@/lib/assessment/types";
 import { ASSESSMENT_SESSION_VERSION } from "@/lib/assessment/types";
+import { isDeductibleBand } from "@/lib/assessment/preferences";
 
 type ValidationResult =
   | { ok: true; submission: AssessmentSubmission }
@@ -33,10 +34,14 @@ export function validateAssessmentSubmission(value: unknown): ValidationResult {
     !isStringArray(answers.priorities) ||
     !isNullableString(answers.deductible) ||
     !isNullableString(answers.costApproach) ||
+    (answers.careAccess !== undefined && answers.careAccess !== null &&
+      !["network", "freedom", "unsure"].includes(String(answers.careAccess))) ||
+    (isDeductibleBand(answers.deductible) && !answers.careAccess) ||
     !isStringArray(answers.additionalNeeds) ||
     answers.additionalNeeds.length > MAX_ADDITIONAL_NEEDS ||
     !Array.isArray(people) ||
     people.length === 0 ||
+    people.length > 8 ||
     !people.every(
       (person) =>
         isRecord(person) &&

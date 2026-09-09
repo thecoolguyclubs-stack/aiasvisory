@@ -31,6 +31,9 @@ const currentInsuranceIds = optionIds("currentInsurance");
 const evaluationGoalIds = optionIds("evaluationGoal");
 const priorityIds = optionIds("priorities");
 const deductibleIds = optionIds("deductible");
+// Read old v4 sessions without assigning new meanings to their answers.
+priorityIds.add("low-deductible");
+for (const id of ["minimum", "small", "large"]) deductibleIds.add(id);
 const costApproachIds = optionIds("costApproach");
 const additionalNeedIds = optionIds("additionalNeeds");
 
@@ -246,6 +249,8 @@ function isAssessmentSessionSnapshot(
       isOptionArray(answers.priorities, priorityIds, 3) &&
       isNullableOption(answers.deductible, deductibleIds) &&
       isNullableOption(answers.costApproach, costApproachIds) &&
+      (answers.careAccess === undefined || answers.careAccess === null ||
+        ["network", "freedom", "unsure"].includes(String(answers.careAccess))) &&
       isOptionArray(answers.additionalNeeds, additionalNeedIds) &&
       Array.isArray(people) &&
       people.length <= 8 &&
