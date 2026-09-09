@@ -2,6 +2,8 @@ import type { AssessmentSubmission } from "@/lib/assessment/types";
 import { deductibleBands, isDeductibleBand } from "@/lib/assessment/preferences";
 
 export interface DatabaseAssessmentAnswers {
+  deductible_band?: "up-to-1500" | "1500-to-5000" | "over-5000";
+  care_access?: "network" | "freedom" | "unsure";
   insured_people: "self" | "self_spouse" | "family" | "child";
   birth_dates: Array<{ birth_date: string }>;
   existing_insurance:
@@ -286,6 +288,9 @@ export function mapAssessmentSubmissionToDatabase(
   return {
     ok: true,
     data: {
+      ...(isDeductibleBand(submission.answers.deductible)
+        ? { deductible_band: submission.answers.deductible } : {}),
+      ...(submission.answers.careAccess ? { care_access: submission.answers.careAccess } : {}),
       insured_people: insuredPeople,
       birth_dates: birthDates,
       existing_insurance: currentInsurance,

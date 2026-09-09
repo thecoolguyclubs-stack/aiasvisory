@@ -1,6 +1,6 @@
 import type { AssessmentSubmission } from "@/lib/assessment/types";
 import { ASSESSMENT_SESSION_VERSION } from "@/lib/assessment/types";
-import { isDeductibleBand } from "@/lib/assessment/preferences";
+import { deductibleBands, isDeductibleBand } from "@/lib/assessment/preferences";
 
 type ValidationResult =
   | { ok: true; submission: AssessmentSubmission }
@@ -72,5 +72,8 @@ export function validateAssessmentSubmission(value: unknown): ValidationResult {
     return { ok: false };
   }
 
-  return { ok: true, submission: value as unknown as AssessmentSubmission };
+  const submission = value as unknown as AssessmentSubmission;
+  return { ok: true, submission: isDeductibleBand(answers.deductible)
+    ? { ...submission, answers: { ...submission.answers, costApproach: deductibleBands[answers.deductible].approach } }
+    : submission };
 }

@@ -1,12 +1,11 @@
 import Link from "next/link";
 
 import type { AssessmentSubmission } from "@/lib/assessment/types";
-import { estimateDemoPrice } from "@/lib/pricing/demo-pricing";
 import type { LiveRecommendation } from "@/lib/recommendations/contracts";
 import { customerEvidenceIdentity } from "@/lib/recommendations/customer-evidence";
 import { buildRecommendationPresentation } from "@/lib/recommendations/presentation";
 
-import { DemoPrice } from "./DemoPrice";
+import { PriceAvailability } from "./PriceAvailability";
 import { InsurerLogo } from "./InsurerLogo";
 import { PolicyComparisonCardSummary } from "./PolicyComparison";
 import styles from "./advisory.module.css";
@@ -22,7 +21,6 @@ export function RecommendationCard({
     submission,
     recommendation,
   );
-  const demoPrice = estimateDemoPrice(submission, recommendation.programId);
   const visualMatchScore = Math.max(
     0,
     Math.min(100, recommendation.matchScore),
@@ -75,7 +73,7 @@ export function RecommendationCard({
       </div>
 
       <div className={styles.priceBlock}>
-        <DemoPrice compact estimate={demoPrice} />
+        <PriceAvailability compact />
       </div>
 
       <div className={styles.programIdentity}>
@@ -111,6 +109,14 @@ export function RecommendationCard({
           comparison={recommendation.policyComparison}
         />
       )}
+
+      <details className={styles.reasonBox}>
+        <summary>Περιορισμοί και σημεία προσοχής</summary>
+        <ul className={styles.miniFeatureList}>
+          {[...new Set([...presentation.restrictions, ...presentation.tradeOffs, ...presentation.confirmations])].slice(0, 5).map((item) => <li key={item}>{item}</li>)}
+        </ul>
+        {recommendation.missingEvidence.length > 0 && <p>Δεν έχει τεκμηριωθεί πλήρως: {recommendation.missingEvidence.map((item) => item.title).join(" · ")}.</p>}
+      </details>
 
       <div className={styles.cardActions}>
         <Link

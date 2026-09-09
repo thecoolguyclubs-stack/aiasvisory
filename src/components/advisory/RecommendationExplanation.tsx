@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 
 import type { LiveRecommendationCategory } from "@/lib/recommendations/contracts";
+import type { AssessmentSubmission } from "@/lib/assessment/types";
 import {
   buildDeterministicExplanation,
   validateRecommendationExplanationOutput,
@@ -19,10 +20,12 @@ export function RecommendationExplanation({
   category,
   input,
   programId,
+  submission,
 }: {
   category: LiveRecommendationCategory;
   input: RecommendationExplanationInput;
   programId: string;
+  submission: AssessmentSubmission;
 }) {
   const inputSignature = useMemo(() => JSON.stringify(input), [input]);
   const fallbackOutput = useMemo(
@@ -46,7 +49,7 @@ export function RecommendationExplanation({
         const response = await fetch("/api/recommendation-explanation", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: inputSignature,
+          body: JSON.stringify({ programId, submission }),
           cache: "no-store",
           signal: controller.signal,
         });
@@ -67,7 +70,7 @@ export function RecommendationExplanation({
 
     void load();
     return () => controller.abort();
-  }, [category, fallback, input, inputSignature, programId]);
+  }, [category, fallback, input, inputSignature, programId, submission]);
 
   return (
     <section className={`${styles.contentSection} ${styles.explanationSection}`}>

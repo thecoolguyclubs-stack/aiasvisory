@@ -3,6 +3,7 @@ import type {
   ProgramPolicyComparison,
 } from "@/lib/policy-analysis/comparison";
 import { compactPolicyComparisonDisplay } from "@/lib/policy-analysis/comparison";
+import { currentPolicyGuidance } from "@/lib/policy-analysis/retention";
 import type { ComparableProductFact } from "@/lib/recommendations/product-facts";
 
 import styles from "./advisory.module.css";
@@ -122,6 +123,7 @@ export function PolicyComparisonCardSummary({
 
   return (
     <div className={styles.policyComparisonCardSummary}>
+      {currentPolicyGuidance(comparison) && <p>{currentPolicyGuidance(comparison)}</p>}
       <span className={styles.policyComparisonBadge}>
         {comparisonBadgeLabel(comparison.overallStatus)}
       </span>
@@ -373,6 +375,7 @@ export function PolicyComparisonSection({
 
   return (
     <div className={styles.policyComparisonDetail}>
+      {currentPolicyGuidance(comparison) && <aside className={styles.policyAnalysisBanner}>{currentPolicyGuidance(comparison)}</aside>}
       <div className={styles.policyComparisonOverview}>
         <span className={styles.policyComparisonBadge}>
           {comparisonBadgeLabel(comparison.overallStatus)}

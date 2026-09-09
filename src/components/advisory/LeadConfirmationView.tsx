@@ -36,7 +36,7 @@ export function LeadConfirmationView() {
     return (
       <AdvisoryLoading
         className={styles.confirmationScreen}
-        statusText="Το αίτημα υποβλήθηκε"
+        statusText="Δοκιμαστικό αίτημα"
       />
     );
   }
@@ -45,17 +45,17 @@ export function LeadConfirmationView() {
     <AdvisoryShell
       className={styles.confirmationScreen}
       contentClassName={styles.confirmationPageContent}
-      statusText="Το αίτημα υποβλήθηκε"
+      statusText="Δοκιμαστικό αίτημα"
     >
       <section className={styles.figmaConfirmationCard}>
         <span className={styles.successMark} aria-hidden="true">
           ✓
         </span>
-        <h1>Το ενδιαφέρον σου καταχωρίστηκε</h1>
+        <h1>Το δοκιμαστικό αίτημα αποθηκεύτηκε</h1>
         <p>
-          Ένας συνεργάτης θα εξετάσει το προφίλ και την επιλογή {" "}
+          Η σύνοψη περιλαμβάνει το προφίλ σου και την επιλογή {" "}
           <strong>{submission.productName}</strong> της {" "}
-          <strong>{submission.insurer}</strong> πριν επικοινωνήσει μαζί σου.
+          <strong>{submission.insurer}</strong> και παραμένει μόνο σε αυτή τη συνεδρία. Δεν έχει αποσταλεί σε συνεργάτη.
         </p>
 
         <ol className={styles.confirmationSteps}>
@@ -69,7 +69,7 @@ export function LeadConfirmationView() {
           </li>
           <li>
             <span>3</span>
-            Επικοινωνία για συμβουλή και επόμενα βήματα
+            Η πραγματική αποστολή αιτήματος παραμένει ανενεργή
           </li>
         </ol>
 

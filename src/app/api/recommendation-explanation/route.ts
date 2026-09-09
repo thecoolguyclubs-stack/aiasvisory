@@ -3,9 +3,12 @@ import { z } from "zod";
 
 import {
   buildDeterministicExplanation,
+  createRecommendationExplanationInput,
   validateRecommendationExplanationInput,
   validateRecommendationExplanationOutput,
 } from "@/lib/recommendations/explanation";
+import { validateAssessmentSubmission } from "@/lib/recommendations/request-validation";
+import { loadAdvisoryContext } from "@/lib/recommendations/server-context";
 import {
   getOpenAIClient,
   OPENAI_EXPLANATION_MODEL,
@@ -68,7 +71,22 @@ export async function POST(request: Request) {
     );
   }
 
-  const input = validateRecommendationExplanationInput(body);
+  if (typeof body !== "object" || body === null || !("submission" in body) ||
+    !("programId" in body) || typeof body.programId !== "string" ||
+    !/^[A-Za-z0-9][A-Za-z0-9._-]{0,79}$/.test(body.programId)) {
+    return Response.json({ message: "Το αίτημα επεξήγησης δεν είναι έγκυρο." }, { status: 400, headers: noStoreHeaders });
+  }
+  const submission = validateAssessmentSubmission(body.submission);
+  if (!submission.ok) {
+    return Response.json({ message: "Η αξιολόγηση δεν είναι έγκυρη." }, { status: 400, headers: noStoreHeaders });
+  }
+  let input;
+  try {
+    const context = await loadAdvisoryContext(submission.submission, body.programId);
+    input = validateRecommendationExplanationInput(createRecommendationExplanationInput(context.recommendation, context.presentation));
+  } catch {
+    return Response.json({ message: "Δεν είναι διαθέσιμα τα στοιχεία τεκμηρίωσης." }, { status: 503, headers: noStoreHeaders });
+  }
 
   if (!input) {
     return Response.json(

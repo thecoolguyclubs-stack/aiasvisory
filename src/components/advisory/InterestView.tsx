@@ -19,7 +19,6 @@ import {
   readPolicyAnalysisSession,
   type PolicyAnalysisRecord,
 } from "@/lib/policy-analysis/storage";
-import { estimateDemoPrice } from "@/lib/pricing/demo-pricing";
 import type { LiveRecommendation } from "@/lib/recommendations/contracts";
 import { readRecommendationSnapshot } from "@/lib/recommendations/storage";
 
@@ -42,11 +41,7 @@ const initialFormData: LeadFormDraftData = {
   },
 };
 
-const euro = new Intl.NumberFormat("el-GR", {
-  style: "currency",
-  currency: "EUR",
-  maximumFractionDigits: 0,
-});
+
 
 interface InterestContext {
   recommendation: LiveRecommendation;
@@ -115,10 +110,7 @@ export function InterestView({ programId }: { programId: string }) {
   }
 
   const { recommendation, policyAnalysis } = context;
-  const demoPrice = estimateDemoPrice(submission, recommendation.programId);
-  const demoMonthlyRange = `${euro.format(demoPrice.monthlyFrom)}–${euro.format(
-    demoPrice.monthlyTo,
-  )}/μήνα`;
+
 
   const clearError = (field: LeadFormField) => {
     setErrors((current) => {
@@ -233,31 +225,31 @@ export function InterestView({ programId }: { programId: string }) {
               <h1>{recommendation.programName}</h1>
             </div>
             <p className={styles.leadProgramMeta}>
-              Ενδεικτικό εύρος κόστους: <strong>{demoMonthlyRange}</strong>
+              Ασφάλιστρο: <strong>Απαιτείται εξατομικευμένη προσφορά</strong>
             </p>
           </div>
           <p className={styles.leadSummaryCopy}>
-            Το ενδιαφέρον σου θα αποσταλεί μαζί με το προφίλ και την επιλεγμένη
-            πρόταση {recommendation.programName}.
+            Στην παρούσα επίδειξη, το αίτημα και η επιλεγμένη πρόταση
+            {recommendation.programName} αποθηκεύονται μόνο σε αυτή τη συνεδρία.
           </p>
           <div className={styles.leadSummaryDivider} />
           <h2>Τι θα συμβεί μετά</h2>
           <ul className={styles.leadNextSteps}>
             <li>
               <span aria-hidden="true">✓</span>
-              Ο συνεργάτης λαμβάνει το αίτημα
+              Αποθήκευση αιτήματος στη συνεδρία
             </li>
             <li>
               <span aria-hidden="true">✓</span>
-              Ελέγχει τα στοιχεία και το πρόγραμμα
+              Προετοιμασία σύνοψης για σύμβουλο
             </li>
             <li>
               <span aria-hidden="true">✓</span>
-              Επικοινωνεί μαζί σου για συμβουλή και προσφορά
+              Η αποστολή σε συνεργάτη δεν έχει ακόμη ενεργοποιηθεί
             </li>
           </ul>
           <p className={styles.leadPriceDisclaimer}>
-            Το εύρος κόστους είναι ενδεικτικό για το demo. Η τελική τιμολόγηση
+            Η τελική τιμολόγηση
             προκύπτει μετά την επίσημη προσφορά και την ασφαλιστική αξιολόγηση.
           </p>
         </aside>
@@ -265,8 +257,8 @@ export function InterestView({ programId }: { programId: string }) {
         <section className={styles.figmaLeadFormPanel}>
           <h2>Σε ενδιαφέρει αυτή η επιλογή;</h2>
           <p>
-            Συμπλήρωσε τα στοιχεία σου και ένας συνεργάτης θα επικοινωνήσει
-            μαζί σου.
+            Χρησιμοποίησε δοκιμαστικά στοιχεία για να δεις τη σύνοψη του αιτήματος.
+            Δεν θα σταλεί αίτημα επικοινωνίας σε συνεργάτη.
           </p>
           <form noValidate onSubmit={(event) => void handleSubmit(event)}>
             <div className={styles.leadField}>
@@ -461,7 +453,7 @@ export function InterestView({ programId }: { programId: string }) {
               disabled={isSubmitting}
               type="submit"
             >
-              {isSubmitting ? "Υποβολή αιτήματος…" : "Ζήτησε επικοινωνία"}
+              {isSubmitting ? "Υποβολή αιτήματος…" : "Αποθήκευση δοκιμαστικού αιτήματος"}
             </button>
             <p className={styles.leadLegalLine}>
               Η υποβολή δεν σε δεσμεύει και δεν ολοκληρώνει αγορά ασφαλιστικού

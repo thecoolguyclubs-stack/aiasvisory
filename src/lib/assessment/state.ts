@@ -162,11 +162,14 @@ export function assessmentReducer(
     case "hydrate":
       return {
         ...state,
-        view: action.snapshot.navigation.view === "costApproach" ? "deductible" : action.snapshot.navigation.view,
+        view: !action.snapshot.submission.answers.careAccess &&
+          ["deductible", "costApproach", "additionalNeeds"].includes(action.snapshot.navigation.view)
+          ? "priorities"
+          : action.snapshot.navigation.view === "costApproach" ? "deductible" : action.snapshot.navigation.view,
         history: action.snapshot.navigation.history.filter((view) => view !== "costApproach"),
         answers: {
           ...action.snapshot.submission.answers,
-          priorities: [...action.snapshot.submission.answers.priorities],
+          priorities: action.snapshot.submission.answers.priorities.filter((value) => value !== "low-deductible"),
           additionalNeeds: [
             ...action.snapshot.submission.answers.additionalNeeds,
           ],

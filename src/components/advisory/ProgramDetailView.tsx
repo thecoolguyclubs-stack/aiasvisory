@@ -4,7 +4,6 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 
-import { estimateDemoPrice } from "@/lib/pricing/demo-pricing";
 import {
   isProgramDetailResponse,
   isRecommendationApiError,
@@ -25,7 +24,7 @@ import {
   ContentSection,
 } from "./AdvisoryUI";
 import { CustomerEvidenceSections } from "./CustomerEvidenceSections";
-import { DemoPrice } from "./DemoPrice";
+import { PriceAvailability } from "./PriceAvailability";
 import { InsurerLogo } from "./InsurerLogo";
 import { PolicyComparisonSection } from "./PolicyComparison";
 import { RecommendationExplanation } from "./RecommendationExplanation";
@@ -146,20 +145,13 @@ export function ProgramDetailView({ programId }: { programId: string }) {
         : null,
     [presentation, recommendation],
   );
-  const demoPrice = useMemo(
-    () =>
-      submission && recommendation
-        ? estimateDemoPrice(submission, recommendation.programId)
-        : null,
-    [recommendation, submission],
-  );
+
 
   if (
     !submission ||
     !recommendation ||
     !presentation ||
-    !explanationInput ||
-    !demoPrice
+    !explanationInput
   ) {
     return <AdvisoryLoading />;
   }
@@ -284,6 +276,7 @@ export function ProgramDetailView({ programId }: { programId: string }) {
           className={`${styles.detailAccentScope} ${styles[recommendation.category]}`}
         >
           <RecommendationExplanation
+            submission={submission}
             category={recommendation.category}
             input={explanationInput}
             programId={recommendation.programId}
@@ -291,7 +284,7 @@ export function ProgramDetailView({ programId }: { programId: string }) {
         </div>
       )}
 
-      <DemoPrice estimate={demoPrice} />
+      <PriceAvailability />
 
       {programFacts.length > 0 && (
         <ContentSection
