@@ -1,0 +1,2749 @@
+{
+  "files": [
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/DENTAL PLUS/Όροι Dental Plus - Dental Protection.pdf",
+      "sha256": "8bd88b0df78f7f7161d11d16f8a51524d7597873b08f12ff5625beb30cdcb1d1",
+      "duplicateOf": null,
+      "bytes": 1256136,
+      "textExtracted": true,
+      "characters": 4020,
+      "pages": 6
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/HEALTH CARE/Όροι Health Care.pdf",
+      "sha256": "fcc63ea54f618505294025f56cb5dfe714c94ddacb4663ee1356864b0af4f75c",
+      "duplicateOf": null,
+      "bytes": 169729,
+      "textExtracted": true,
+      "characters": 28916,
+      "pages": 11
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/HEALTH KEEPER/Health Keeper.pdf",
+      "sha256": "1584a07111c363720f998e3367fc793801d5aad791981801c89c9245d4ed37eb",
+      "duplicateOf": null,
+      "bytes": 1492462,
+      "textExtracted": true,
+      "characters": 65833,
+      "pages": 25
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/HEALTH KEEPER/ΕΚΠΤΩΤΙΚΑ ΠΡΟΝΟΜΙΑ - Health Keeper.pdf",
+      "sha256": "8465080f4cee476047e2f7a74b21a28b0564a31b6a1f600931e1e8d67853cd53",
+      "duplicateOf": null,
+      "bytes": 89829,
+      "textExtracted": true,
+      "characters": 20729,
+      "pages": 6
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/JUNIOR MASTER PLAN/Όροι Junior Master Plan 2015.pdf",
+      "sha256": "1d631f841aa2e91a55914fc6f12fbf28321a8c64c3e67bdb568b5360272abddb",
+      "duplicateOf": null,
+      "bytes": 5086399,
+      "textExtracted": false,
+      "characters": 0,
+      "pages": 22
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/JUNIOR MASTER PLAN/Όροι Junior Master Plan με Αναπραρμογή Ασφαλίστρου.pdf",
+      "sha256": "8acb6e49d556c4c76b4301e877099e33413ee5935470ded3923872557f6eda34",
+      "duplicateOf": null,
+      "bytes": 203282,
+      "textExtracted": true,
+      "characters": 39323,
+      "pages": 16
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/JUNIOR MASTER PLAN/Όροι Junior Master Plan.pdf",
+      "sha256": "a16904fafe339940e6503c34e663b7c20e62fe5d8c22dc85cfa848ae8ba60c07",
+      "duplicateOf": null,
+      "bytes": 201128,
+      "textExtracted": true,
+      "characters": 38376,
+      "pages": 15
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΑΠΟΚΑΤΑΣΤΑΣΗ/Αποκατάσταση Basic.pdf",
+      "sha256": "dd3d0e53dd37e8c63fba109986dfe55199fb6852c8ecfd0eb563aa592c7577cb",
+      "duplicateOf": null,
+      "bytes": 59766,
+      "textExtracted": true,
+      "characters": 14289,
+      "pages": 5
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΑΠΟΚΑΤΑΣΤΑΣΗ/Αποκατάσταση Premium.pdf",
+      "sha256": "cb33370606172636922942f11e33cf75fdf09f3c4cbf0323530b8645baa8b344",
+      "duplicateOf": null,
+      "bytes": 62874,
+      "textExtracted": true,
+      "characters": 16531,
+      "pages": 6
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΑΠΟΚΑΤΑΣΤΑΣΗ/Αποκατάσταση Standard.pdf",
+      "sha256": "ef142bb69e727dce6916580271b899b6f9ff931b50dab50e1562b0d9636b9ced",
+      "duplicateOf": null,
+      "bytes": 60615,
+      "textExtracted": true,
+      "characters": 15607,
+      "pages": 5
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΒΑΣΙΚΗ ΠΑΡΟΧΗ ΖΩΗΣ/Ασφάλιση Ζωής Plus.pdf",
+      "sha256": "d380131e252e8b31af28bf9c30071edc733dd456ea03f677421e24feb759fd2f",
+      "duplicateOf": null,
+      "bytes": 51689,
+      "textExtracted": true,
+      "characters": 6792,
+      "pages": 4
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΒΑΣΙΚΗ ΠΑΡΟΧΗ ΖΩΗΣ/Ασφάλιση Ζωής.pdf",
+      "sha256": "8cd88488757c490e25077cf73596698678ae2a843115bf9033f8725e639d8172",
+      "duplicateOf": null,
+      "bytes": 47292,
+      "textExtracted": true,
+      "characters": 5426,
+      "pages": 4
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΒΑΣΙΚΗ ΠΑΡΟΧΗ ΖΩΗΣ/Φροντίδα μετά από Ατύχημα.pdf",
+      "sha256": "93ed4ab8c8d5ed9e135572e61eb8b7db9e4a43a3cfa5fda5bb8b35e61c1aa117",
+      "duplicateOf": null,
+      "bytes": 47536,
+      "textExtracted": true,
+      "characters": 6549,
+      "pages": 4
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΓΕΝΙΚΟΙ ΟΡΟΙ ΑΣΦΑΛΙΣΤΗΡΙΟΥ/Γενικοί Όροι Ασφαλιστηρίου.pdf",
+      "sha256": "c4cd742f36809a8c36b98ccb7727a029c470caa68fa0e645003ac39c61ce9679",
+      "duplicateOf": null,
+      "bytes": 378388,
+      "textExtracted": true,
+      "characters": 57723,
+      "pages": 15
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΓΙΑΤΡΟΙ ΚΑΙ ΕΞΕΤΑΣΕΙΣ/Γιατροί & Εξετάσεις Basic.pdf",
+      "sha256": "8075d312b79f57bb97410f4486fec1c35cabb72fcb0e93c0116c21ef16be4a6d",
+      "duplicateOf": null,
+      "bytes": 62502,
+      "textExtracted": true,
+      "characters": 15796,
+      "pages": 5
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΓΙΑΤΡΟΙ ΚΑΙ ΕΞΕΤΑΣΕΙΣ/Γιατροί & Εξετάσεις On Demand 2.pdf",
+      "sha256": "bb572c44211e438f5742736280183a731b9cce85603dc76cce9d3f363db71311",
+      "duplicateOf": null,
+      "bytes": 782775,
+      "textExtracted": false,
+      "characters": 0,
+      "pages": 3
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΓΙΑΤΡΟΙ ΚΑΙ ΕΞΕΤΑΣΕΙΣ/Γιατροί & Εξετάσεις On Demand.pdf",
+      "sha256": "ffb6779117b5c885f218027a61e663a50eb4d42d2ed1f5eaea7f10d5cf3027f0",
+      "duplicateOf": null,
+      "bytes": 59053,
+      "textExtracted": true,
+      "characters": 12016,
+      "pages": 5
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΓΙΑΤΡΟΙ ΚΑΙ ΕΞΕΤΑΣΕΙΣ/Γιατροί & Εξετάσεις Premium.pdf",
+      "sha256": "8285d07deb945393605e4c71a9e6a54c54d51e002ce34e444d6620ed513a2a0e",
+      "duplicateOf": null,
+      "bytes": 66148,
+      "textExtracted": true,
+      "characters": 18892,
+      "pages": 6
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΓΙΑΤΡΟΙ ΚΑΙ ΕΞΕΤΑΣΕΙΣ/Γιατροί & Εξετάσεις Standard.pdf",
+      "sha256": "728d41ceb58be8952741263a8139b970bca6aabbb4fffa97a04fea4d64590092",
+      "duplicateOf": null,
+      "bytes": 66177,
+      "textExtracted": true,
+      "characters": 19136,
+      "pages": 6
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΝΟΣΗΛΕΙΑ/Νοσηλεία Basic.pdf",
+      "sha256": "1b9d82cbaa4d03112cc0f063b6e8318d3a917d188f71ced25c56066d6127cc0e",
+      "duplicateOf": null,
+      "bytes": 109217,
+      "textExtracted": true,
+      "characters": 50279,
+      "pages": 15
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΝΟΣΗΛΕΙΑ/Νοσηλεία Family Flexi Plus.pdf",
+      "sha256": "d6396a0396643dbb861c31cffa4606bc0ebc6dc935abbf28c99b24587af6e154",
+      "duplicateOf": null,
+      "bytes": 208642,
+      "textExtracted": true,
+      "characters": 77079,
+      "pages": 22
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΝΟΣΗΛΕΙΑ/Νοσηλεία Family Flexi.pdf",
+      "sha256": "53a92d20ef29622ab5a9899aa34bcc2c7837b5ce2ab970031c8ba9e79956c532",
+      "duplicateOf": null,
+      "bytes": 366498,
+      "textExtracted": true,
+      "characters": 77076,
+      "pages": 22
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΝΟΣΗΛΕΙΑ/Νοσηλεία Family.pdf",
+      "sha256": "f747efc5e23275e05b78e00ca98d31ce565adf9727ced8a20d6c4c532f414794",
+      "duplicateOf": null,
+      "bytes": 340562,
+      "textExtracted": true,
+      "characters": 79389,
+      "pages": 23
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΝΟΣΗΛΕΙΑ/Νοσηλεία Premium Flexi Plus.pdf",
+      "sha256": "87a389e788755870cee8df9ed59206c74e61c0c657ed960a91aa0c29b3a2a740",
+      "duplicateOf": null,
+      "bytes": 203190,
+      "textExtracted": true,
+      "characters": 77327,
+      "pages": 22
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΝΟΣΗΛΕΙΑ/Νοσηλεία Premium Flexi.pdf",
+      "sha256": "4dab8eb97c20d11503b75081461e50a23d0961e4c1d0a185f9e08e79f3ffe7ed",
+      "duplicateOf": null,
+      "bytes": 224165,
+      "textExtracted": true,
+      "characters": 77336,
+      "pages": 22
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΝΟΣΗΛΕΙΑ/Νοσηλεία Premium.pdf",
+      "sha256": "9e109b5343cdcd3265de0b28cd8796efe2c43cd045be5c5ce452f53c2a9f0a86",
+      "duplicateOf": null,
+      "bytes": 342012,
+      "textExtracted": true,
+      "characters": 78878,
+      "pages": 23
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΝΟΣΗΛΕΙΑ/Νοσηλεία Standard.pdf",
+      "sha256": "e7a3a4bb3cc8cb458bc957caee2eb6ce331e248dbe18dfb606fd5a278a615989",
+      "duplicateOf": null,
+      "bytes": 122976,
+      "textExtracted": true,
+      "characters": 61780,
+      "pages": 18
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΠΙΝΑΚΕΣ/Πίνακας Βαρύτητας Χειρουργικών Επεμβάσεων.pdf",
+      "sha256": "e9d8e5cf373ee1282b63a2c530b117d5cf9375f299917f88472988531704db78",
+      "duplicateOf": null,
+      "bytes": 137185,
+      "textExtracted": true,
+      "characters": 77837,
+      "pages": 18
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΠΙΝΑΚΕΣ/Πίνακας Ιατρικών Πράξεων.pdf",
+      "sha256": "b28ea6e862ca8dc0c41cb9e050dda0ce8078b46274be397ca8e84bd98d25e3b7",
+      "duplicateOf": null,
+      "bytes": 63146,
+      "textExtracted": true,
+      "characters": 6033,
+      "pages": 4
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΠΙΝΑΚΕΣ/Πίνακας Συνεργαζόμενων Νοσοκομείων Life On.pdf",
+      "sha256": "ba9041297969325718d05f455f3018f775704e7ded1d45fd27fb6c3e73fbd041",
+      "duplicateOf": null,
+      "bytes": 1005604,
+      "textExtracted": true,
+      "characters": 38140,
+      "pages": 7
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΠΡΟΛΗΨΗ/Πρόληψη Basic.pdf",
+      "sha256": "840d13911332da48894fd61e4fc5570cfbb92cbc08e5b04c114d72881e05806f",
+      "duplicateOf": null,
+      "bytes": 60193,
+      "textExtracted": true,
+      "characters": 10234,
+      "pages": 5
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΠΡΟΛΗΨΗ/Πρόληψη On Demand.pdf",
+      "sha256": "632f16c4eaf12ff8b3d7d855275692ab3fc05a5eb7fa4988a15c467905cd158d",
+      "duplicateOf": null,
+      "bytes": 56384,
+      "textExtracted": true,
+      "characters": 10899,
+      "pages": 4
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΠΡΟΛΗΨΗ/Πρόληψη Premium.pdf",
+      "sha256": "3a6fd72aec61f6a5873ef4edd018638607c227d0e911071da9a05262ea0e9768",
+      "duplicateOf": null,
+      "bytes": 64026,
+      "textExtracted": true,
+      "characters": 13814,
+      "pages": 6
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΠΡΟΛΗΨΗ/Πρόληψη Standard.pdf",
+      "sha256": "f532590af841da46e8e99e5ac080bca879e88d7cbd3e521618df008438228691",
+      "duplicateOf": null,
+      "bytes": 60508,
+      "textExtracted": true,
+      "characters": 11202,
+      "pages": 5
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Απώλεια Εισοδήματος λόγω Προσωρινής Ολικής Ανικανότητας από Ατύχημα (ΑΠΟΛΥΤΗ).pdf",
+      "sha256": "853129edd4af2460881cffea2eaa94b244cf6eb81a691c34d5a1f491413c2777",
+      "duplicateOf": null,
+      "bytes": 60963,
+      "textExtracted": true,
+      "characters": 14164,
+      "pages": 5
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Απώλεια Εισοδήματος λόγω Προσωρινής Ολικής Ανικανότητας από Ατύχημα ή Ασθένεια (Απόλυτη).pdf",
+      "sha256": "565141b50a210538748ebaf7037fc040a70ac5c4e12ab377262b5f67a7b7a5d6",
+      "duplicateOf": null,
+      "bytes": 59514,
+      "textExtracted": true,
+      "characters": 13971,
+      "pages": 5
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Απώλεια Εισοδήματος λόγω Προσωρινής Ολικής Ανικανότητας από Ατύχημα ή Ασθένεια.pdf",
+      "sha256": "55f450d018595f914f54360d41c7028b0109622fab41efe6c63ca5cd02bf28e3",
+      "duplicateOf": null,
+      "bytes": 61146,
+      "textExtracted": true,
+      "characters": 14541,
+      "pages": 5
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Απώλεια Εισοδήματος λόγω Προσωρινής Ολικής Ανικανότητας από Ατύχημα.pdf",
+      "sha256": "c3c2e074c6bf2e531e8cab660e49e52c8ce11e270e04988ee708fa0701026204",
+      "duplicateOf": null,
+      "bytes": 61029,
+      "textExtracted": true,
+      "characters": 14412,
+      "pages": 5
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Ημερήσιο Νοσοκομειακό Επίδομα.pdf",
+      "sha256": "91e815dfb2b338d4178e1cc0537968aab4fae0e30512f41a24be54d7ae96362f",
+      "duplicateOf": null,
+      "bytes": 63217,
+      "textExtracted": true,
+      "characters": 18591,
+      "pages": 6
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Θάνατος από Ατύχημα.pdf",
+      "sha256": "38f3a16b04ae25f6daadacabedd622d49c5acd4074e3a8097b178dc8d46d8b5f",
+      "duplicateOf": null,
+      "bytes": 52600,
+      "textExtracted": true,
+      "characters": 5496,
+      "pages": 3
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Μόνιμη Ολική Ανικανότητα από Ατύχημα ή Ασθένεια (Απόλυτη).pdf",
+      "sha256": "c7070f230845bead4f473c06a9597731a843f5a6fd49e1a70601b9887d1ad8e7",
+      "duplicateOf": null,
+      "bytes": 56060,
+      "textExtracted": true,
+      "characters": 12485,
+      "pages": 5
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Μόνιμη Ολική Ανικανότητα από Ατύχημα ή Ασθένεια.pdf",
+      "sha256": "a1b5758f516551cd112a2e79144dc3def0980a1c37388a80260e3c87fb852d86",
+      "duplicateOf": null,
+      "bytes": 51254,
+      "textExtracted": true,
+      "characters": 12736,
+      "pages": 5
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Μόνιμη Ολική ή Μερική Ανικανότητα από Ατύχημα (Απόλυτη).pdf",
+      "sha256": "e3923bd873c16dcc81adc35928cc104d143109528e732eeb1aaa79f877ac5585",
+      "duplicateOf": null,
+      "bytes": 63315,
+      "textExtracted": true,
+      "characters": 18158,
+      "pages": 6
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Μόνιμη Ολική ή Μερική Ανικανότητα από Ατύχημα.pdf",
+      "sha256": "bf3f641540a76ee9a8aeca8d2cb870f4b41e8d349f2143db3fbdfa09066ed282",
+      "duplicateOf": null,
+      "bytes": 62128,
+      "textExtracted": true,
+      "characters": 18094,
+      "pages": 6
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Προστασία Μελλοντικών Ασφαλίστρων Ασφαλισμένου (Απόλυτη).pdf",
+      "sha256": "3cc0cf82bb66bf9cef8737c90d2388c6a58d202bdef0f4dbbca97c48213ca75d",
+      "duplicateOf": null,
+      "bytes": 63044,
+      "textExtracted": true,
+      "characters": 12277,
+      "pages": 5
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Προστασία Μελλοντικών Ασφαλίστρων Ασφαλισμένου.pdf",
+      "sha256": "967976d70883816edd84ee5dee071d4c564c00e6c433123dabf1889708208ee1",
+      "duplicateOf": null,
+      "bytes": 62361,
+      "textExtracted": true,
+      "characters": 12545,
+      "pages": 5
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Προστασία Μελλοντικών Ασφαλίστρων Συμβαλλόμενου (Απόλυτη).pdf",
+      "sha256": "b838110c7132c7c9ec16790fda6a80a0b5397aa000384bc5cfd75241bb0b857f",
+      "duplicateOf": null,
+      "bytes": 64956,
+      "textExtracted": true,
+      "characters": 14358,
+      "pages": 6
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Προστασία Μελλοντικών Ασφαλίστρων Συμβαλλόμενου.pdf",
+      "sha256": "aba18dea990ab080f401e336daa9e3a26fcb612a154e03c549e91262842c03f2",
+      "duplicateOf": null,
+      "bytes": 65118,
+      "textExtracted": true,
+      "characters": 14604,
+      "pages": 6
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Σοβαρές Ασθένειες.pdf",
+      "sha256": "45533cbcfd3b3a94eaa3288da5f6e2a1ec1c08e403d1313278be397e90a3c80e",
+      "duplicateOf": null,
+      "bytes": 51271,
+      "textExtracted": true,
+      "characters": 11049,
+      "pages": 4
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Φροντίδα μετά από Ατύχημα.pdf",
+      "sha256": "94281aac48822444dd2ee2df75a447d5dccf6c9e62eade56c2a695520feb8ac6",
+      "duplicateOf": null,
+      "bytes": 47181,
+      "textExtracted": true,
+      "characters": 6108,
+      "pages": 4
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Χειρουργικό Επίδομα.pdf",
+      "sha256": "c0d4cbced78f3d4fa8e1f0c5869c5d71d88921d832baf0f16ca0114c992fa4bd",
+      "duplicateOf": null,
+      "bytes": 61202,
+      "textExtracted": true,
+      "characters": 15222,
+      "pages": 6
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL EASY/Όροι Medical Easy.pdf",
+      "sha256": "b132074599c4de5c114f55146b8eb9c9c8169cb216e38738ff33347137e4ccaa",
+      "duplicateOf": null,
+      "bytes": 341820,
+      "textExtracted": true,
+      "characters": 103051,
+      "pages": 46
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL FAMILY/Όροι Medical Family (1).pdf",
+      "sha256": "2f304ed3f8aff24526c6821ec0955c2b2a930378b5cb40a81df033c7255ba56d",
+      "duplicateOf": null,
+      "bytes": 1596776,
+      "textExtracted": true,
+      "characters": 100640,
+      "pages": 34
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL FAMILY/Όροι Term Plus (1).pdf",
+      "sha256": "2a74008b3735868b26f2356fea232e9eaf400cbb5dbcc1b31e56326aa04e835a",
+      "duplicateOf": null,
+      "bytes": 87446,
+      "textExtracted": true,
+      "characters": 16692,
+      "pages": 6
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL FAMILY/Πίνακας Βαρύτητας Χειρουργικών Επεμβάσεων - Medical Family (1).pdf",
+      "sha256": "da46fc1a17279a325b31bfd90b080a99fd6541afba2f4ea50de5262c794bc0cf",
+      "duplicateOf": null,
+      "bytes": 186478,
+      "textExtracted": true,
+      "characters": 82011,
+      "pages": 20
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL FAMILY/Πίνακας Συνεργαζόμενων Νοσοκομείων Medical Family (1).pdf",
+      "sha256": "fac7f2e98383edbe3e94219311cf458549e5980485bedf5c469a69adddbc35d1",
+      "duplicateOf": null,
+      "bytes": 1124706,
+      "textExtracted": true,
+      "characters": 37674,
+      "pages": 7
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL FAMILY/Συμπληρωματικές Παροχές - Medical Family (1).pdf",
+      "sha256": "71a389803f0823eaa6c9ea8859166d6dc62dac324c8173c3d3273834dea81a09",
+      "duplicateOf": null,
+      "bytes": 137396,
+      "textExtracted": true,
+      "characters": 34759,
+      "pages": 14
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL PRIME/Όροι Medical Prime (1).pdf",
+      "sha256": "58422d46d620196689ee00750fb4cdbb7d0c4dec492bd95b7be0ecea99b59503",
+      "duplicateOf": null,
+      "bytes": 853363,
+      "textExtracted": true,
+      "characters": 204609,
+      "pages": 57
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL PRIME/Συμπληρωματικές Παροχές - Medical Prime (1).pdf",
+      "sha256": "217d04c563b190070a6afe797de1495b5ef093a093ceda6949fea75363e2b71a",
+      "duplicateOf": null,
+      "bytes": 215385,
+      "textExtracted": true,
+      "characters": 73847,
+      "pages": 26
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL PRIME/Συνεργαζόμενα Νοσοκομεία Medical Prime (1).pdf",
+      "sha256": "b43206a58f2927f5652d4537d45ab34cb64ef911740893c50ac1b0fdbb138532",
+      "duplicateOf": null,
+      "bytes": 171801,
+      "textExtracted": true,
+      "characters": 4571,
+      "pages": 1
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL SAFETY/Όροι Medical Safety & Medical Safety on Demand.pdf",
+      "sha256": "4465d9d04156cd77bd0a320e4cbb0023467300876434d6e33d5a0d083f1e4e61",
+      "duplicateOf": null,
+      "bytes": 1512342,
+      "textExtracted": true,
+      "characters": 118205,
+      "pages": 39
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL SAFETY/Όροι Term Plus (1).pdf",
+      "sha256": "2a74008b3735868b26f2356fea232e9eaf400cbb5dbcc1b31e56326aa04e835a",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL FAMILY/Όροι Term Plus (1).pdf",
+      "bytes": 87446
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL SAFETY/ΕΞΕΙΔΙΚΕΥΜΕΝΑ CHECK UP - New Medical Safety.pdf",
+      "sha256": "f728a97644c1480edf71d0813989b001d8bda8e48d4e3658bbb34a47ee065275",
+      "duplicateOf": null,
+      "bytes": 237172,
+      "textExtracted": true,
+      "characters": 2747,
+      "pages": 1
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL SAFETY/Πίνακας Βαρύτητας Χειρουργικών Επεμβάσεων - Medical Safety.pdf",
+      "sha256": "9a94f45c4005317c83ea5d8e744b28c63ce9576d9f8a099b72c734c4d05bb446",
+      "duplicateOf": null,
+      "bytes": 186478,
+      "textExtracted": true,
+      "characters": 82011,
+      "pages": 20
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL SAFETY/Πίνακας Συνεργαζόμενων Νοσοκομείων Medical Safety.pdf",
+      "sha256": "c40779c20393f4e47a98521b916367670174be325ced4439695e86c9d2d45b2e",
+      "duplicateOf": null,
+      "bytes": 890593,
+      "textExtracted": true,
+      "characters": 37780,
+      "pages": 7
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL SAFETY/Συμπληρωματικές Παροχές - Medical Safety New & Medical Safety on Demand.pdf",
+      "sha256": "958438dc41d484a8f1afe45f593df1e81d8fc5645f72246e560f205fa9886fab",
+      "duplicateOf": null,
+      "bytes": 630460,
+      "textExtracted": true,
+      "characters": 276194,
+      "pages": 91
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL SAFETY/Συνεργαζόμενα Νοσοκομεία -  Κέντρα Αποκατάστασης - Medical Safety on Demand.pdf",
+      "sha256": "88440644017a3df8b9c0ec2506fdb6a310473aea16ee5cadb5c4ce11ff864778",
+      "duplicateOf": null,
+      "bytes": 129987,
+      "textExtracted": true,
+      "characters": 8024,
+      "pages": 2
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL SELECT/Όροι Medical Select.pdf",
+      "sha256": "399622799f21d370205c7936023c74117249fae7841877050d3aad82c15d4771",
+      "duplicateOf": null,
+      "bytes": 846327,
+      "textExtracted": true,
+      "characters": 204205,
+      "pages": 57
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL SELECT/Συνεργαζόμενα Νοσοκομεία Select.pdf",
+      "sha256": "b113f0b69c1deb7a0795ad72c798af1f89da27db6204936a7e67c95a35471ea6",
+      "duplicateOf": null,
+      "bytes": 67763,
+      "textExtracted": true,
+      "characters": 4150,
+      "pages": 1
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Mediσυν 3 (1).pdf",
+      "sha256": "9a94f45c4005317c83ea5d8e744b28c63ce9576d9f8a099b72c734c4d05bb446",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL SAFETY/Πίνακας Βαρύτητας Χειρουργικών Επεμβάσεων - Medical Safety.pdf",
+      "bytes": 186478
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Mediσυν 3 Ειδικό.pdf",
+      "sha256": "f728a97644c1480edf71d0813989b001d8bda8e48d4e3658bbb34a47ee065275",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL SAFETY/ΕΞΕΙΔΙΚΕΥΜΕΝΑ CHECK UP - New Medical Safety.pdf",
+      "bytes": 237172
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Mediσυν Care.pdf",
+      "sha256": "c40779c20393f4e47a98521b916367670174be325ced4439695e86c9d2d45b2e",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL SAFETY/Πίνακας Συνεργαζόμενων Νοσοκομείων Medical Safety.pdf",
+      "bytes": 890593
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/PENSION EMPHASIS/Όροι Pension Emphasis.pdf",
+      "sha256": "47710e8d7a8f4db4bbe994f548f13dc425c173c328e622d77a52d7e4b12472a1",
+      "duplicateOf": null,
+      "bytes": 160969,
+      "textExtracted": true,
+      "characters": 29249,
+      "pages": 12
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/PENSION EMPHASIS/Ειδικοί Κανόνες Λειτουργίας Pension Emphasis.pdf",
+      "sha256": "2b6bf6f5d3c489000aee62571aca1f05c2e7aec5688f1dd9e0158561f1b78e88",
+      "duplicateOf": null,
+      "bytes": 136266,
+      "textExtracted": true,
+      "characters": 739,
+      "pages": 1
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/PENSION EMPHASIS/Κανονισμός Εσωτερικών Μεταβλητών Κεφαλαίων Pension Emphasis.pdf",
+      "sha256": "b253de5e419543fcaad0d2017457a6e25046fdc0ea60a2e1225aa6a5ed5646cb",
+      "duplicateOf": null,
+      "bytes": 99206,
+      "textExtracted": true,
+      "characters": 5467,
+      "pages": 2
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/PENSION EMPHASIS/Κανονισμός Λειτουργίας Pension Emphasis.pdf",
+      "sha256": "0416dc88f7a0f33002f6659b411292e198cace161dd3e783956f2637dba083e4",
+      "duplicateOf": null,
+      "bytes": 48864,
+      "textExtracted": true,
+      "characters": 6441,
+      "pages": 3
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/PENSION MASTER PLAN/Όροι Pension Master Plan 2015.pdf",
+      "sha256": "fa52d22e50da36aa50937d2775f9d9ed2d0d12f837c3a708375d595f842d0797",
+      "duplicateOf": null,
+      "bytes": 3356243,
+      "textExtracted": false,
+      "characters": 0,
+      "pages": 14
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/PENSION MASTER PLAN/Όροι Pension Master Plan με Αναπροσαρμογή Ασφαλίστρου.pdf",
+      "sha256": "0925f835db3893cd5373fdd0c25ec0e7da35d6967609bf0d21d81a060840c8ea",
+      "duplicateOf": null,
+      "bytes": 203151,
+      "textExtracted": true,
+      "characters": 39304,
+      "pages": 16
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/PENSION MASTER PLAN/Όροι Pension Master Plan.pdf",
+      "sha256": "e82ba91df05e46db407ccef033d219dd45dc91ae2198969fc168b9f2122df6e6",
+      "duplicateOf": null,
+      "bytes": 193420,
+      "textExtracted": true,
+      "characters": 38526,
+      "pages": 15
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/TERM LIFE/Term Life - Με Επιστροφή Ασφαλίστρων.pdf",
+      "sha256": "90d2afb6568a58f74e7de0ab76b61888ee40fc64469838baf560b8a1985a4b94",
+      "duplicateOf": null,
+      "bytes": 177206,
+      "textExtracted": true,
+      "characters": 24297,
+      "pages": 10
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/TERM LIFE/Term Life - Χωρίς Επιστροφή Ασφαλίστρων.pdf",
+      "sha256": "36ff3b34e73269130e1238336d51cc60729c009af99f374d7c5b0c169dfcca23",
+      "duplicateOf": null,
+      "bytes": 176146,
+      "textExtracted": true,
+      "characters": 23863,
+      "pages": 10
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Term Life - Χωρίς Επιστροφή Ασφαλίστρων (1).pdf",
+      "sha256": "4465d9d04156cd77bd0a320e4cbb0023467300876434d6e33d5a0d083f1e4e61",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL SAFETY/Όροι Medical Safety & Medical Safety on Demand.pdf",
+      "bytes": 1512342
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Όροι Health Care.pdf",
+      "sha256": "8bd88b0df78f7f7161d11d16f8a51524d7597873b08f12ff5625beb30cdcb1d1",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/DENTAL PLUS/Όροι Dental Plus - Dental Protection.pdf",
+      "bytes": 1256136
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Όροι Junior Master Plan (1).pdf",
+      "sha256": "8465080f4cee476047e2f7a74b21a28b0564a31b6a1f600931e1e8d67853cd53",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/HEALTH KEEPER/ΕΚΠΤΩΤΙΚΑ ΠΡΟΝΟΜΙΑ - Health Keeper.pdf",
+      "bytes": 89829
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Όροι Junior Master Plan με Αναπραρμογή Ασφαλίστρου (1).pdf",
+      "sha256": "1584a07111c363720f998e3367fc793801d5aad791981801c89c9245d4ed37eb",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/HEALTH KEEPER/Health Keeper.pdf",
+      "bytes": 1492462
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Όροι Medical Easy (1).pdf",
+      "sha256": "ffb6779117b5c885f218027a61e663a50eb4d42d2ed1f5eaea7f10d5cf3027f0",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΓΙΑΤΡΟΙ ΚΑΙ ΕΞΕΤΑΣΕΙΣ/Γιατροί & Εξετάσεις On Demand.pdf",
+      "bytes": 59053
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Όροι Medical Family (1) (1).pdf",
+      "sha256": "8285d07deb945393605e4c71a9e6a54c54d51e002ce34e444d6620ed513a2a0e",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΓΙΑΤΡΟΙ ΚΑΙ ΕΞΕΤΑΣΕΙΣ/Γιατροί & Εξετάσεις Premium.pdf",
+      "bytes": 66148
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Όροι Medical Prime (1) (1).pdf",
+      "sha256": "d380131e252e8b31af28bf9c30071edc733dd456ea03f677421e24feb759fd2f",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΒΑΣΙΚΗ ΠΑΡΟΧΗ ΖΩΗΣ/Ασφάλιση Ζωής Plus.pdf",
+      "bytes": 51689
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Όροι Medical Select (1).pdf",
+      "sha256": "2f304ed3f8aff24526c6821ec0955c2b2a930378b5cb40a81df033c7255ba56d",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL FAMILY/Όροι Medical Family (1).pdf",
+      "bytes": 1596776
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Όροι Mediσυν1 (classic) (1).pdf",
+      "sha256": "958438dc41d484a8f1afe45f593df1e81d8fc5645f72246e560f205fa9886fab",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL SAFETY/Συμπληρωματικές Παροχές - Medical Safety New & Medical Safety on Demand.pdf",
+      "bytes": 630460
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Όροι Mediσυν1 (extra) (1).pdf",
+      "sha256": "88440644017a3df8b9c0ec2506fdb6a310473aea16ee5cadb5c4ce11ff864778",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL SAFETY/Συνεργαζόμενα Νοσοκομεία -  Κέντρα Αποκατάστασης - Medical Safety on Demand.pdf",
+      "bytes": 129987
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Όροι Pension Emphasis (1).pdf",
+      "sha256": "da46fc1a17279a325b31bfd90b080a99fd6541afba2f4ea50de5262c794bc0cf",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL FAMILY/Πίνακας Βαρύτητας Χειρουργικών Επεμβάσεων - Medical Family (1).pdf",
+      "bytes": 186478
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Όροι Pension Master Plan 2015.pdf",
+      "sha256": "58422d46d620196689ee00750fb4cdbb7d0c4dec492bd95b7be0ecea99b59503",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL PRIME/Όροι Medical Prime (1).pdf",
+      "bytes": 853363
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Όροι Pension Master Plan με Αναπροσαρμογή Ασφαλίστρου (1).pdf",
+      "sha256": "217d04c563b190070a6afe797de1495b5ef093a093ceda6949fea75363e2b71a",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL PRIME/Συμπληρωματικές Παροχές - Medical Prime (1).pdf",
+      "bytes": 215385
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Όροι Pension Master Plan.pdf",
+      "sha256": "b43206a58f2927f5652d4537d45ab34cb64ef911740893c50ac1b0fdbb138532",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL PRIME/Συνεργαζόμενα Νοσοκομεία Medical Prime (1).pdf",
+      "bytes": 171801
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Όροι Term Plus (1) (2) (1).pdf",
+      "sha256": "dd3d0e53dd37e8c63fba109986dfe55199fb6852c8ecfd0eb563aa592c7577cb",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΑΠΟΚΑΤΑΣΤΑΣΗ/Αποκατάσταση Basic.pdf",
+      "bytes": 59766
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Όροι Term Plus (1) (2).pdf",
+      "sha256": "728d41ceb58be8952741263a8139b970bca6aabbb4fffa97a04fea4d64590092",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΓΙΑΤΡΟΙ ΚΑΙ ΕΞΕΤΑΣΕΙΣ/Γιατροί & Εξετάσεις Standard.pdf",
+      "bytes": 66177
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Αποκατάσταση Premium (1).pdf",
+      "sha256": "8075d312b79f57bb97410f4486fec1c35cabb72fcb0e93c0116c21ef16be4a6d",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΓΙΑΤΡΟΙ ΚΑΙ ΕΞΕΤΑΣΕΙΣ/Γιατροί & Εξετάσεις Basic.pdf",
+      "bytes": 62502
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Αποκατάσταση Standard (1).pdf",
+      "sha256": "bb572c44211e438f5742736280183a731b9cce85603dc76cce9d3f363db71311",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΓΙΑΤΡΟΙ ΚΑΙ ΕΞΕΤΑΣΕΙΣ/Γιατροί & Εξετάσεις On Demand 2.pdf",
+      "bytes": 782775
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Απώλεια Εισοδήματος λόγω Προσωρινής Ολικής Ανικανότητας από Ατύχημα (1).pdf",
+      "sha256": "a16904fafe339940e6503c34e663b7c20e62fe5d8c22dc85cfa848ae8ba60c07",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/JUNIOR MASTER PLAN/Όροι Junior Master Plan.pdf",
+      "bytes": 201128
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Απώλεια Εισοδήματος λόγω Προσωρινής Ολικής Ανικανότητας από Ατύχημα ή Ασθένεια (1).pdf",
+      "sha256": "8acb6e49d556c4c76b4301e877099e33413ee5935470ded3923872557f6eda34",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/JUNIOR MASTER PLAN/Όροι Junior Master Plan με Αναπραρμογή Ασφαλίστρου.pdf",
+      "bytes": 203282
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Απώλεια Εισοδήματος λόγω Προσωρινής Ολικής Ανικανότητας από Ατύχημα ή Ασθένεια (Απόλυτη) (1).pdf",
+      "sha256": "1d631f841aa2e91a55914fc6f12fbf28321a8c64c3e67bdb568b5360272abddb",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/JUNIOR MASTER PLAN/Όροι Junior Master Plan 2015.pdf",
+      "bytes": 5086399
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Ασφάλιση Ζωής (1).pdf",
+      "sha256": "9e109b5343cdcd3265de0b28cd8796efe2c43cd045be5c5ce452f53c2a9f0a86",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΝΟΣΗΛΕΙΑ/Νοσηλεία Premium.pdf",
+      "bytes": 342012
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Ασφάλιση Ζωής Plus (1).pdf",
+      "sha256": "4dab8eb97c20d11503b75081461e50a23d0961e4c1d0a185f9e08e79f3ffe7ed",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΝΟΣΗΛΕΙΑ/Νοσηλεία Premium Flexi.pdf",
+      "bytes": 224165
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Γενικοί Όροι Ασφαλιστηρίου (1).pdf",
+      "sha256": "87a389e788755870cee8df9ed59206c74e61c0c657ed960a91aa0c29b3a2a740",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΝΟΣΗΛΕΙΑ/Νοσηλεία Premium Flexi Plus.pdf",
+      "bytes": 203190
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Γιατροί & Εξετάσεις On Demand (1).pdf",
+      "sha256": "d6396a0396643dbb861c31cffa4606bc0ebc6dc935abbf28c99b24587af6e154",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΝΟΣΗΛΕΙΑ/Νοσηλεία Family Flexi Plus.pdf",
+      "bytes": 208642
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Γιατροί & Εξετάσεις On Demand 2 (1).pdf",
+      "sha256": "1b9d82cbaa4d03112cc0f063b6e8318d3a917d188f71ced25c56066d6127cc0e",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΝΟΣΗΛΕΙΑ/Νοσηλεία Basic.pdf",
+      "bytes": 109217
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Γιατροί & Εξετάσεις Premium (1).pdf",
+      "sha256": "53a92d20ef29622ab5a9899aa34bcc2c7837b5ce2ab970031c8ba9e79956c532",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΝΟΣΗΛΕΙΑ/Νοσηλεία Family Flexi.pdf",
+      "bytes": 366498
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Γιατροί & Εξετάσεις Standard.pdf",
+      "sha256": "f747efc5e23275e05b78e00ca98d31ce565adf9727ced8a20d6c4c532f414794",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΝΟΣΗΛΕΙΑ/Νοσηλεία Family.pdf",
+      "bytes": 340562
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/ΕΚΠΤΩΤΙΚΑ ΠΡΟΝΟΜΙΑ - Health Keeper (1).pdf",
+      "sha256": "fcc63ea54f618505294025f56cb5dfe714c94ddacb4663ee1356864b0af4f75c",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/HEALTH CARE/Όροι Health Care.pdf",
+      "bytes": 169729
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/ΕΞΕΙΔΙΚΕΥΜΕΝΑ CHECK UP - New Medical Safety (1).pdf",
+      "sha256": "cb33370606172636922942f11e33cf75fdf09f3c4cbf0323530b8645baa8b344",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΑΠΟΚΑΤΑΣΤΑΣΗ/Αποκατάσταση Premium.pdf",
+      "bytes": 62874
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Εγχειρίδιο Ηλεκτρονικής Τιμολόγησης Προσφορών Ζωής - Life Quotes.pdf",
+      "sha256": "399622799f21d370205c7936023c74117249fae7841877050d3aad82c15d4771",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL SELECT/Όροι Medical Select.pdf",
+      "bytes": 846327
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Εγχειρίδιο Παθήσεων Ατομικών Ασφαλίσεων Ζωής Ιανουάριος 2026 (1).pdf",
+      "sha256": "b113f0b69c1deb7a0795ad72c798af1f89da27db6204936a7e67c95a35471ea6",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL SELECT/Συνεργαζόμενα Νοσοκομεία Select.pdf",
+      "bytes": 67763
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Εγχειρίδιο Παθήσεων Ατομικών Ασφαλίσεων Ζωής Ιανουάριος 2026.pdf",
+      "sha256": "de2476935f4ab504b1ab9e808745d6a8f8ecb520bb4ef9f13c3fd9f4981cfe11",
+      "duplicateOf": null,
+      "bytes": 394528,
+      "textExtracted": true,
+      "characters": 230543,
+      "pages": 26
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Ειδικοί Κανόνες Λειτουργίας Pension Emphasis (1).pdf",
+      "sha256": "fac7f2e98383edbe3e94219311cf458549e5980485bedf5c469a69adddbc35d1",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL FAMILY/Πίνακας Συνεργαζόμενων Νοσοκομείων Medical Family (1).pdf",
+      "bytes": 1124706
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/ΙΣΟΒΙΑ ΠΡΟΓΡΑΜΜΑΤΑ/Συνεργαζόμενα Νοσοκομεία Ισόβιων Νοσοκομειακών Προγραμμάτων.pdf",
+      "sha256": "1e533476eadd48ca95e9a7ea212be87b4774bd72d97c164286f853d7b7ed4068",
+      "duplicateOf": null,
+      "bytes": 99133,
+      "textExtracted": true,
+      "characters": 25314,
+      "pages": 3
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Κανονισμός Εσωτερικών Μεταβλητών Κεφαλαίων Pension Emphasis.pdf",
+      "sha256": "71a389803f0823eaa6c9ea8859166d6dc62dac324c8173c3d3273834dea81a09",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL FAMILY/Συμπληρωματικές Παροχές - Medical Family (1).pdf",
+      "bytes": 137396
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Μόνιμη Ολική Ανικανότητα από Ατύχημα ή Ασθένεια (1).pdf",
+      "sha256": "c3c2e074c6bf2e531e8cab660e49e52c8ce11e270e04988ee708fa0701026204",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Απώλεια Εισοδήματος λόγω Προσωρινής Ολικής Ανικανότητας από Ατύχημα.pdf",
+      "bytes": 61029
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Μόνιμη Ολική Ανικανότητα από Ατύχημα ή Ασθένεια (Απόλυτη) (1).pdf",
+      "sha256": "55f450d018595f914f54360d41c7028b0109622fab41efe6c63ca5cd02bf28e3",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Απώλεια Εισοδήματος λόγω Προσωρινής Ολικής Ανικανότητας από Ατύχημα ή Ασθένεια.pdf",
+      "bytes": 61146
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Μόνιμη Ολική ή Μερική Ανικανότητα από Ατύχημα (1).pdf",
+      "sha256": "565141b50a210538748ebaf7037fc040a70ac5c4e12ab377262b5f67a7b7a5d6",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Απώλεια Εισοδήματος λόγω Προσωρινής Ολικής Ανικανότητας από Ατύχημα ή Ασθένεια (Απόλυτη).pdf",
+      "bytes": 59514
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Μόνιμη Ολική ή Μερική Ανικανότητα από Ατύχημα (Απόλυτη) (1).pdf",
+      "sha256": "853129edd4af2460881cffea2eaa94b244cf6eb81a691c34d5a1f491413c2777",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Απώλεια Εισοδήματος λόγω Προσωρινής Ολικής Ανικανότητας από Ατύχημα (ΑΠΟΛΥΤΗ).pdf",
+      "bytes": 60963
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Νοσηλεία Basic (1).pdf",
+      "sha256": "840d13911332da48894fd61e4fc5570cfbb92cbc08e5b04c114d72881e05806f",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΠΡΟΛΗΨΗ/Πρόληψη Basic.pdf",
+      "bytes": 60193
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Νοσηλεία Family (1).pdf",
+      "sha256": "f532590af841da46e8e99e5ac080bca879e88d7cbd3e521618df008438228691",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΠΡΟΛΗΨΗ/Πρόληψη Standard.pdf",
+      "bytes": 60508
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Νοσηλεία Family Flexi (1).pdf",
+      "sha256": "3a6fd72aec61f6a5873ef4edd018638607c227d0e911071da9a05262ea0e9768",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΠΡΟΛΗΨΗ/Πρόληψη Premium.pdf",
+      "bytes": 64026
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Νοσηλεία Family Flexi Plus (1).pdf",
+      "sha256": "632f16c4eaf12ff8b3d7d855275692ab3fc05a5eb7fa4988a15c467905cd158d",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΠΡΟΛΗΨΗ/Πρόληψη On Demand.pdf",
+      "bytes": 56384
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Νοσηλεία Premium (1).pdf",
+      "sha256": "b28ea6e862ca8dc0c41cb9e050dda0ce8078b46274be397ca8e84bd98d25e3b7",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΠΙΝΑΚΕΣ/Πίνακας Ιατρικών Πράξεων.pdf",
+      "bytes": 63146
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Νοσηλεία Premium Flexi (1).pdf",
+      "sha256": "e9d8e5cf373ee1282b63a2c530b117d5cf9375f299917f88472988531704db78",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΠΙΝΑΚΕΣ/Πίνακας Βαρύτητας Χειρουργικών Επεμβάσεων.pdf",
+      "bytes": 137185
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Νοσηλεία Standard.pdf",
+      "sha256": "ba9041297969325718d05f455f3018f775704e7ded1d45fd27fb6c3e73fbd041",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΠΙΝΑΚΕΣ/Πίνακας Συνεργαζόμενων Νοσοκομείων Life On.pdf",
+      "bytes": 1005604
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/ΟΡΟΙ ΠΡΟΓΡΑΜΜΑΤΩΝ GHI/Mediσυν 3 Ειδικό.pdf",
+      "sha256": "d4830ae23440ea22bbb77928068a9d54807068eab2ebb3a5412e1557aaa8e2a6",
+      "duplicateOf": null,
+      "bytes": 2459380,
+      "textExtracted": true,
+      "characters": 238589,
+      "pages": 63
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/ΟΡΟΙ ΠΡΟΓΡΑΜΜΑΤΩΝ GHI/Mediσυν 3.pdf",
+      "sha256": "5bba72ea5535aacac9aa44954dac8e6d320b7cb97a91f3b3fe052add78c0c208",
+      "duplicateOf": null,
+      "bytes": 3747484,
+      "textExtracted": true,
+      "characters": 242655,
+      "pages": 62
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/ΟΡΟΙ ΠΡΟΓΡΑΜΜΑΤΩΝ GHI/Mediσυν Care.pdf",
+      "sha256": "a5c7c4f0bff9d9ea768c53969041f517abdbdab6abba72be908f16563b277ca7",
+      "duplicateOf": null,
+      "bytes": 960613,
+      "textExtracted": true,
+      "characters": 65734,
+      "pages": 20
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/ΟΡΟΙ ΠΡΟΓΡΑΜΜΑΤΩΝ GHI/Όροι Mediσυν1 (classic).pdf",
+      "sha256": "15a7b0b88415b77b01212e5fe8d0298f3fadc53e444d9e5e573703e073fd5644",
+      "duplicateOf": null,
+      "bytes": 316510,
+      "textExtracted": true,
+      "characters": 96940,
+      "pages": 29
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/ΟΡΟΙ ΠΡΟΓΡΑΜΜΑΤΩΝ GHI/Όροι Mediσυν1 (extra).pdf",
+      "sha256": "a97ecc8a64cd2803f8be2b1102c1ae18cad4e3f5f09676fa7fab2dc64f60575a",
+      "duplicateOf": null,
+      "bytes": 360795,
+      "textExtracted": true,
+      "characters": 121346,
+      "pages": 36
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/ΠΡΟΓΡΑΜΜΑΤΑ ΖΩΗΣ/Όροι Προγραμμάτων Ζωής.pdf",
+      "sha256": "7a20411f44db7847ad6fbe847d6b8c1bd6c69fe207c98f8ef8d27421060a676b",
+      "duplicateOf": null,
+      "bytes": 3005393,
+      "textExtracted": true,
+      "characters": 1433425,
+      "pages": 243
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Πίνακας Βαρύτητας Χειρουργικών Επεμβάσεων (1).pdf",
+      "sha256": "94281aac48822444dd2ee2df75a447d5dccf6c9e62eade56c2a695520feb8ac6",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Φροντίδα μετά από Ατύχημα.pdf",
+      "bytes": 47181
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Πίνακας Βαρύτητας Χειρουργικών Επεμβάσεων - Medical Safety (1).pdf",
+      "sha256": "ef142bb69e727dce6916580271b899b6f9ff931b50dab50e1562b0d9636b9ced",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΑΠΟΚΑΤΑΣΤΑΣΗ/Αποκατάσταση Standard.pdf",
+      "bytes": 60615
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Πίνακας Ιατρικών Πράξεων (1).pdf",
+      "sha256": "c0d4cbced78f3d4fa8e1f0c5869c5d71d88921d832baf0f16ca0114c992fa4bd",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Χειρουργικό Επίδομα.pdf",
+      "bytes": 61202
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Πίνακας Συνεργαζόμενων Νοσοκομείων Medical Family (1) (1).pdf",
+      "sha256": "c4cd742f36809a8c36b98ccb7727a029c470caa68fa0e645003ac39c61ce9679",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΓΕΝΙΚΟΙ ΟΡΟΙ ΑΣΦΑΛΙΣΤΗΡΙΟΥ/Γενικοί Όροι Ασφαλιστηρίου.pdf",
+      "bytes": 378388
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Προστασία Μελλοντικών Ασφαλίστρων Ασφαλισμένου (1).pdf",
+      "sha256": "38f3a16b04ae25f6daadacabedd622d49c5acd4074e3a8097b178dc8d46d8b5f",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Θάνατος από Ατύχημα.pdf",
+      "bytes": 52600
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Προστασία Μελλοντικών Ασφαλίστρων Ασφαλισμένου (Απόλυτη).pdf",
+      "sha256": "91e815dfb2b338d4178e1cc0537968aab4fae0e30512f41a24be54d7ae96362f",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Ημερήσιο Νοσοκομειακό Επίδομα.pdf",
+      "bytes": 63217
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Προστασία Μελλοντικών Ασφαλίστρων Συμβαλλόμενου (Απόλυτη).pdf",
+      "sha256": "e3923bd873c16dcc81adc35928cc104d143109528e732eeb1aaa79f877ac5585",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Μόνιμη Ολική ή Μερική Ανικανότητα από Ατύχημα (Απόλυτη).pdf",
+      "bytes": 63315
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Προστασία Μελλοντικών Ασφαλίστρων Συμβαλλόμενου.pdf",
+      "sha256": "bf3f641540a76ee9a8aeca8d2cb870f4b41e8d349f2143db3fbdfa09066ed282",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Μόνιμη Ολική ή Μερική Ανικανότητα από Ατύχημα.pdf",
+      "bytes": 62128
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Πρόληψη Basic (1).pdf",
+      "sha256": "967976d70883816edd84ee5dee071d4c564c00e6c433123dabf1889708208ee1",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Προστασία Μελλοντικών Ασφαλίστρων Ασφαλισμένου.pdf",
+      "bytes": 62361
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Πρόληψη On Demand (1).pdf",
+      "sha256": "b838110c7132c7c9ec16790fda6a80a0b5397aa000384bc5cfd75241bb0b857f",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Προστασία Μελλοντικών Ασφαλίστρων Συμβαλλόμενου (Απόλυτη).pdf",
+      "bytes": 64956
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Πρόληψη Premium (1).pdf",
+      "sha256": "aba18dea990ab080f401e336daa9e3a26fcb612a154e03c549e91262842c03f2",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Προστασία Μελλοντικών Ασφαλίστρων Συμβαλλόμενου.pdf",
+      "bytes": 65118
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Πρόληψη Standard (1).pdf",
+      "sha256": "45533cbcfd3b3a94eaa3288da5f6e2a1ec1c08e403d1313278be397e90a3c80e",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Σοβαρές Ασθένειες.pdf",
+      "bytes": 51271
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Σοβαρές Ασθένειες (1).pdf",
+      "sha256": "c7070f230845bead4f473c06a9597731a843f5a6fd49e1a70601b9887d1ad8e7",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Μόνιμη Ολική Ανικανότητα από Ατύχημα ή Ασθένεια (Απόλυτη).pdf",
+      "bytes": 56060
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Συμπληρωματικές Παροχές - Medical Prime (1).pdf",
+      "sha256": "8cd88488757c490e25077cf73596698678ae2a843115bf9033f8725e639d8172",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΒΑΣΙΚΗ ΠΑΡΟΧΗ ΖΩΗΣ/Ασφάλιση Ζωής.pdf",
+      "bytes": 47292
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Συμπληρωματικές Παροχές - Medical Safety New & Medical Safety on Demand.pdf",
+      "sha256": "b132074599c4de5c114f55146b8eb9c9c8169cb216e38738ff33347137e4ccaa",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL EASY/Όροι Medical Easy.pdf",
+      "bytes": 341820
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Συνεργαζόμενα Νοσοκομεία Medical Prime (1) (1).pdf",
+      "sha256": "93ed4ab8c8d5ed9e135572e61eb8b7db9e4a43a3cfa5fda5bb8b35e61c1aa117",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΒΑΣΙΚΗ ΠΑΡΟΧΗ ΖΩΗΣ/Φροντίδα μετά από Ατύχημα.pdf",
+      "bytes": 47536
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Συνεργαζόμενα Νοσοκομεία Select (1).pdf",
+      "sha256": "2a74008b3735868b26f2356fea232e9eaf400cbb5dbcc1b31e56326aa04e835a",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL FAMILY/Όροι Term Plus (1).pdf",
+      "bytes": 87446
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Συνεργαζόμενα Νοσοκομεία Ισόβιων Νοσοκομειακών Προγραμμάτων (1).pdf",
+      "sha256": "2a74008b3735868b26f2356fea232e9eaf400cbb5dbcc1b31e56326aa04e835a",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/MEDICAL FAMILY/Όροι Term Plus (1).pdf",
+      "bytes": 87446
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Φροντίδα μετά από Ατύχημα (1) (1).pdf",
+      "sha256": "e7a3a4bb3cc8cb458bc957caee2eb6ce331e248dbe18dfb606fd5a278a615989",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΝΟΣΗΛΕΙΑ/Νοσηλεία Standard.pdf",
+      "bytes": 122976
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Φροντίδα μετά από Ατύχημα (1).pdf",
+      "sha256": "a1b5758f516551cd112a2e79144dc3def0980a1c37388a80260e3c87fb852d86",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Μόνιμη Ολική Ανικανότητα από Ατύχημα ή Ασθένεια.pdf",
+      "bytes": 51254
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Generali/Χειρουργικό Επίδομα (1).pdf",
+      "sha256": "3cc0cf82bb66bf9cef8737c90d2388c6a58d202bdef0f4dbbca97c48213ca75d",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Generali/LIFE ON/ΣΥΜΠΛΗΡΩΜΑΤΙΚΕΣ ΠΑΡΟΧΕΣ/Προστασία Μελλοντικών Ασφαλίστρων Ασφαλισμένου (Απόλυτη).pdf",
+      "bytes": 63044
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Cir-799-only-new-health-prod-Sante-Secure.pdf",
+      "sha256": "94c7dfd7707e51904892033a40e8c64c99a2e5da7bf56b91b8ec0d325d4268af",
+      "duplicateOf": null,
+      "bytes": 260282,
+      "textExtracted": false,
+      "characters": 0,
+      "pages": 0
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Cir-810-sante-secure-plus.pdf",
+      "sha256": "bc8ed7f5ccd45927f453a7be1b82c16ce23050b8a643a4e6009a8a5f80632328",
+      "duplicateOf": null,
+      "bytes": 343396,
+      "textExtracted": false,
+      "characters": 0,
+      "pages": 0
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/GENIKOI-OROI-KL_4-sign-Feki (1).pdf",
+      "sha256": "43921452e63c6e3032f095e76f91dac9df88eb759ea2ebb66b2845fe99c5cb75",
+      "duplicateOf": null,
+      "bytes": 629774,
+      "textExtracted": true,
+      "characters": 602,
+      "pages": 1
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/GENIKOI-OROI-KL_4-sign-Feki.pdf",
+      "sha256": "21de7e797e956cd3d19226a231cbb6cac443565f2217336248416f3cf86d571c",
+      "duplicateOf": null,
+      "bytes": 613562,
+      "textExtracted": true,
+      "characters": 622,
+      "pages": 1
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Cir-799-only-new-health-prod-Sante-Secure.pdf",
+      "sha256": "11df0aad9019ac2f5630b451c7c23f570f19a70933eb940604b7997dfe92c3f3",
+      "duplicateOf": null,
+      "bytes": 390489,
+      "textExtracted": true,
+      "characters": 4318,
+      "pages": 3
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/GENIKOI-OROI-KL_4-sign-Feki palioi .pdf",
+      "sha256": "90cd3ff0b6de2172ab8dd3a63d2531e8ea84d520a229182c81961b87864f8154",
+      "duplicateOf": null,
+      "bytes": 358113,
+      "textExtracted": true,
+      "characters": 47553,
+      "pages": 5
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Sante-Secure-presentation.pdf",
+      "sha256": "77af8c63ac4065ab526c16d3b09fc65e91a5d8d3c5043f7890a2a692b8b51165",
+      "duplicateOf": null,
+      "bytes": 825954,
+      "textExtracted": true,
+      "characters": 24328,
+      "pages": 19
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/oroi-Sante-Secure palioi.pdf",
+      "sha256": "f77b07aedf66820077ea275d676f348736579c229102b276f01321b9df33bfd5",
+      "duplicateOf": null,
+      "bytes": 446720,
+      "textExtracted": true,
+      "characters": 201920,
+      "pages": 14
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/pinakas-therapeytikon-diasikasion-Sante-Secure-22042026.pdf",
+      "sha256": "8177de2c4f03c297b7fb6f5983af2fc476e8d56389e63a7febc0558c672737bf",
+      "duplicateOf": null,
+      "bytes": 561427,
+      "textExtracted": true,
+      "characters": 52021,
+      "pages": 16
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/pronomio-ygeias-ver2-010726-eng.pdf",
+      "sha256": "9e7cd191812283272dd12b374573f7f08cd8e34a2d9c0dad6eb68e805442aa3b",
+      "duplicateOf": null,
+      "bytes": 501969,
+      "textExtracted": true,
+      "characters": 54692,
+      "pages": 20
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/pronomio-ygeias-ver2-010726.pdf",
+      "sha256": "8d17471973340993b3fb37d91d5d395221cfd1543dbafec3476c397f03a971a1",
+      "duplicateOf": null,
+      "bytes": 481719,
+      "textExtracted": true,
+      "characters": 53113,
+      "pages": 20
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/simvevlimena-nosokomia-ellada-20250722.pdf",
+      "sha256": "0d582f52e016b9e0a9fca130361262f890eb7e5c2e75774088859bfd2e5efa72",
+      "duplicateOf": null,
+      "bytes": 846764,
+      "textExtracted": true,
+      "characters": 19215,
+      "pages": 7
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Εγκ-757-Απογευματινα-Χειρουργεια.pdf",
+      "sha256": "e855132b718ef5807b2cbdae6d22ac5c3415920db9de68b3e409444e9cbc0f3b",
+      "duplicateOf": null,
+      "bytes": 794091,
+      "textExtracted": true,
+      "characters": 1241,
+      "pages": 1
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Εγκ-787-Φ16-ΙΦΕ-Aνηλικων-23-June-2025.pdf",
+      "sha256": "6f6d96b3c5a8781e4b2c6c0708ebcc4871ef1649fc3532f798c74ebdca3fd698",
+      "duplicateOf": null,
+      "bytes": 224959,
+      "textExtracted": true,
+      "characters": 2014,
+      "pages": 3
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Νοσοκομειακα-προγραμματα-ετησιας-διαρκειας-Συνδυασμοι-καλυψεων - sante secure.pdf",
+      "sha256": "3c474b3ab886e865978497aeb83624f7ccd993277d33687a497e559293801349",
+      "duplicateOf": null,
+      "bytes": 244920,
+      "textExtracted": true,
+      "characters": 5692,
+      "pages": 2
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Οροι-Assistance-Φ94-(Ανανεωμενη)_.pdf",
+      "sha256": "5c3270f430180ccf0e5079ce4597eda3588669dd243a334bbc009a0208d21a49",
+      "duplicateOf": null,
+      "bytes": 119414,
+      "textExtracted": true,
+      "characters": 16094,
+      "pages": 4
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Οροι-ΙΦΕ-Aνηλικων-Φ16 palioi.pdf",
+      "sha256": "14f3e8b7b4b6b28a741f14faf955077cacd2a98771308ec3890342af831aea38",
+      "duplicateOf": null,
+      "bytes": 319483,
+      "textExtracted": true,
+      "characters": 19008,
+      "pages": 2
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Συμβεβλημενα-Νοσηλευτικα-Ιδρυματα-Εξωτερικο.pdf",
+      "sha256": "21de7e797e956cd3d19226a231cbb6cac443565f2217336248416f3cf86d571c",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/GENIKOI-OROI-KL_4-sign-Feki.pdf",
+      "bytes": 613562
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/άλλες παροχές sante secure.png",
+      "sha256": "eaeb19be0ae37bfaab7ae0614402fb99e875d2e0f43265332e37ff2c44789f6d",
+      "duplicateOf": null,
+      "bytes": 139535
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/απαλλαγές sante secure.png",
+      "sha256": "df8f0329076ba52a758319cb60e426d1903cf2b5f71964799c3d8c24084cfd53",
+      "duplicateOf": null,
+      "bytes": 108993
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/ιατροφαρμακευτικά έξοδα ατυχήματος - ανηλίκων sante secure.png",
+      "sha256": "e6354fc8a15d655343af12367f5b4516cbfec3ac044225d247e3bf7f6ad12279",
+      "duplicateOf": null,
+      "bytes": 72069
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/καλύψεις sante secure.png",
+      "sha256": "08bee3c22ad720afa89a10b740c6db98a15d978a9fd8dcc3c3d8590121dbd7eb",
+      "duplicateOf": null,
+      "bytes": 150427
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/λίστα θεραυπευτικής διαδικασίας sante secure.png",
+      "sha256": "777cdbe09df5948c7c43f9e02dddc0d04809143aa1025939d2c14b0019643a4d",
+      "duplicateOf": null,
+      "bytes": 179935
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/οφελη sante secure.png",
+      "sha256": "bc8ed7f5ccd45927f453a7be1b82c16ce23050b8a643a4e6009a8a5f80632328",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Cir-810-sante-secure-plus.pdf",
+      "bytes": 343396
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante-Confort-Plus-ΦΑ1-June-26-customer.pdf",
+      "sha256": "8d17471973340993b3fb37d91d5d395221cfd1543dbafec3476c397f03a971a1",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/pronomio-ygeias-ver2-010726.pdf",
+      "bytes": 481719
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante-Confort-Plus-ΦΑ1-June-26.pdf",
+      "sha256": "5ff3287d5bc938d825dacf38887b65cef3d840989bdaaef5c9d543654e15d7f2",
+      "duplicateOf": null,
+      "bytes": 636056,
+      "textExtracted": true,
+      "characters": 17876,
+      "pages": 16
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante-Opus-2026.pdf",
+      "sha256": "242cbf916894ed13b8004d9d098dd21a6ca30a8dfdc977b8ce6e9591a2fcc00b",
+      "duplicateOf": null,
+      "bytes": 349430,
+      "textExtracted": true,
+      "characters": 1125,
+      "pages": 1
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante-Primaire-2019 (2).pdf",
+      "sha256": "81fe05131698c02f8eb93c835f906bca86d07acf551ec6da68cc283189455f20",
+      "duplicateOf": null,
+      "bytes": 68062,
+      "textExtracted": false,
+      "characters": 0,
+      "pages": 0
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante-Primaire-2019-Customer (1).pdf",
+      "sha256": "e3f5aaae8babca34e2837720ecf213cd1a3b2b31916a488fd1994edf1bbc86d2",
+      "duplicateOf": null,
+      "bytes": 231733,
+      "textExtracted": false,
+      "characters": 0,
+      "pages": 0
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante-Principe-june2026 (1).pdf",
+      "sha256": "f2b257a0894dc91b94b72c52622864e94d99f8f68ea05c87844e484a6f41b9fb",
+      "duplicateOf": null,
+      "bytes": 156655,
+      "textExtracted": true,
+      "characters": 14412,
+      "pages": 1
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante-Secure-Plus-presentation.pdf",
+      "sha256": "4c56c80dc942c2460005dad36c3a064905b88923043ed14efb974282add3f15e",
+      "duplicateOf": null,
+      "bytes": 827407,
+      "textExtracted": true,
+      "characters": 53000,
+      "pages": 16
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante-Secure-presentation.pdf",
+      "sha256": "9e7cd191812283272dd12b374573f7f08cd8e34a2d9c0dad6eb68e805442aa3b",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/pronomio-ygeias-ver2-010726-eng.pdf",
+      "bytes": 501969
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante-Vital-2020.pdf",
+      "sha256": "14f3e8b7b4b6b28a741f14faf955077cacd2a98771308ec3890342af831aea38",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Οροι-ΙΦΕ-Aνηλικων-Φ16 palioi.pdf",
+      "bytes": 319483
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/20180509-Dental-Ekptwtiko-Timokatalogos.pdf",
+      "sha256": "79ab1b068cb4c30bda435e404f8afd31efd79f4548ed45a2e5be1deac6d66895",
+      "duplicateOf": null,
+      "bytes": 347075,
+      "textExtracted": true,
+      "characters": 21725,
+      "pages": 5
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/GENIKOI-OROI-KL_4-sign-Feki.pdf",
+      "sha256": "90cd3ff0b6de2172ab8dd3a63d2531e8ea84d520a229182c81961b87864f8154",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/GENIKOI-OROI-KL_4-sign-Feki palioi .pdf",
+      "bytes": 358113
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Sante-Confort-Plus-ΦΑ1-June-26-customer.pdf",
+      "sha256": "5ff3287d5bc938d825dacf38887b65cef3d840989bdaaef5c9d543654e15d7f2",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante-Confort-Plus-ΦΑ1-June-26.pdf",
+      "bytes": 636056
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Sante-Confort-Plus-ΦΑ1-June-26.pdf",
+      "sha256": "733b4cf4ac617fcc1acc97e7397b80427f493cb6738a05b3328d918d5a9fdd74",
+      "duplicateOf": null,
+      "bytes": 773027,
+      "textExtracted": true,
+      "characters": 19558,
+      "pages": 18
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/bonus χρησης άλλου φορέα sante confort plus.png",
+      "sha256": "94d87a8c36ac9dc7d9cfe8b4bcfa1fcb9b4bc233ee9cd08fdbddc0bd6780a3e2",
+      "duplicateOf": null,
+      "bytes": 193393
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/cir-805-enopoisi-kodikon-health (1).pdf",
+      "sha256": "662edd8098ea870e97edae140dbfb3c02fcd488bf5891e2af921c5a205d8904f",
+      "duplicateOf": null,
+      "bytes": 285315,
+      "textExtracted": true,
+      "characters": 1361,
+      "pages": 1
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/cir-805-enopoisi-kodikon-health.pdf",
+      "sha256": "662edd8098ea870e97edae140dbfb3c02fcd488bf5891e2af921c5a205d8904f",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/cir-805-enopoisi-kodikon-health (1).pdf",
+      "bytes": 285315
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/dental-ekptotiko-diktio-200803.pdf",
+      "sha256": "43921452e63c6e3032f095e76f91dac9df88eb759ea2ebb66b2845fe99c5cb75",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/GENIKOI-OROI-KL_4-sign-Feki (1).pdf",
+      "bytes": 629774
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/pronomio-ygeias-ver2-010726-eng.pdf",
+      "sha256": "9e7cd191812283272dd12b374573f7f08cd8e34a2d9c0dad6eb68e805442aa3b",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/pronomio-ygeias-ver2-010726-eng.pdf",
+      "bytes": 501969
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/pronomio-ygeias-ver2-010726.pdf",
+      "sha256": "8d17471973340993b3fb37d91d5d395221cfd1543dbafec3476c397f03a971a1",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/pronomio-ygeias-ver2-010726.pdf",
+      "bytes": 481719
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/simvevlimena-nosokomia-ellada-20250722.pdf",
+      "sha256": "0d582f52e016b9e0a9fca130361262f890eb7e5c2e75774088859bfd2e5efa72",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/simvevlimena-nosokomia-ellada-20250722.pdf",
+      "bytes": 846764
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Διαδικασια-Εισαγωγης-σε-Ν-Ι-και-Εξωτερικα-Ιατρεια-24-9-2021.pdf",
+      "sha256": "a23b3f01605f3ebb4ea82b292516f6f3feebfe1e6ac7ab19be46953bf3e21411",
+      "duplicateOf": null,
+      "bytes": 491755,
+      "textExtracted": true,
+      "characters": 3894,
+      "pages": 5
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/ΕΓΚΥΚΛΙΟΣ-791-Sante-Confort-Plus-ΦΑ1.pdf",
+      "sha256": "c8dab589334d335a6dcaecb16ae8084440508a432c6ae941c4ca67f4958d1de0",
+      "duplicateOf": null,
+      "bytes": 199739,
+      "textExtracted": true,
+      "characters": 1484,
+      "pages": 1
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Εγκ-704-ΙΑΣΩ-ΔΙΚΤΥΟ-ΔΙΑΓΝΩΣΤΙΚΩΝ-ΚΕΝΤΡΩΝ-ΠΡΟΑΣΦΑΛΙΣΤΙΚΟΥ-ΕΛΕΓΧΟΥ.pdf",
+      "sha256": "ddb5d2bd39866720f97acb12ce9aad73339c1b28255b848be0bf9bd977ddf297",
+      "duplicateOf": null,
+      "bytes": 683437,
+      "textExtracted": true,
+      "characters": 1821,
+      "pages": 1
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Εγκ-729-ΑΝΑΠΡΟΣΑΡΜΟΓΕΣ-ΠΑΡΟΧΩΝ-ΚΑΙ-ΑΣΦΑΛΙΣΤΡΩΝ-ΚΑΛΥΨΕΩΝ-ΚΑΙ-ΠΡΟΣΘΗΚΩΝ-ΥΓΕΙΑΣ-updated-24-4-23.pdf",
+      "sha256": "14e6eb4692f297f3d9a208f1ecb438e78dcf9d219696c88da18421e9ee40c397",
+      "duplicateOf": null,
+      "bytes": 3523394,
+      "textExtracted": true,
+      "characters": 510145,
+      "pages": 175
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Εγκ-757-Απογευματινα-Χειρουργεια.pdf",
+      "sha256": "e855132b718ef5807b2cbdae6d22ac5c3415920db9de68b3e409444e9cbc0f3b",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Εγκ-757-Απογευματινα-Χειρουργεια.pdf",
+      "bytes": 794091
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Εγκ-762-Αναπροσαρμογες-Υγειας2024final.pdf",
+      "sha256": "881d15d7a0be96a92e7a82598911d4cd07a2dce600f323c0f4276bacfd1e9412",
+      "duplicateOf": null,
+      "bytes": 1533725,
+      "textExtracted": true,
+      "characters": 124283,
+      "pages": 46
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Εγκ-783-Αναπροσαρμογες-Υγειας-1-6-2025.pdf",
+      "sha256": "70f01abcbddd6b376ce152c2a858fcf5fa6c405f7797f21611561863db2a89f9",
+      "duplicateOf": null,
+      "bytes": 5028228,
+      "textExtracted": true,
+      "characters": 520503,
+      "pages": 175
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Εγκ-787-Φ16-ΙΦΕ-Aνηλικων-23-June-2025.pdf",
+      "sha256": "6f6d96b3c5a8781e4b2c6c0708ebcc4871ef1649fc3532f798c74ebdca3fd698",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Εγκ-787-Φ16-ΙΦΕ-Aνηλικων-23-June-2025.pdf",
+      "bytes": 224959
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Εγκυ-771-Αναπροσαρμογη-Φ28-Sante-Confort-Plus-16-2-2025.pdf",
+      "sha256": "bf9599d51fcb4aad9aae023d8ec623fb0798e79711f82a373e739a0cfa098c9e",
+      "duplicateOf": null,
+      "bytes": 1021082,
+      "textExtracted": true,
+      "characters": 14581,
+      "pages": 5
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Ειδικα-Συμβεβλημενα-Νοσηλευτικα-Ιδρυματα-Ελλαδα-25-6-25.pdf",
+      "sha256": "12c0563a80d568d8f8d9ccb7fc79c59327e62288b77f168bec64b900747e4cb0",
+      "duplicateOf": null,
+      "bytes": 416187,
+      "textExtracted": true,
+      "characters": 3141,
+      "pages": 5
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Οροι-Assistance-Φ94-(Ανανεωμενη)_.pdf",
+      "sha256": "5c3270f430180ccf0e5079ce4597eda3588669dd243a334bbc009a0208d21a49",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Οροι-Assistance-Φ94-(Ανανεωμενη)_.pdf",
+      "bytes": 119414
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Οροι-Sante-Confort-Plus-ΦΑ1-01-01-26.pdf",
+      "sha256": "b4d7b93dc43dbedf233fa81bb58c25da99b3ee7e14c59112468ebeb3f3c00c4a",
+      "duplicateOf": null,
+      "bytes": 406564,
+      "textExtracted": true,
+      "characters": 261586,
+      "pages": 19
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Οροι-ΙΦΕ-Aνηλικων-Φ16.pdf",
+      "sha256": "14f3e8b7b4b6b28a741f14faf955077cacd2a98771308ec3890342af831aea38",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Οροι-ΙΦΕ-Aνηλικων-Φ16 palioi.pdf",
+      "bytes": 319483
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Πινακας-καταταξης-χειρουργικων-επεμβασεων.pdf",
+      "sha256": "a3deba938cec19a88e3f5ae4c371eb37c75706ad94d757eee62313fddc21409d",
+      "duplicateOf": null,
+      "bytes": 1211848,
+      "textExtracted": true,
+      "characters": 107838,
+      "pages": 30
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Συμβεβλημενα-Νοσηλευτικα-Ιδρυματα-Εξωτερικο.pdf",
+      "sha256": "21de7e797e956cd3d19226a231cbb6cac443565f2217336248416f3cf86d571c",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/GENIKOI-OROI-KL_4-sign-Feki.pdf",
+      "bytes": 613562
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/ΥΓΕΙΑ_SANTE_πινακας-προγραμματων_01-01-2026_A4-_Sante-Confort-Plus-ΦΑ1.pdf",
+      "sha256": "73e7feade849530028a056e938f217fb0ab8f3d0cb82eb42e078434bbeda74b5",
+      "duplicateOf": null,
+      "bytes": 187512,
+      "textExtracted": true,
+      "characters": 8435,
+      "pages": 2
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/άλλες παροχές (1) sante confort plus.png",
+      "sha256": "4714c4c6708585acfe0633ce6c3415cef5ad08eeaf147b24d786ef15139eb9d8",
+      "duplicateOf": null,
+      "bytes": 90769
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/άλλες παροχές sante confort plus.png",
+      "sha256": "27dab59a352c1283f80a413375913fde9f1c8166207c00170736b1e00920a79d",
+      "duplicateOf": null,
+      "bytes": 237588
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/απαλλαγές sante confort plus.png",
+      "sha256": "4f2746238c2d0db244c308573646fcfd45f8f2c8b299fe57a4b22af87b90ff25",
+      "duplicateOf": null,
+      "bytes": 102363
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/ιατροφαρμακευτικά έξοδα ατυχήματςο - ανηλίκων (Φ16).png",
+      "sha256": "8470986d33902e4de43a8f77931b9b443d2c69430884742886abd62d2876940d",
+      "duplicateOf": null,
+      "bytes": 68206
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/καλύψεις sante confort plus.png",
+      "sha256": "60bdb823a20c30bc8626f0a4464af6cb35d2981f4724a7ec77fae733f6d3a3a2",
+      "duplicateOf": null,
+      "bytes": 279648
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/οφέλη sante confort plus.png",
+      "sha256": "04ef31afdd2641bb253c84a5e9820c17e7f703f92f5f427b18a6524d9fe604ab",
+      "duplicateOf": null,
+      "bytes": 384372
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Opus (ΦΑ3 - Φ98 - Π63) - Χειρουργικό επίδομα/Sante-Opus-2026.pdf",
+      "sha256": "e30c98d570ad64c067ece61a733839cef15245501420ebda2c10105aee2d0e23",
+      "duplicateOf": null,
+      "bytes": 407781,
+      "textExtracted": true,
+      "characters": 7730,
+      "pages": 9
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Opus (ΦΑ3 - Φ98 - Π63) - Χειρουργικό επίδομα/cir-807-new-Sante-Opus-june2026.pdf",
+      "sha256": "242cbf916894ed13b8004d9d098dd21a6ca30a8dfdc977b8ce6e9591a2fcc00b",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante-Opus-2026.pdf",
+      "bytes": 349430
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Opus (ΦΑ3 - Φ98 - Π63) - Χειρουργικό επίδομα/oroi-Sante-Opus-ΦΑ3.pdf",
+      "sha256": "34749868d12509cf477aa32e74c74ea8bea56817a2e6aef10b72632410278985",
+      "duplicateOf": null,
+      "bytes": 505077,
+      "textExtracted": true,
+      "characters": 52759,
+      "pages": 7
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Opus (ΦΑ3 - Φ98 - Π63) - Χειρουργικό επίδομα/Αναπροσαρμογες-ασφαλιστρων-προσθηκων-Εγκυκλιος-349-Νοεμβριος-2013.pdf",
+      "sha256": "a09539a2a0ed6303891155ebe85d645a3d60ef76fc9d78933a2f01f61fde65fb",
+      "duplicateOf": null,
+      "bytes": 2238201,
+      "textExtracted": true,
+      "characters": 139116,
+      "pages": 80
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Opus (ΦΑ3 - Φ98 - Π63) - Χειρουργικό επίδομα/Αναπροσαρμογες-παροχων-ασφαλιστρων-προσθηκων-Εγκυκλιος-338-1652013.pdf",
+      "sha256": "e6ed06b08bacb6a43b1c4118b6fb7dd3e7e5dccf34ba7b41faf0acd0cf0f1fe4",
+      "duplicateOf": null,
+      "bytes": 3570236,
+      "textExtracted": true,
+      "characters": 194884,
+      "pages": 112
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Opus (ΦΑ3 - Φ98 - Π63) - Χειρουργικό επίδομα/Εγκ-762-Αναπροσαρμογες-Υγειας2024final.pdf",
+      "sha256": "881d15d7a0be96a92e7a82598911d4cd07a2dce600f323c0f4276bacfd1e9412",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Εγκ-762-Αναπροσαρμογες-Υγειας2024final.pdf",
+      "bytes": 1533725
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Opus (ΦΑ3 - Φ98 - Π63) - Χειρουργικό επίδομα/κοστοσ sante opus.png",
+      "sha256": "9496fbd01d8c7a87d3a5aa4102ffbcb0557ed91d168f29a18dc84907b960d35e",
+      "duplicateOf": null,
+      "bytes": 36622
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Opus (ΦΑ3 - Φ98 - Π63) - Χειρουργικό επίδομα/λοιπες πληροφορίες sante opus.png",
+      "sha256": "81fe05131698c02f8eb93c835f906bca86d07acf551ec6da68cc283189455f20",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante-Primaire-2019 (2).pdf",
+      "bytes": 68062
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Opus (ΦΑ3 - Φ98 - Π63) - Χειρουργικό επίδομα/οφέλη sante opus.png",
+      "sha256": "e3f5aaae8babca34e2837720ecf213cd1a3b2b31916a488fd1994edf1bbc86d2",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante-Primaire-2019-Customer (1).pdf",
+      "bytes": 231733
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Primaire (Φ14 – Φ15) - Εξωνοσοκομειακό/Sante-Primaire-2019 (2).pdf",
+      "sha256": "527585bd839d97a8de83ff74f94e90c7c0d0f65a4eaf911ae3bdc4a5054d80ce",
+      "duplicateOf": null,
+      "bytes": 645585,
+      "textExtracted": true,
+      "characters": 8988,
+      "pages": 16
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Primaire (Φ14 – Φ15) - Εξωνοσοκομειακό/Sante-Primaire-2019-Customer (1).pdf",
+      "sha256": "e1dafc3f11b8078212999111e63df990ed31534b51eac18779874959e17f507e",
+      "duplicateOf": null,
+      "bytes": 560507,
+      "textExtracted": true,
+      "characters": 8442,
+      "pages": 14
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Primaire (Φ14 – Φ15) - Εξωνοσοκομειακό/Ανταγωνισμος-προγραμματων-πρωτοβαθμιας-περιθαλψης.pdf",
+      "sha256": "654ab348c95095adee99ed83c1d8d11bede9107b973a38febda056925aecddfe",
+      "duplicateOf": null,
+      "bytes": 293181,
+      "textExtracted": true,
+      "characters": 55067,
+      "pages": 3
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Primaire (Φ14 – Φ15) - Εξωνοσοκομειακό/Διαφημιστικο-εντυπο.pdf",
+      "sha256": "5b19890809f33ba583e567864191020930793f2462a7dee2608f187fcf371f97",
+      "duplicateOf": null,
+      "bytes": 402049,
+      "textExtracted": false,
+      "characters": 0,
+      "pages": 1
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Primaire (Φ14 – Φ15) - Εξωνοσοκομειακό/Εγκυκλιος-Οροι_-35104-12-13 (1).pdf",
+      "sha256": "ea0fb406351906909bbdd1abfc98e886ab5dcebcc109737fc672d2df7c80712c",
+      "duplicateOf": null,
+      "bytes": 483558,
+      "textExtracted": true,
+      "characters": 84136,
+      "pages": 18
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Primaire (Φ14 – Φ15) - Εξωνοσοκομειακό/Εγκυκλιος-προσθετες-παροχες_36214-1-14.pdf",
+      "sha256": "822f891096d54e693a669058d32aac1304ba6d3f2a1636310cb617e82ea168a5",
+      "duplicateOf": null,
+      "bytes": 76521,
+      "textExtracted": true,
+      "characters": 1624,
+      "pages": 1
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Primaire (Φ14 – Φ15) - Εξωνοσοκομειακό/Καλύψεις sante primaire.png",
+      "sha256": "c11b0d9a5607fea76908e5aa58c1809928520b1bb8e810f822509c6994ede1c3",
+      "duplicateOf": null,
+      "bytes": 66966
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Primaire (Φ14 – Φ15) - Εξωνοσοκομειακό/Κόστος Sante primaire.png",
+      "sha256": "81c115780f8f0ac6ead2936351bbe41f299a4a6722a006deb7419d2758fea75a",
+      "duplicateOf": null,
+      "bytes": 112720
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Primaire (Φ14 – Φ15) - Εξωνοσοκομειακό/Λοιπές πληροφορίες sante primaire.png",
+      "sha256": "8af508e6b72e21c7add77e986687834446a9a212445ae0f7c71b8bad22f41488",
+      "duplicateOf": null,
+      "bytes": 111388
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Primaire (Φ14 – Φ15) - Εξωνοσοκομειακό/Οφέλη Sante Primaire.png",
+      "sha256": "7d6d003441dd194800a0b64130471921acf2c83ccc395b467fccd0048dfc89ac",
+      "duplicateOf": null,
+      "bytes": 275668
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Primaire (Φ14 – Φ15) - Εξωνοσοκομειακό/Συγκρκιτικος-Πινακας-Εξωνοσοκομειακων-01-06-2026.pdf",
+      "sha256": "f2b257a0894dc91b94b72c52622864e94d99f8f68ea05c87844e484a6f41b9fb",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante-Principe-june2026 (1).pdf",
+      "bytes": 156655
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Principe (Φ76) - Εξωνοσοκομειακό/Sante-Principe-june2026 (1).pdf",
+      "sha256": "fc1371dd11ef3e3f901f8f8015fa946a59e451338cd32ea6b734d81206014bb4",
+      "duplicateOf": null,
+      "bytes": 654874,
+      "textExtracted": true,
+      "characters": 4392,
+      "pages": 11
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Principe (Φ76) - Εξωνοσοκομειακό/cir-804-allages-paroxes-Sante-principe (1).pdf",
+      "sha256": "7f291edf96fbee91ea88f72a0bad3a3d4de16a0519bbc97c9e42f62bbb76d2ac",
+      "duplicateOf": null,
+      "bytes": 316032,
+      "textExtracted": true,
+      "characters": 886,
+      "pages": 1
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Principe (Φ76) - Εξωνοσοκομειακό/oroi-sante-Principe-june2026 (1).pdf",
+      "sha256": "a1e233efac661b3956c45eb14301c4db4ee0503a2add7b04fd44d5f2d4cd4259",
+      "duplicateOf": null,
+      "bytes": 186556,
+      "textExtracted": true,
+      "characters": 44911,
+      "pages": 8
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Principe (Φ76) - Εξωνοσοκομειακό/Εγκ-715-αλλαγες-Sante-Principe.pdf",
+      "sha256": "b4c309922a2ff6953a7032a51728caa0c976c280ae9c5a7e71d796cd457dc0d9",
+      "duplicateOf": null,
+      "bytes": 818203,
+      "textExtracted": true,
+      "characters": 2547,
+      "pages": 2
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Principe (Φ76) - Εξωνοσοκομειακό/Καλύψεις Sante Principe.png",
+      "sha256": "ee6438e93c2d6672c8403b55ead4ea3dd9196c6ec7b17b801a32139c0cf43c0b",
+      "duplicateOf": null,
+      "bytes": 87357
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Principe (Φ76) - Εξωνοσοκομειακό/Παροχες-για-τις-Παιδοειδικοτητες-της-Ευρωκλινικης-Παιδων (1).pdf",
+      "sha256": "cbfde46e2f546af59511bd7e1f5306d40d5aa6e861d236b4fe37730531b11c3c",
+      "duplicateOf": null,
+      "bytes": 602916,
+      "textExtracted": true,
+      "characters": 1322,
+      "pages": 1
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Principe (Φ76) - Εξωνοσοκομειακό/Συγκρκιτικος-Πινακας-Εξωνοσοκομειακων-01-06-2026.pdf",
+      "sha256": "f2b257a0894dc91b94b72c52622864e94d99f8f68ea05c87844e484a6f41b9fb",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante-Principe-june2026 (1).pdf",
+      "bytes": 156655
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Principe (Φ76) - Εξωνοσοκομειακό/κόστος sante principe.png",
+      "sha256": "03ad31719803422e7c099dcc3cc69e800da7799a21cf26c9d7d3cbe7ecd44fd4",
+      "duplicateOf": null,
+      "bytes": 37422
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Principe (Φ76) - Εξωνοσοκομειακό/λοιπές πληροφορίες sante principe.png",
+      "sha256": "8966486bc291f504369373c3ba97e7887765d51fb8687bad154be1d2a0cb461f",
+      "duplicateOf": null,
+      "bytes": 82257
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Principe (Φ76) - Εξωνοσοκομειακό/οφέλη Sante Principe.png",
+      "sha256": "6c3b33aed35a02114ce85774aab0a138fe920a09af1ef2a009a25e22d52d864e",
+      "duplicateOf": null,
+      "bytes": 189704
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Priorité (Φ19) - Επίδομα σοβαρών ασθενειών/Sante-Priorite-2019.pdf",
+      "sha256": "9c841c316d9b797f5db4a010e790924cfae45584823645cddfd649102ec488f1",
+      "duplicateOf": null,
+      "bytes": 420673,
+      "textExtracted": true,
+      "characters": 4673,
+      "pages": 10
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Priorité (Φ19) - Επίδομα σοβαρών ασθενειών/Εγκυκλιος-Οροι-Sante-Priorite.pdf",
+      "sha256": "f3de05ed7e12280afd77355a0aa65c137a342332d895d22d48372980b2d54a98",
+      "duplicateOf": null,
+      "bytes": 402732,
+      "textExtracted": true,
+      "characters": 22127,
+      "pages": 9
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Priorité (Φ19) - Επίδομα σοβαρών ασθενειών/κατηγορίες σοβαρων ασθενειων sante priorite.png",
+      "sha256": "cb4e6abe5af11eed92f3da02707772f6dde3b29cbe85a02cb99fb721a2c0181b",
+      "duplicateOf": null,
+      "bytes": 102960
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Priorité (Φ19) - Επίδομα σοβαρών ασθενειών/κοστος sante priorite.png",
+      "sha256": "373c82ab2fe4a805943487aabb9e9137201316619fff8c6efa7f5973b5972582",
+      "duplicateOf": null,
+      "bytes": 66598
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Priorité (Φ19) - Επίδομα σοβαρών ασθενειών/λοιπες πληροφορίες sante priorite.png",
+      "sha256": "24649f4c7a2fd82bc00f02013bfd0d4c146e37dc855a00402f72d2637756d6e0",
+      "duplicateOf": null,
+      "bytes": 69334
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Priorité (Φ19) - Επίδομα σοβαρών ασθενειών/οφελη sante priorite.png",
+      "sha256": "94c7dfd7707e51904892033a40e8c64c99a2e5da7bf56b91b8ec0d325d4268af",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Cir-799-only-new-health-prod-Sante-Secure.pdf",
+      "bytes": 260282
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/Cir-810-sante-secure-plus.pdf",
+      "sha256": "d78f5a5bca1f79e1c69191f171c044bcfc67d281a78a4feb7570823120f4fbaa",
+      "duplicateOf": null,
+      "bytes": 343708,
+      "textExtracted": true,
+      "characters": 4590,
+      "pages": 4
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/GENIKOI-OROI-KL_4-sign-Feki.pdf",
+      "sha256": "90cd3ff0b6de2172ab8dd3a63d2531e8ea84d520a229182c81961b87864f8154",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/GENIKOI-OROI-KL_4-sign-Feki palioi .pdf",
+      "bytes": 358113
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/Sante-Secure-Plus-presentation.pdf",
+      "sha256": "1fa71f79e21ef208a9ecba2b6ab6eb8fc6b169c084d6c397fc1895013c716b88",
+      "duplicateOf": null,
+      "bytes": 1032260,
+      "textExtracted": true,
+      "characters": 25236,
+      "pages": 20
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/oroi-Sante-Secure-Plus-fa4.pdf",
+      "sha256": "4686f69bb0e1d23a12bcc057ec979a907341f23b3a8d5e728213ef5138ae3d9f",
+      "duplicateOf": null,
+      "bytes": 457115,
+      "textExtracted": true,
+      "characters": 201077,
+      "pages": 16
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/pinakas-therap-diasikasion-Sante-Secure-Plus.pdf",
+      "sha256": "4c56c80dc942c2460005dad36c3a064905b88923043ed14efb974282add3f15e",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante-Secure-Plus-presentation.pdf",
+      "bytes": 827407
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/pronomio-ygeias-ver2-010726-eng.pdf",
+      "sha256": "9e7cd191812283272dd12b374573f7f08cd8e34a2d9c0dad6eb68e805442aa3b",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/pronomio-ygeias-ver2-010726-eng.pdf",
+      "bytes": 501969
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/pronomio-ygeias-ver2-010726.pdf",
+      "sha256": "8d17471973340993b3fb37d91d5d395221cfd1543dbafec3476c397f03a971a1",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/pronomio-ygeias-ver2-010726.pdf",
+      "bytes": 481719
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/simvevlimena-nosokomia-ellada-20250722.pdf",
+      "sha256": "0d582f52e016b9e0a9fca130361262f890eb7e5c2e75774088859bfd2e5efa72",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/simvevlimena-nosokomia-ellada-20250722.pdf",
+      "bytes": 846764
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/Εγκ-757-Απογευματινα-Χειρουργεια.pdf",
+      "sha256": "e855132b718ef5807b2cbdae6d22ac5c3415920db9de68b3e409444e9cbc0f3b",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Εγκ-757-Απογευματινα-Χειρουργεια.pdf",
+      "bytes": 794091
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/Εγκ-787-Φ16-ΙΦΕ-Aνηλικων-23-June-2025.pdf",
+      "sha256": "6f6d96b3c5a8781e4b2c6c0708ebcc4871ef1649fc3532f798c74ebdca3fd698",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Εγκ-787-Φ16-ΙΦΕ-Aνηλικων-23-June-2025.pdf",
+      "bytes": 224959
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/Νοσοκομειακα-προγραμματα-ετησιας-διαρκειας-Συνδυασμοι-καλυψεων sante secure plus.pdf",
+      "sha256": "3c474b3ab886e865978497aeb83624f7ccd993277d33687a497e559293801349",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Νοσοκομειακα-προγραμματα-ετησιας-διαρκειας-Συνδυασμοι-καλυψεων - sante secure.pdf",
+      "bytes": 244920
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/Οροι-Assistance-Φ94-(Ανανεωμενη)_.pdf",
+      "sha256": "5c3270f430180ccf0e5079ce4597eda3588669dd243a334bbc009a0208d21a49",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Οροι-Assistance-Φ94-(Ανανεωμενη)_.pdf",
+      "bytes": 119414
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/Οροι-ΙΦΕ-Aνηλικων-Φ16.pdf",
+      "sha256": "14f3e8b7b4b6b28a741f14faf955077cacd2a98771308ec3890342af831aea38",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Οροι-ΙΦΕ-Aνηλικων-Φ16 palioi.pdf",
+      "bytes": 319483
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/Συμβεβλημενα-Νοσηλευτικα-Ιδρυματα-Εξωτερικο.pdf",
+      "sha256": "21de7e797e956cd3d19226a231cbb6cac443565f2217336248416f3cf86d571c",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/GENIKOI-OROI-KL_4-sign-Feki.pdf",
+      "bytes": 613562
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/άλλες παροχές sante secure plus.png",
+      "sha256": "0990b737f026b3175c8f6e740ab0e8b125e31d45f55fb94591bfe6550d7a2657",
+      "duplicateOf": null,
+      "bytes": 140414
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/απαλλαγές sante secure plus.png",
+      "sha256": "2b8534561841b6cb0fb027c2559063c73ceddf954858715d9c4f784ed9c98f0e",
+      "duplicateOf": null,
+      "bytes": 97346
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/ιατροφαρμακευτικά έξοδα ατυχήματςο - ανηλίκων (Φ16) sante secure plus.png",
+      "sha256": "af03638493a1b6a71ff44b53a209b0f72be7ea711cf508cc1a94fcbeaeba9516",
+      "duplicateOf": null,
+      "bytes": 72292
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/καλύψεις sante secure plus.png",
+      "sha256": "eee2e19b3fb0c4cec7132a40e5fd6d3889f1c811b91b61e166990f7ba23669f1",
+      "duplicateOf": null,
+      "bytes": 130530
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/λίστα θεραπευτικής διαδικασίας sante secure plus.png",
+      "sha256": "094cc669fd6945ee4db1364b4cd615dd945e67ad7f21c6014978caf561ca86e8",
+      "duplicateOf": null,
+      "bytes": 191035
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/οφέλη sante secure plus.png",
+      "sha256": "8b6e48e0e5cdf14452098e67c125e975d7ffd72ff5c20344202a3e9498604ceb",
+      "duplicateOf": null,
+      "bytes": 331800
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Vital (Φ75 – Φ58) - Εξωνοσοκομειακό/Sante-Vital-2020.pdf",
+      "sha256": "2e4f4bd293b377e4c20edd8bafb657bf23eb10a17491474f59ad9239d1838e51",
+      "duplicateOf": null,
+      "bytes": 463836,
+      "textExtracted": true,
+      "characters": 7182,
+      "pages": 13
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Vital (Φ75 – Φ58) - Εξωνοσοκομειακό/Εγκ-644-Προσθηκη-εξετασεων-στο-Sante-Vital (1).pdf",
+      "sha256": "09f8b44d7e0043868b7cb0308a17487684c4acfaa8b1a8dab55626167e088fb0",
+      "duplicateOf": null,
+      "bytes": 449831,
+      "textExtracted": true,
+      "characters": 68226,
+      "pages": 10
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Vital (Φ75 – Φ58) - Εξωνοσοκομειακό/Εγκ-645-ΠΡΟΣΘΗΚΗ-ΠΑΡΟΧΩΝ-ΣΤΟ-Sante-Vital_vs3.pdf",
+      "sha256": "15a42c98cf11f47439acbbe4c66866ad8ae93ce2635de1641f25693414f1fa62",
+      "duplicateOf": null,
+      "bytes": 610796,
+      "textExtracted": true,
+      "characters": 1769,
+      "pages": 1
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Vital (Φ75 – Φ58) - Εξωνοσοκομειακό/Καλυψη-μοριακου-Test-ανιχνευσης-COVID_19-στο-Sante-Vital (2).pdf",
+      "sha256": "75ad3cca175629880b0b73e96ce3da7360c6919178edc1c18675c22ef38a9733",
+      "duplicateOf": null,
+      "bytes": 731762,
+      "textExtracted": true,
+      "characters": 4220,
+      "pages": 2
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Vital (Φ75 – Φ58) - Εξωνοσοκομειακό/Οροι-Sante-Vital-23-20-2020 (1).pdf",
+      "sha256": "854009da22168eaf6a6700d990c64f2ece162eb2dea0bf1d426b26cc7d44717e",
+      "duplicateOf": null,
+      "bytes": 153590,
+      "textExtracted": true,
+      "characters": 63642,
+      "pages": 7
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Vital (Φ75 – Φ58) - Εξωνοσοκομειακό/Οφέλη sante vital.png",
+      "sha256": "74fe89ce43563781c96fcd6281d9413dcbee0d95c98e0c3b8c388e4df19c53c6",
+      "duplicateOf": null,
+      "bytes": 268564
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Vital (Φ75 – Φ58) - Εξωνοσοκομειακό/Συγκρκιτικος-Πινακας-Εξωνοσοκομειακων-01-06-2026.pdf",
+      "sha256": "f2b257a0894dc91b94b72c52622864e94d99f8f68ea05c87844e484a6f41b9fb",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante-Principe-june2026 (1).pdf",
+      "bytes": 156655
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Vital (Φ75 – Φ58) - Εξωνοσοκομειακό/καλύψεις sante vital.png",
+      "sha256": "60e1583a0db151567e074863690d969b389a619dcd0f68ba8500eebc32524d3a",
+      "duplicateOf": null,
+      "bytes": 145039
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Vital (Φ75 – Φ58) - Εξωνοσοκομειακό/κόστος sante vital.png",
+      "sha256": "4bcaf5eed82c482cbfd493b99c1b807574ea34999c3c1f226d10f1d041481b3c",
+      "duplicateOf": null,
+      "bytes": 38619
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Vital (Φ75 – Φ58) - Εξωνοσοκομειακό/λοιπές καλύψεις sante vital.png",
+      "sha256": "d6276f481cb1a5e579d0841cd1db2f89682a345bfa3ddbbd65a2ea31df48e47d",
+      "duplicateOf": null,
+      "bytes": 85524
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/bonus χρησης άλλου φορέα sante confort plus.png",
+      "sha256": "79ab1b068cb4c30bda435e404f8afd31efd79f4548ed45a2e5be1deac6d66895",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/20180509-Dental-Ekptwtiko-Timokatalogos.pdf",
+      "bytes": 347075
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/cir-804-allages-paroxes-Sante-principe (1).pdf",
+      "sha256": "8af508e6b72e21c7add77e986687834446a9a212445ae0f7c71b8bad22f41488",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Primaire (Φ14 – Φ15) - Εξωνοσοκομειακό/Λοιπές πληροφορίες sante primaire.png",
+      "bytes": 111388
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/cir-805-enopoisi-kodikon-health (1).pdf",
+      "sha256": "94d87a8c36ac9dc7d9cfe8b4bcfa1fcb9b4bc233ee9cd08fdbddc0bd6780a3e2",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/bonus χρησης άλλου φορέα sante confort plus.png",
+      "bytes": 193393
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/cir-805-enopoisi-kodikon-health.pdf",
+      "sha256": "662edd8098ea870e97edae140dbfb3c02fcd488bf5891e2af921c5a205d8904f",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/cir-805-enopoisi-kodikon-health (1).pdf",
+      "bytes": 285315
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/cir-807-new-Sante-Opus-june2026.pdf",
+      "sha256": "73e7feade849530028a056e938f217fb0ab8f3d0cb82eb42e078434bbeda74b5",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/ΥΓΕΙΑ_SANTE_πινακας-προγραμματων_01-01-2026_A4-_Sante-Confort-Plus-ΦΑ1.pdf",
+      "bytes": 187512
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/dental-ekptotiko-diktio-200803.pdf",
+      "sha256": "662edd8098ea870e97edae140dbfb3c02fcd488bf5891e2af921c5a205d8904f",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/cir-805-enopoisi-kodikon-health (1).pdf",
+      "bytes": 285315
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/oroi-Sante-Secure palioi.pdf",
+      "sha256": "11df0aad9019ac2f5630b451c7c23f570f19a70933eb940604b7997dfe92c3f3",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Cir-799-only-new-health-prod-Sante-Secure.pdf",
+      "bytes": 390489
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/oroi-sante-Principe-june2026 (1).pdf",
+      "sha256": "7d6d003441dd194800a0b64130471921acf2c83ccc395b467fccd0048dfc89ac",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Primaire (Φ14 – Φ15) - Εξωνοσοκομειακό/Οφέλη Sante Primaire.png",
+      "bytes": 275668
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/pinakas-therap-diasikasion-Sante-Secure-Plus.pdf",
+      "sha256": "d78f5a5bca1f79e1c69191f171c044bcfc67d281a78a4feb7570823120f4fbaa",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/Cir-810-sante-secure-plus.pdf",
+      "bytes": 343708
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/pinakas-therapeytikon-diasikasion-Sante-Secure-22042026.pdf",
+      "sha256": "90cd3ff0b6de2172ab8dd3a63d2531e8ea84d520a229182c81961b87864f8154",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/GENIKOI-OROI-KL_4-sign-Feki palioi .pdf",
+      "bytes": 358113
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/pronomio-ygeias-ver2-010726 (1).pdf",
+      "sha256": "9e7cd191812283272dd12b374573f7f08cd8e34a2d9c0dad6eb68e805442aa3b",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/pronomio-ygeias-ver2-010726-eng.pdf",
+      "bytes": 501969
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/pronomio-ygeias-ver2-010726 (2).pdf",
+      "sha256": "4686f69bb0e1d23a12bcc057ec979a907341f23b3a8d5e728213ef5138ae3d9f",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/oroi-Sante-Secure-Plus-fa4.pdf",
+      "bytes": 457115
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/pronomio-ygeias-ver2-010726-eng (1).pdf",
+      "sha256": "90cd3ff0b6de2172ab8dd3a63d2531e8ea84d520a229182c81961b87864f8154",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/GENIKOI-OROI-KL_4-sign-Feki palioi .pdf",
+      "bytes": 358113
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/pronomio-ygeias-ver2-010726-eng (2).pdf",
+      "sha256": "90cd3ff0b6de2172ab8dd3a63d2531e8ea84d520a229182c81961b87864f8154",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/GENIKOI-OROI-KL_4-sign-Feki palioi .pdf",
+      "bytes": 358113
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/pronomio-ygeias-ver2-010726-eng.pdf",
+      "sha256": "f77b07aedf66820077ea275d676f348736579c229102b276f01321b9df33bfd5",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/oroi-Sante-Secure palioi.pdf",
+      "bytes": 446720
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/pronomio-ygeias-ver2-010726.pdf",
+      "sha256": "8177de2c4f03c297b7fb6f5983af2fc476e8d56389e63a7febc0558c672737bf",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/pinakas-therapeytikon-diasikasion-Sante-Secure-22042026.pdf",
+      "bytes": 561427
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/simvevlimena-nosokomia-ellada-20250722 (1).pdf",
+      "sha256": "733b4cf4ac617fcc1acc97e7397b80427f493cb6738a05b3328d918d5a9fdd74",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Sante-Confort-Plus-ΦΑ1-June-26.pdf",
+      "bytes": 773027
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/simvevlimena-nosokomia-ellada-20250722 (3).pdf",
+      "sha256": "9e7cd191812283272dd12b374573f7f08cd8e34a2d9c0dad6eb68e805442aa3b",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/pronomio-ygeias-ver2-010726-eng.pdf",
+      "bytes": 501969
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/simvevlimena-nosokomia-ellada-20250722.pdf",
+      "sha256": "8d17471973340993b3fb37d91d5d395221cfd1543dbafec3476c397f03a971a1",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/pronomio-ygeias-ver2-010726.pdf",
+      "bytes": 481719
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Αναπροσαρμογες-ασφαλιστρων-προσθηκων-Εγκυκλιος-349-Νοεμβριος-2013.pdf",
+      "sha256": "34749868d12509cf477aa32e74c74ea8bea56817a2e6aef10b72632410278985",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Opus (ΦΑ3 - Φ98 - Π63) - Χειρουργικό επίδομα/oroi-Sante-Opus-ΦΑ3.pdf",
+      "bytes": 505077
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Αναπροσαρμογες-παροχων-ασφαλιστρων-προσθηκων-Εγκυκλιος-338-1652013.pdf",
+      "sha256": "e30c98d570ad64c067ece61a733839cef15245501420ebda2c10105aee2d0e23",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Opus (ΦΑ3 - Φ98 - Π63) - Χειρουργικό επίδομα/Sante-Opus-2026.pdf",
+      "bytes": 407781
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Διαδικασια-Εισαγωγης-σε-Ν-Ι-και-Εξωτερικα-Ιατρεια-24-9-2021.pdf",
+      "sha256": "4f2746238c2d0db244c308573646fcfd45f8f2c8b299fe57a4b22af87b90ff25",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/απαλλαγές sante confort plus.png",
+      "bytes": 102363
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Διαφημιστικο-εντυπο.pdf",
+      "sha256": "527585bd839d97a8de83ff74f94e90c7c0d0f65a4eaf911ae3bdc4a5054d80ce",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Primaire (Φ14 – Φ15) - Εξωνοσοκομειακό/Sante-Primaire-2019 (2).pdf",
+      "bytes": 645585
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/ΕΓΚΥΚΛΙΟΣ-791-Sante-Confort-Plus-ΦΑ1.pdf",
+      "sha256": "bf9599d51fcb4aad9aae023d8ec623fb0798e79711f82a373e739a0cfa098c9e",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Εγκυ-771-Αναπροσαρμογη-Φ28-Sante-Confort-Plus-16-2-2025.pdf",
+      "bytes": 1021082
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Εγκ-644-Προσθηκη-εξετασεων-στο-Sante-Vital (1).pdf",
+      "sha256": "8b6e48e0e5cdf14452098e67c125e975d7ffd72ff5c20344202a3e9498604ceb",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/οφέλη sante secure plus.png",
+      "bytes": 331800
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Εγκ-645-ΠΡΟΣΘΗΚΗ-ΠΑΡΟΧΩΝ-ΣΤΟ-Sante-Vital_vs3.pdf",
+      "sha256": "21de7e797e956cd3d19226a231cbb6cac443565f2217336248416f3cf86d571c",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/GENIKOI-OROI-KL_4-sign-Feki.pdf",
+      "bytes": 613562
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Εγκ-704-ΙΑΣΩ-ΔΙΚΤΥΟ-ΔΙΑΓΝΩΣΤΙΚΩΝ-ΚΕΝΤΡΩΝ-ΠΡΟΑΣΦΑΛΙΣΤΙΚΟΥ-ΕΛΕΓΧΟΥ.pdf",
+      "sha256": "a23b3f01605f3ebb4ea82b292516f6f3feebfe1e6ac7ab19be46953bf3e21411",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Διαδικασια-Εισαγωγης-σε-Ν-Ι-και-Εξωτερικα-Ιατρεια-24-9-2021.pdf",
+      "bytes": 491755
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Εγκ-729-ΑΝΑΠΡΟΣΑΡΜΟΓΕΣ-ΠΑΡΟΧΩΝ-ΚΑΙ-ΑΣΦΑΛΙΣΤΡΩΝ-ΚΑΛΥΨΕΩΝ-ΚΑΙ-ΠΡΟΣΘΗΚΩΝ-ΥΓΕΙΑΣ-updated-24-4-23.pdf",
+      "sha256": "ddb5d2bd39866720f97acb12ce9aad73339c1b28255b848be0bf9bd977ddf297",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Εγκ-704-ΙΑΣΩ-ΔΙΚΤΥΟ-ΔΙΑΓΝΩΣΤΙΚΩΝ-ΚΕΝΤΡΩΝ-ΠΡΟΑΣΦΑΛΙΣΤΙΚΟΥ-ΕΛΕΓΧΟΥ.pdf",
+      "bytes": 683437
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Εγκ-757-Απογευματινα-Χειρουργεια (4).pdf",
+      "sha256": "0d582f52e016b9e0a9fca130361262f890eb7e5c2e75774088859bfd2e5efa72",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/simvevlimena-nosokomia-ellada-20250722.pdf",
+      "bytes": 846764
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Εγκ-757-Απογευματινα-Χειρουργεια.pdf",
+      "sha256": "eaeb19be0ae37bfaab7ae0614402fb99e875d2e0f43265332e37ff2c44789f6d",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/άλλες παροχές sante secure.png",
+      "bytes": 139535
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Εγκ-762-Αναπροσαρμογες-Υγειας2024final (1).pdf",
+      "sha256": "a09539a2a0ed6303891155ebe85d645a3d60ef76fc9d78933a2f01f61fde65fb",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Opus (ΦΑ3 - Φ98 - Π63) - Χειρουργικό επίδομα/Αναπροσαρμογες-ασφαλιστρων-προσθηκων-Εγκυκλιος-349-Νοεμβριος-2013.pdf",
+      "bytes": 2238201
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Εγκ-762-Αναπροσαρμογες-Υγειας2024final.pdf",
+      "sha256": "e855132b718ef5807b2cbdae6d22ac5c3415920db9de68b3e409444e9cbc0f3b",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Εγκ-757-Απογευματινα-Χειρουργεια.pdf",
+      "bytes": 794091
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Εγκ-783-Αναπροσαρμογες-Υγειας-1-6-2025.pdf",
+      "sha256": "881d15d7a0be96a92e7a82598911d4cd07a2dce600f323c0f4276bacfd1e9412",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Εγκ-762-Αναπροσαρμογες-Υγειας2024final.pdf",
+      "bytes": 1533725
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Εγκ-787-Φ16-ΙΦΕ-Aνηλικων-23-June-2025 (1).pdf",
+      "sha256": "70f01abcbddd6b376ce152c2a858fcf5fa6c405f7797f21611561863db2a89f9",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Εγκ-783-Αναπροσαρμογες-Υγειας-1-6-2025.pdf",
+      "bytes": 5028228
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Εγκ-787-Φ16-ΙΦΕ-Aνηλικων-23-June-2025 (5).pdf",
+      "sha256": "0990b737f026b3175c8f6e740ab0e8b125e31d45f55fb94591bfe6550d7a2657",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/άλλες παροχές sante secure plus.png",
+      "bytes": 140414
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Εγκ-787-Φ16-ΙΦΕ-Aνηλικων-23-June-2025.pdf",
+      "sha256": "df8f0329076ba52a758319cb60e426d1903cf2b5f71964799c3d8c24084cfd53",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/απαλλαγές sante secure.png",
+      "bytes": 108993
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Εγκυ-771-Αναπροσαρμογη-Φ28-Sante-Confort-Plus-16-2-2025.pdf",
+      "sha256": "6f6d96b3c5a8781e4b2c6c0708ebcc4871ef1649fc3532f798c74ebdca3fd698",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Εγκ-787-Φ16-ΙΦΕ-Aνηλικων-23-June-2025.pdf",
+      "bytes": 224959
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Εγκυκλιος-Οροι-Sante-Priorite.pdf",
+      "sha256": "9c841c316d9b797f5db4a010e790924cfae45584823645cddfd649102ec488f1",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Priorité (Φ19) - Επίδομα σοβαρών ασθενειών/Sante-Priorite-2019.pdf",
+      "bytes": 420673
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Εγκυκλιος-Οροι_-35104-12-13 (1).pdf",
+      "sha256": "e1dafc3f11b8078212999111e63df990ed31534b51eac18779874959e17f507e",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Primaire (Φ14 – Φ15) - Εξωνοσοκομειακό/Sante-Primaire-2019-Customer (1).pdf",
+      "bytes": 560507
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Εγκυκλιος-προσθετες-παροχες_36214-1-14.pdf",
+      "sha256": "654ab348c95095adee99ed83c1d8d11bede9107b973a38febda056925aecddfe",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Primaire (Φ14 – Φ15) - Εξωνοσοκομειακό/Ανταγωνισμος-προγραμματων-πρωτοβαθμιας-περιθαλψης.pdf",
+      "bytes": 293181
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Ειδικα-Συμβεβλημενα-Νοσηλευτικα-Ιδρυματα-Ελλαδα-25-6-25.pdf",
+      "sha256": "c8dab589334d335a6dcaecb16ae8084440508a432c6ae941c4ca67f4958d1de0",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/ΕΓΚΥΚΛΙΟΣ-791-Sante-Confort-Plus-ΦΑ1.pdf",
+      "bytes": 199739
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Καλυψη-μοριακου-Test-ανιχνευσης-COVID_19-στο-Sante-Vital (2).pdf",
+      "sha256": "09f8b44d7e0043868b7cb0308a17487684c4acfaa8b1a8dab55626167e088fb0",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Vital (Φ75 – Φ58) - Εξωνοσοκομειακό/Εγκ-644-Προσθηκη-εξετασεων-στο-Sante-Vital (1).pdf",
+      "bytes": 449831
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Καλύψεις Sante Principe.png",
+      "sha256": "a1e233efac661b3956c45eb14301c4db4ee0503a2add7b04fd44d5f2d4cd4259",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Principe (Φ76) - Εξωνοσοκομειακό/oroi-sante-Principe-june2026 (1).pdf",
+      "bytes": 186556
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Καλύψεις sante primaire.png",
+      "sha256": "ea0fb406351906909bbdd1abfc98e886ab5dcebcc109737fc672d2df7c80712c",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Primaire (Φ14 – Φ15) - Εξωνοσοκομειακό/Εγκυκλιος-Οροι_-35104-12-13 (1).pdf",
+      "bytes": 483558
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Κόστος Sante primaire.png",
+      "sha256": "5b19890809f33ba583e567864191020930793f2462a7dee2608f187fcf371f97",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Primaire (Φ14 – Φ15) - Εξωνοσοκομειακό/Διαφημιστικο-εντυπο.pdf",
+      "bytes": 402049
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Λοιπές πληροφορίες sante primaire.png",
+      "sha256": "822f891096d54e693a669058d32aac1304ba6d3f2a1636310cb617e82ea168a5",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Primaire (Φ14 – Φ15) - Εξωνοσοκομειακό/Εγκυκλιος-προσθετες-παροχες_36214-1-14.pdf",
+      "bytes": 76521
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Νοσοκομειακα-προγραμματα-ετησιας-διαρκειας-Συνδυασμοι-καλυψεων - sante secure.pdf",
+      "sha256": "08bee3c22ad720afa89a10b740c6db98a15d978a9fd8dcc3c3d8590121dbd7eb",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/καλύψεις sante secure.png",
+      "bytes": 150427
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Νοσοκομειακα-προγραμματα-ετησιας-διαρκειας-Συνδυασμοι-καλυψεων sante secure plus.pdf",
+      "sha256": "af03638493a1b6a71ff44b53a209b0f72be7ea711cf508cc1a94fcbeaeba9516",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/ιατροφαρμακευτικά έξοδα ατυχήματςο - ανηλίκων (Φ16) sante secure plus.png",
+      "bytes": 72292
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Οροι-Assistance-Φ94-(Ανανεωμενη)_ (1).pdf",
+      "sha256": "60bdb823a20c30bc8626f0a4464af6cb35d2981f4724a7ec77fae733f6d3a3a2",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/καλύψεις sante confort plus.png",
+      "bytes": 279648
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Οροι-Assistance-Φ94-(Ανανεωμενη)_ (6).pdf",
+      "sha256": "eee2e19b3fb0c4cec7132a40e5fd6d3889f1c811b91b61e166990f7ba23669f1",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/καλύψεις sante secure plus.png",
+      "bytes": 130530
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Οροι-Assistance-Φ94-(Ανανεωμενη)_.pdf",
+      "sha256": "777cdbe09df5948c7c43f9e02dddc0d04809143aa1025939d2c14b0019643a4d",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/λίστα θεραυπευτικής διαδικασίας sante secure.png",
+      "bytes": 179935
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Οροι-Sante-Confort-Plus-ΦΑ1-01-01-26.pdf",
+      "sha256": "5c3270f430180ccf0e5079ce4597eda3588669dd243a334bbc009a0208d21a49",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Οροι-Assistance-Φ94-(Ανανεωμενη)_.pdf",
+      "bytes": 119414
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Οροι-Sante-Vital-23-20-2020 (1).pdf",
+      "sha256": "4bcaf5eed82c482cbfd493b99c1b807574ea34999c3c1f226d10f1d041481b3c",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Vital (Φ75 – Φ58) - Εξωνοσοκομειακό/κόστος sante vital.png",
+      "bytes": 38619
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Οροι-ΙΦΕ-Aνηλικων-Φ16 (1).pdf",
+      "sha256": "b4d7b93dc43dbedf233fa81bb58c25da99b3ee7e14c59112468ebeb3f3c00c4a",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Οροι-Sante-Confort-Plus-ΦΑ1-01-01-26.pdf",
+      "bytes": 406564
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Οροι-ΙΦΕ-Aνηλικων-Φ16 palioi.pdf",
+      "sha256": "3c474b3ab886e865978497aeb83624f7ccd993277d33687a497e559293801349",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Νοσοκομειακα-προγραμματα-ετησιας-διαρκειας-Συνδυασμοι-καλυψεων - sante secure.pdf",
+      "bytes": 244920
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Οροι-ΙΦΕ-Aνηλικων-Φ16.pdf",
+      "sha256": "094cc669fd6945ee4db1364b4cd615dd945e67ad7f21c6014978caf561ca86e8",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/λίστα θεραπευτικής διαδικασίας sante secure plus.png",
+      "bytes": 191035
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Οφέλη Sante Primaire.png",
+      "sha256": "81c115780f8f0ac6ead2936351bbe41f299a4a6722a006deb7419d2758fea75a",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Primaire (Φ14 – Φ15) - Εξωνοσοκομειακό/Κόστος Sante primaire.png",
+      "bytes": 112720
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Οφέλη sante vital.png",
+      "sha256": "60e1583a0db151567e074863690d969b389a619dcd0f68ba8500eebc32524d3a",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Vital (Φ75 – Φ58) - Εξωνοσοκομειακό/καλύψεις sante vital.png",
+      "bytes": 145039
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Παροχες-για-τις-Παιδοειδικοτητες-της-Ευρωκλινικης-Παιδων (1).pdf",
+      "sha256": "03ad31719803422e7c099dcc3cc69e800da7799a21cf26c9d7d3cbe7ecd44fd4",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Principe (Φ76) - Εξωνοσοκομειακό/κόστος sante principe.png",
+      "bytes": 37422
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Πινακας-καταταξης-χειρουργικων-επεμβασεων.pdf",
+      "sha256": "04ef31afdd2641bb253c84a5e9820c17e7f703f92f5f427b18a6524d9fe604ab",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/οφέλη sante confort plus.png",
+      "bytes": 384372
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Συγκρκιτικος-Πινακας-Εξωνοσοκομειακων-01-06-2026 (1).pdf",
+      "sha256": "c11b0d9a5607fea76908e5aa58c1809928520b1bb8e810f822509c6994ede1c3",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Primaire (Φ14 – Φ15) - Εξωνοσοκομειακό/Καλύψεις sante primaire.png",
+      "bytes": 66966
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Συγκρκιτικος-Πινακας-Εξωνοσοκομειακων-01-06-2026 (2).pdf",
+      "sha256": "ee6438e93c2d6672c8403b55ead4ea3dd9196c6ec7b17b801a32139c0cf43c0b",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Principe (Φ76) - Εξωνοσοκομειακό/Καλύψεις Sante Principe.png",
+      "bytes": 87357
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Συγκρκιτικος-Πινακας-Εξωνοσοκομειακων-01-06-2026.pdf",
+      "sha256": "75ad3cca175629880b0b73e96ce3da7360c6919178edc1c18675c22ef38a9733",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Vital (Φ75 – Φ58) - Εξωνοσοκομειακό/Καλυψη-μοριακου-Test-ανιχνευσης-COVID_19-στο-Sante-Vital (2).pdf",
+      "bytes": 731762
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Συμβεβλημενα-Νοσηλευτικα-Ιδρυματα-Εξωτερικο (1).pdf",
+      "sha256": "a3deba938cec19a88e3f5ae4c371eb37c75706ad94d757eee62313fddc21409d",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Πινακας-καταταξης-χειρουργικων-επεμβασεων.pdf",
+      "bytes": 1211848
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Συμβεβλημενα-Νοσηλευτικα-Ιδρυματα-Εξωτερικο (7).pdf",
+      "sha256": "5c3270f430180ccf0e5079ce4597eda3588669dd243a334bbc009a0208d21a49",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Οροι-Assistance-Φ94-(Ανανεωμενη)_.pdf",
+      "bytes": 119414
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/Συμβεβλημενα-Νοσηλευτικα-Ιδρυματα-Εξωτερικο.pdf",
+      "sha256": "14f3e8b7b4b6b28a741f14faf955077cacd2a98771308ec3890342af831aea38",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Οροι-ΙΦΕ-Aνηλικων-Φ16 palioi.pdf",
+      "bytes": 319483
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/ΥΓΕΙΑ_SANTE_πινακας-προγραμματων_01-01-2026_A4-_Sante-Confort-Plus-ΦΑ1.pdf",
+      "sha256": "21de7e797e956cd3d19226a231cbb6cac443565f2217336248416f3cf86d571c",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/GENIKOI-OROI-KL_4-sign-Feki.pdf",
+      "bytes": 613562
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/άλλες παροχές (1) sante confort plus.png",
+      "sha256": "0d582f52e016b9e0a9fca130361262f890eb7e5c2e75774088859bfd2e5efa72",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/simvevlimena-nosokomia-ellada-20250722.pdf",
+      "bytes": 846764
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/άλλες παροχές sante confort plus.png",
+      "sha256": "4714c4c6708585acfe0633ce6c3415cef5ad08eeaf147b24d786ef15139eb9d8",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/άλλες παροχές (1) sante confort plus.png",
+      "bytes": 90769
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/άλλες παροχές sante secure plus.png",
+      "sha256": "8d17471973340993b3fb37d91d5d395221cfd1543dbafec3476c397f03a971a1",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/pronomio-ygeias-ver2-010726.pdf",
+      "bytes": 481719
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/άλλες παροχές sante secure.png",
+      "sha256": "77af8c63ac4065ab526c16d3b09fc65e91a5d8d3c5043f7890a2a692b8b51165",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Sante-Secure-presentation.pdf",
+      "bytes": 825954
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/απαλλαγές sante confort plus.png",
+      "sha256": "27dab59a352c1283f80a413375913fde9f1c8166207c00170736b1e00920a79d",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/άλλες παροχές sante confort plus.png",
+      "bytes": 237588
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/απαλλαγές sante secure plus.png",
+      "sha256": "1fa71f79e21ef208a9ecba2b6ab6eb8fc6b169c084d6c397fc1895013c716b88",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/Sante-Secure-Plus-presentation.pdf",
+      "bytes": 1032260
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/απαλλαγές sante secure.png",
+      "sha256": "0d582f52e016b9e0a9fca130361262f890eb7e5c2e75774088859bfd2e5efa72",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/simvevlimena-nosokomia-ellada-20250722.pdf",
+      "bytes": 846764
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/ιατροφαρμακευτικά έξοδα ατυχήματος - ανηλίκων sante secure.png",
+      "sha256": "e855132b718ef5807b2cbdae6d22ac5c3415920db9de68b3e409444e9cbc0f3b",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Εγκ-757-Απογευματινα-Χειρουργεια.pdf",
+      "bytes": 794091
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/ιατροφαρμακευτικά έξοδα ατυχήματςο - ανηλίκων (Φ16) sante secure plus.png",
+      "sha256": "2b8534561841b6cb0fb027c2559063c73ceddf954858715d9c4f784ed9c98f0e",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Secure Plus (ΦΑ4) - Νοσοκομειακό ετήσιας διαρκείας/απαλλαγές sante secure plus.png",
+      "bytes": 97346
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/ιατροφαρμακευτικά έξοδα ατυχήματςο - ανηλίκων (Φ16).png",
+      "sha256": "12c0563a80d568d8f8d9ccb7fc79c59327e62288b77f168bec64b900747e4cb0",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Ειδικα-Συμβεβλημενα-Νοσηλευτικα-Ιδρυματα-Ελλαδα-25-6-25.pdf",
+      "bytes": 416187
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/καλύψεις sante confort plus.png",
+      "sha256": "8470986d33902e4de43a8f77931b9b443d2c69430884742886abd62d2876940d",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/ιατροφαρμακευτικά έξοδα ατυχήματςο - ανηλίκων (Φ16).png",
+      "bytes": 68206
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/καλύψεις sante secure plus.png",
+      "sha256": "e855132b718ef5807b2cbdae6d22ac5c3415920db9de68b3e409444e9cbc0f3b",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Εγκ-757-Απογευματινα-Χειρουργεια.pdf",
+      "bytes": 794091
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/καλύψεις sante secure.png",
+      "sha256": "6f6d96b3c5a8781e4b2c6c0708ebcc4871ef1649fc3532f798c74ebdca3fd698",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Εγκ-787-Φ16-ΙΦΕ-Aνηλικων-23-June-2025.pdf",
+      "bytes": 224959
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/καλύψεις sante vital.png",
+      "sha256": "2e4f4bd293b377e4c20edd8bafb657bf23eb10a17491474f59ad9239d1838e51",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Vital (Φ75 – Φ58) - Εξωνοσοκομειακό/Sante-Vital-2020.pdf",
+      "bytes": 463836
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/κατηγορίες σοβαρων ασθενειων sante priorite.png",
+      "sha256": "f3de05ed7e12280afd77355a0aa65c137a342332d895d22d48372980b2d54a98",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Priorité (Φ19) - Επίδομα σοβαρών ασθενειών/Εγκυκλιος-Οροι-Sante-Priorite.pdf",
+      "bytes": 402732
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/κοστος sante priorite.png",
+      "sha256": "cb4e6abe5af11eed92f3da02707772f6dde3b29cbe85a02cb99fb721a2c0181b",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Priorité (Φ19) - Επίδομα σοβαρών ασθενειών/κατηγορίες σοβαρων ασθενειων sante priorite.png",
+      "bytes": 102960
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/κοστοσ sante opus.png",
+      "sha256": "e6ed06b08bacb6a43b1c4118b6fb7dd3e7e5dccf34ba7b41faf0acd0cf0f1fe4",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Opus (ΦΑ3 - Φ98 - Π63) - Χειρουργικό επίδομα/Αναπροσαρμογες-παροχων-ασφαλιστρων-προσθηκων-Εγκυκλιος-338-1652013.pdf",
+      "bytes": 3570236
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/κόστος sante principe.png",
+      "sha256": "7f291edf96fbee91ea88f72a0bad3a3d4de16a0519bbc97c9e42f62bbb76d2ac",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Principe (Φ76) - Εξωνοσοκομειακό/cir-804-allages-paroxes-Sante-principe (1).pdf",
+      "bytes": 316032
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/λίστα θεραπευτικής διαδικασίας sante secure plus.png",
+      "sha256": "6f6d96b3c5a8781e4b2c6c0708ebcc4871ef1649fc3532f798c74ebdca3fd698",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Εγκ-787-Φ16-ΙΦΕ-Aνηλικων-23-June-2025.pdf",
+      "bytes": 224959
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/λίστα θεραυπευτικής διαδικασίας sante secure.png",
+      "sha256": "e6354fc8a15d655343af12367f5b4516cbfec3ac044225d247e3bf7f6ad12279",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/ιατροφαρμακευτικά έξοδα ατυχήματος - ανηλίκων sante secure.png",
+      "bytes": 72069
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/λοιπές καλύψεις sante vital.png",
+      "sha256": "15a42c98cf11f47439acbbe4c66866ad8ae93ce2635de1641f25693414f1fa62",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Vital (Φ75 – Φ58) - Εξωνοσοκομειακό/Εγκ-645-ΠΡΟΣΘΗΚΗ-ΠΑΡΟΧΩΝ-ΣΤΟ-Sante-Vital_vs3.pdf",
+      "bytes": 610796
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/λοιπές πληροφορίες sante principe.png",
+      "sha256": "fc1371dd11ef3e3f901f8f8015fa946a59e451338cd32ea6b734d81206014bb4",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Principe (Φ76) - Εξωνοσοκομειακό/Sante-Principe-june2026 (1).pdf",
+      "bytes": 654874
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/λοιπες πληροφορίες sante opus.png",
+      "sha256": "881d15d7a0be96a92e7a82598911d4cd07a2dce600f323c0f4276bacfd1e9412",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Confort Plus (ΦΑ1) - Νοσοκομειακό ετήσιας διαρκείας/Εγκ-762-Αναπροσαρμογες-Υγειας2024final.pdf",
+      "bytes": 1533725
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/λοιπες πληροφορίες sante priorite.png",
+      "sha256": "373c82ab2fe4a805943487aabb9e9137201316619fff8c6efa7f5973b5972582",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Priorité (Φ19) - Επίδομα σοβαρών ασθενειών/κοστος sante priorite.png",
+      "bytes": 66598
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/οφέλη Sante Principe.png",
+      "sha256": "b4c309922a2ff6953a7032a51728caa0c976c280ae9c5a7e71d796cd457dc0d9",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Principe (Φ76) - Εξωνοσοκομειακό/Εγκ-715-αλλαγες-Sante-Principe.pdf",
+      "bytes": 818203
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/οφέλη sante confort plus.png",
+      "sha256": "14f3e8b7b4b6b28a741f14faf955077cacd2a98771308ec3890342af831aea38",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Οροι-ΙΦΕ-Aνηλικων-Φ16 palioi.pdf",
+      "bytes": 319483
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/οφέλη sante opus.png",
+      "sha256": "9496fbd01d8c7a87d3a5aa4102ffbcb0557ed91d168f29a18dc84907b960d35e",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Opus (ΦΑ3 - Φ98 - Π63) - Χειρουργικό επίδομα/κοστοσ sante opus.png",
+      "bytes": 36622
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/οφέλη sante secure plus.png",
+      "sha256": "3c474b3ab886e865978497aeb83624f7ccd993277d33687a497e559293801349",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Νοσοκομειακα-προγραμματα-ετησιας-διαρκειας-Συνδυασμοι-καλυψεων - sante secure.pdf",
+      "bytes": 244920
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/οφελη sante priorite.png",
+      "sha256": "24649f4c7a2fd82bc00f02013bfd0d4c146e37dc855a00402f72d2637756d6e0",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Santé Priorité (Φ19) - Επίδομα σοβαρών ασθενειών/λοιπες πληροφορίες sante priorite.png",
+      "bytes": 69334
+    },
+    {
+      "path": "insurance-data/Insurance AI Health Advisor Database/Groupama/οφελη sante secure.png",
+      "sha256": "5c3270f430180ccf0e5079ce4597eda3588669dd243a334bbc009a0208d21a49",
+      "duplicateOf": "insurance-data/Insurance AI Health Advisor Database/Groupama/Sante Secure (ΦΑ2) - Νοσοκομειακό ετήσιας διαρκείας/Οροι-Assistance-Φ94-(Ανανεωμενη)_.pdf",
+      "bytes": 119414
+    }
+  ]
+}

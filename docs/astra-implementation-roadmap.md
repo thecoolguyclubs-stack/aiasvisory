@@ -66,3 +66,58 @@ classification, shared boundaries belong to the lower band: [0,1500],
 The provider-choice question distinguishes willingness to use the contracted
 network from the need for provider freedom; "unsure" creates no positive signal.
 Existing provider-freedom answers and this answer must emit that signal once.
+
+## Implementation and verification outcome
+
+Implemented:
+- Seven visible steps, provider-choice question and mobile-sized birthday controls.
+- Explicit new deductible IDs, boundary classifier, derived cost approach, legacy
+  answer compatibility and redirected resume from the removed step.
+- New band and provider-choice metadata in the database payload; existing SQL
+  signal contract retained. **Exact numeric product-band scoring is not yet
+  implemented**; the old SQL signals remain proxies until product variants are
+  normalized and reviewed.
+- Server recomputes the recommendation and product evidence for AI explanations;
+  forged client claim payloads are rejected before contacting the model.
+- Synthetic price calculations removed from all active customer price surfaces.
+- Restrictions shown on recommendation cards; existing-policy advantages receive
+  explicit retention guidance without claiming whole-policy superiority.
+- Local-only lead receipt wording corrected. **Durable submission and advisor
+  delivery remain unimplemented**, so demo copy does not promise a sent lead.
+
+Passed:
+- `npm run lint`
+- `npm run build` at baseline and implementation milestones
+- assessment mapping, seven-step/boundary/derivation assertions
+- existing lead submission and policy analysis assertions
+- presentation hardening and retention/price assertions
+- production HTTP smoke: assessment 200; forged explanation, malformed JSON and
+  oversized households rejected with 400
+
+Not verified:
+- Live database/OpenAI requests from the application: runtime keys are absent.
+- Browser interaction/mobile screenshots: Chromium download timed out twice;
+  no visual or end-to-end browser pass is claimed.
+- No production deployment, database migration or insurance-data approval occurred.
+
+## Source inventory
+
+`insurance-source-inventory.json` records every source file, SHA-256 and exact
+duplicates. 384 files: 309 PDFs and 75 PNGs; 181 unique byte contents, 203
+duplicates. Unique PDF extraction covered 2,482 pages. Eight unique PDFs had no
+usable extracted text and require OCR/visual review. Text extraction is not
+semantic approval or full structured insurance ingestion.
+
+## Required access and business review to continue
+
+Configure the application runtime (not Git-tracked files and not chat messages)
+with `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`,
+`SUPABASE_SECRET_KEY`, and `OPENAI_API_KEY`. The current checkout has none.
+The browser must never receive the Supabase secret or OpenAI key.
+
+All 128 database product signals are `draft` and `human_approved=false`.
+An authorized insurance reviewer must establish current product/variant scope
+and validate the evidence before production activation. Do not bulk-approve them.
+Current insurer pricing, exact deductible variants, ingestion expansion,
+durable encrypted leads and advisor delivery remain release work. This branch
+is a verified implementation increment, **not a completed production release**.
