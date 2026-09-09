@@ -1,0 +1,8 @@
+⨯ Another next dev server is already running.
+
+- Local:        http://localhost:3001
+- PID:          37752
+- Dir:          C:\Users\H_mic\Downloads\insurancemarket-health-advisor-app - Copy (1)\insurancemarket-health-advisor-app - Copy
+- Log:          .next\dev\logs\next-development.log
+
+Run taskkill /PID 37752 /F to stop it.
