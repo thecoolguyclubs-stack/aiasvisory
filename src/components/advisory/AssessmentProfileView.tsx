@@ -77,12 +77,21 @@ export function AssessmentProfileView() {
     <AdvisoryShell wide>
       <article className={styles.profileBoard}>
         <header className={styles.profileHeroHeader}>
-          <span className={styles.profileHeroBadge}>ΤΟ ΑΣΦΑΛΙΣΤΙΚΟ ΣΟΥ ΠΡΟΦΙΛ</span>
-          <h1>Η εικόνα των αναγκών σου</h1>
-          <p>
-            Συγκεντρώσαμε τις απαντήσεις σου σε ένα καθαρό προφίλ αναγκών πριν
-            περάσουμε στις ενδεικτικές επιλογές.
-          </p>
+          <div className={styles.profileHeroCopy}>
+            <span className={styles.profileHeroBadge}>ΤΟ ΑΣΦΑΛΙΣΤΙΚΟ ΣΟΥ ΠΡΟΦΙΛ</span>
+            <h1>Η εικόνα των αναγκών σου</h1>
+            <p>
+              Συγκεντρώσαμε τις απαντήσεις σου σε ένα καθαρό προφίλ αναγκών πριν
+              περάσουμε στις ενδεικτικές επιλογές.
+            </p>
+          </div>
+          <button
+            className={styles.pdfDownloadButton}
+            onClick={() => window.print()}
+            type="button"
+          >
+            Λήψη PDF
+          </button>
         </header>
         <section className={styles.needSummaryPanel}>
           <div className={styles.needSummaryCopy}>

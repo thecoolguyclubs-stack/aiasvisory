@@ -16,7 +16,10 @@
   min-height: 100vh;
   min-height: 100dvh;
   color: var(--primary-text);
-  background: var(--background);
+  background:
+    radial-gradient(circle at 88% 8%, rgba(15, 159, 150, 0.12), transparent 30%),
+    radial-gradient(circle at 8% 34%, rgba(203, 69, 135, 0.08), transparent 28%),
+    var(--background);
   font-family: "Nunito Sans", var(--font-geist-sans), "Segoe UI", sans-serif;
 }
 
@@ -38,20 +41,22 @@
   gap: 20px;
   overflow: hidden;
   padding: 42px 38px 34px;
-  border: 1px solid var(--border);
-  border-radius: 28px;
-  background: linear-gradient(180deg, #ffffff 0%, #f6fbfc 100%);
+  border: 1px solid #c9dde4;
+  border-radius: 24px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96) 0%, #f6fbfc 100%),
+    radial-gradient(circle at 68% 12%, rgba(15, 159, 150, 0.13), transparent 30%);
+  box-shadow: 0 26px 64px rgba(22, 42, 73, 0.09);
 }
 
 .heroBanner::before {
-  width: 260px;
-  height: 260px;
-  position: absolute;
-  top: -88px;
-  right: 172px;
+  inset: 0;
   content: "";
-  border-radius: 50%;
-  background: rgba(243, 251, 251, 0.9);
+  background-image:
+    linear-gradient(rgba(15, 159, 150, 0.042) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15, 159, 150, 0.042) 1px, transparent 1px);
+  background-size: 34px 34px;
+  mask-image: linear-gradient(90deg, #000 0%, transparent 64%);
 }
 
 .heroCopy,
@@ -209,8 +214,9 @@
   gap: 16px;
   padding: 18px;
   border: 1px solid var(--border);
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.9);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.86);
+  box-shadow: 0 12px 28px rgba(22, 42, 73, 0.045);
 }
 
 .heroCard:nth-child(2) {
@@ -288,8 +294,9 @@
   gap: 18px;
   padding: 22px 24px;
   border: 1px solid var(--border);
-  border-radius: 18px;
+  border-radius: 16px;
   background: var(--surface);
+  box-shadow: 0 12px 30px rgba(22, 42, 73, 0.045);
 }
 
 .documentIcon {
