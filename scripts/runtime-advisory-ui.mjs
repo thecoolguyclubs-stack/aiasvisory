@@ -8,6 +8,8 @@ import { initialAssessmentState } from "../src/lib/assessment/state.ts";
 import { createAssessmentSessionSnapshot } from "../src/lib/assessment/storage.ts";
 import { isLiveRecommendationsResponse, isProgramDetailResponse } from "../src/lib/recommendations/contracts.ts";
 const { chromium } = await import(process.env.PLAYWRIGHT_MODULE || "playwright");
+const widths = (process.env.UI_WIDTHS || "1440,390").split(",").map(Number);
+let routesVisited = 0, stepsVisited = 0, pdfExports = 0;
 const out = process.env.UI_OUTPUT_DIR || "/tmp/advisor-ui-review";
 await mkdir(out, { recursive: true });
 const base = "http://127.0.0.1:32745";
@@ -32,7 +34,7 @@ try {
  assert.ok(isLiveRecommendationsResponse(response));
  const program = {contractVersion:"product-detail-2026-07-v2",programId:"ui-program-0",name:recommendations[0].programName,insurer:recommendations[0].insurer,productType:"Ασφάλιση υγείας",signals:[],evidenceReferences:evidence,coverageFacts:[],deductibleRules:[],monetaryFacts:[],waitingPeriods:[],exclusions:[],providerNetworks:[],procedureFees:[],supplementaryBenefits:[],claimRules:[]};
  assert.ok(isProgramDetailResponse({ok:true,source:"supabase",program}));
- for(const width of (process.env.UI_WIDTHS || "1440,390").split(",").map(Number)) {
+ for(const width of widths) {
   browser = await chromium.launch({ executablePath, args, headless: true });
   const context = await browser.newContext({viewport:{width,height:1000},deviceScaleFactor:1,acceptDownloads:true});
   const page = await context.newPage();
@@ -48,9 +50,10 @@ try {
   },{snapshot,response});
   for(const [name,path] of [["home","/"],["profile","/assessment/profile"],["results","/results"],["detail","/results/ui-program-0"],["interest","/interest/ui-program-0"],["assessment","/assessment"]]) {
    if(process.env.UI_PAGE && name!==process.env.UI_PAGE) continue;
+   routesVisited++;
    await page.goto(base+path); await page.locator("h1").first().waitFor();
    if(name==="results") await page.getByRole("heading",{name:"Πρόγραμμα Υγείας Α",exact:true}).waitFor();
-   if(name==="detail") await page.locator("#program-evidence").waitFor();
+   if(name==="detail") { await page.locator("#program-evidence").waitFor(); await page.locator('section[aria-busy="false"]').waitFor(); }
    await page.evaluate(()=>document.fonts.ready);
    await page.screenshot({path:`${out}/${name}-${width}.png`,fullPage:true});
    const overflow=await page.evaluate(()=>Array.from(document.querySelectorAll("main *")).filter(el=>el.getBoundingClientRect().right>innerWidth+2 && getComputedStyle(el).position!=="absolute").map(el=>el.className).slice(0,10));
@@ -59,11 +62,13 @@ try {
     const download=page.waitForEvent("download",{timeout:60000});
     await page.getByRole("button",{name:"Εξαγωγή PDF"}).click();
     const file=await download.catch(async error => { console.error(await page.getByRole("status").allTextContents()); await page.screenshot({path:`${out}/export-error.png`}); throw error; }); await file.saveAs(`${out}/${name}${width===390 ? "-mobile" : ""}.pdf`);
+    pdfExports++;
     assert.equal(await page.locator("iframe").count(),0,"PDF frame must be cleaned up");
    }
   }
   for (const view of process.env.UI_PAGE ? [] : ["insuredPeople", "birthDates", "currentInsurance", "evaluationGoal", "priorities", "deductible"]) {
    await page.evaluate(({snapshot,view})=>sessionStorage.setItem("insurancemarket.health-assessment.session.v4",JSON.stringify({...snapshot,navigation:{...snapshot.navigation,view,history:[]}})),{snapshot,view});
+   stepsVisited++;
    await page.goto(base+"/assessment"); await page.locator("h1").waitFor();
    await page.screenshot({path:`${out}/step-${view}-${width}.png`,fullPage:true});
    assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`${view} has horizontal overflow`);
@@ -71,11 +76,12 @@ try {
     const download=page.waitForEvent("download",{timeout:60000});
     await page.getByRole("button",{name:"Εξαγωγή PDF"}).click();
     await (await download).saveAs(`${out}/step-${view}.pdf`);
+    pdfExports++;
    }
   }
   assert.deepEqual(errors,[],`Browser errors: ${errors}`);
   await context.close();
   await browser.close();
  }
- console.log(JSON.stringify({ok:true,viewports:[1440,390],routes:6,pdfExports:8,output:out}));
+ console.log(JSON.stringify({ok:true,viewports:widths,routesVisited,additionalStepsVisited:stepsVisited,pdfExports,output:out}));
 } finally { await browser?.close(); server.kill("SIGTERM"); }

@@ -77,7 +77,7 @@ export async function exportViewPdf() {
     function collect(element: HTMLElement) {
       // Split tall layout wrappers, keeping cards and their text together where possible.
       const rect = element.getBoundingClientRect();
-      if ((rect.height > 1100 || element.matches('[class*="stage"]')) && element.children.length >= 1) {
+      if ((doc!.defaultView!.getComputedStyle(element).display === "contents" || rect.height > 1100 || element.matches('[class*="stage"]')) && element.children.length >= 1) {
         Array.from(element.children).forEach(child => { if (child.nodeType === 1) collect(child as HTMLElement); });
       } else if (rect.height > 0 && rect.width > 0) blocks.push(element);
     }

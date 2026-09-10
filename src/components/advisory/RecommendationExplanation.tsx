@@ -73,7 +73,7 @@ export function RecommendationExplanation({
   }, [category, fallback, input, inputSignature, programId, submission]);
 
   return (
-    <section className={`${styles.contentSection} ${styles.explanationSection}`}>
+    <section aria-busy={!paragraph} className={`${styles.contentSection} ${styles.explanationSection}`}>
       <p className={styles.sectionEyebrow}>ΕΠΕΞΗΓΗΣΗ ΤΗΣ ΠΡΟΤΑΣΗΣ</p>
       <h2>Γιατί ταιριάζει στο προφίλ σου</h2>
       {paragraph ? (
