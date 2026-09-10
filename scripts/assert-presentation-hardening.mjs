@@ -323,3 +323,7 @@ console.log(
     livePresentationPrograms,
   }),
 );
+
+const { buildRecommendationPresentation } = await import("../src/lib/recommendations/presentation.ts");
+const cautiousPresentation = buildRecommendationPresentation({ version:4, answers:{insuredPeople:"self",currentInsurance:"none",evaluationGoal:"first_time",priorities:["surgery"],additionalNeeds:[],deductible:"1500-to-5000",costApproach:"balanced",careAccess:"network"}, people:[{id:"self",role:"self",label:"Εμένα",birthDate:"1990-01-01"}],policyFile:null,uploadDecision:"skipped",submittedAt:"2026-09-10T00:00:00Z" }, {programId:"test",programName:"UI test",insurer:"Test",category:"best-match",categoryLabel:"Best Match",matchScore:70,strengths:[],tradeOffs:[],itemsToConfirm:[],warnings:[],missingEvidence:[],policyComparison:null,evidenceReferences:[{id:"wait",type:"waiting_period",title:"Περίοδος αναμονής",excerpt:"Απαιτείται επιβεβαίωση αναμονής.",signalCode:"waiting-period"}]});
+assert.equal(cautiousPresentation.strengths.length,0,"Waiting periods must never be promoted to strengths to fill a card.");

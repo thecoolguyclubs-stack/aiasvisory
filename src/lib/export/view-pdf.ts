@@ -4,7 +4,7 @@ import { jsPDF } from "jspdf";
 /** Render one block at a time to avoid mobile canvas limits on long reports. */
 export async function exportViewPdf() {
   const main = document.querySelector("main");
-  if (!main || main.getAttribute("aria-busy") === "true" || main.querySelector('[aria-busy="true"]')) {
+  if (!main || main.getAttribute("aria-busy") === "true" || Array.from(main.querySelectorAll('[aria-busy="true"]')).some(node => !node.closest('[data-export-ignore]'))) {
     throw new Error("The current view is still loading.");
   }
   await document.fonts.ready;
@@ -16,9 +16,18 @@ export async function exportViewPdf() {
   try {
     const doc = frame.contentDocument;
     if (!doc) throw new Error("Cannot prepare PDF view");
-    doc.head.innerHTML = document.head.innerHTML;
+    // Keep the font-variable class and only styles; application scripts are not part of a report.
+    doc.documentElement.className = document.documentElement.className;
+    document.head.querySelectorAll('style, link[rel="stylesheet"]').forEach(node => doc.head.append(doc.importNode(node, true)));
     doc.body.append(doc.importNode(main, true));
     const root = doc.querySelector("main")!;
+    const liveFields = main.querySelectorAll("input,select,textarea");
+    root.querySelectorAll("input,select,textarea").forEach((node,index) => {
+      const source = liveFields[index] as HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement;
+      const target = node as typeof source;
+      if (source.type !== "file") target.value = source.value;
+      if (source instanceof HTMLInputElement && target.tagName === "INPUT") (target as HTMLInputElement).checked = source.checked;
+    });
     doc.querySelectorAll("[data-export-ignore], button, nav").forEach(node => node.remove());
     doc.querySelectorAll("details").forEach(node => { node.open = true; });
     const style = doc.createElement("style");
@@ -27,7 +36,8 @@ export async function exportViewPdf() {
       main { display:block!important; background:#f6f8f7!important; }
       main > header { height:76px!important; }
       main > div { width:936px!important; margin:0 auto!important; padding:24px 0!important; }
-      [class*="profileBoard"] { min-height:0!important; }
+      [class*="profileBoard"], [class*="stepCard"] { min-height:0!important; }
+      [class*="stepCard"] { overflow:visible!important; }
       [class*="resultsGrid"] { display:block!important; }
       [class*="recommendationCard"] { margin:20px 0!important; }
       [class*="cardActions"], [class*="footerActions"], [class*="finalCta"], [class*="backLink"] { display:none!important; }
@@ -41,6 +51,17 @@ export async function exportViewPdf() {
     })));
     await doc.fonts.ready;
     await Promise.all(Array.from(doc.images).map(img => img.decode().catch(() => undefined)));
+    // Give percentage-sized SVG assets explicit raster dimensions for canvas engines.
+    for (const img of Array.from(doc.images)) {
+      if (!img.complete || !img.naturalWidth || !/\.svg(?:[?#]|$)/i.test(img.currentSrc || img.src)) continue;
+      const bounds = img.getBoundingClientRect();
+      if (!bounds.width || !bounds.height) continue;
+      const raster = doc.createElement("canvas");
+      raster.width = Math.ceil(bounds.width * 2); raster.height = Math.ceil(bounds.height * 2);
+      raster.getContext("2d")!.drawImage(img, 0, 0, raster.width, raster.height);
+      img.removeAttribute("srcset"); img.src = raster.toDataURL("image/png");
+      await img.decode();
+    }
     // Export input values as text so selects and typed values survive canvas rendering.
     doc.querySelectorAll("input:not([type=radio]):not([type=checkbox]):not([type=file]), select, textarea").forEach(node => {
       const original = node as HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement;
@@ -56,7 +77,7 @@ export async function exportViewPdf() {
     function collect(element: HTMLElement) {
       // Split tall layout wrappers, keeping cards and their text together where possible.
       const rect = element.getBoundingClientRect();
-      if (rect.height > 1100 && element.children.length > 1) {
+      if ((rect.height > 1100 || element.matches('[class*="stage"]')) && element.children.length >= 1) {
         Array.from(element.children).forEach(child => { if (child.nodeType === 1) collect(child as HTMLElement); });
       } else if (rect.height > 0 && rect.width > 0) blocks.push(element);
     }

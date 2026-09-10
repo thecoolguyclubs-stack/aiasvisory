@@ -603,3 +603,9 @@
 .finalCta { background:linear-gradient(115deg,#173e43,#21645d); border-radius:20px; box-shadow:none; }
 @media(max-width:900px) { .heroBanner { padding:30px; gap:24px; } .heroCards { grid-template-columns:1fr; } .heroIllustrationViewport { width:100%; } }
 @media(max-width:600px) { .content { width:calc(100% - 32px); padding-top:24px; } .heroBanner { grid-template-columns:1fr; padding:24px; } .heroIllustration { grid-column:1; grid-row:2; } .heroCards { grid-row:3; } .heroCopy h1 { font-size:38px; } }
+
+.finalCta h2 { color:#fff; }
+.finalCta > div > p { color:#8ed5c6; }
+.finalCta > div > span { color:#d3e6e0; }
+.finalCta .lightCta { color:#173e43; background:white; border-radius:10px; }
+.primaryCta { border-color:#087c76; }

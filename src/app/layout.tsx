@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Noto_Sans, Geist_Mono } from "next/font/google";
 
 import { SiteFooter } from "@/components/layout/SiteFooter";
 
 import "./globals.css";
 
-const geistSans = Geist({
+const geistSans = Noto_Sans({
   variable: "--font-geist-sans",
-  subsets: ["latin"],
+  subsets: ["latin", "greek"],
 });
 
 const geistMono = Geist_Mono({

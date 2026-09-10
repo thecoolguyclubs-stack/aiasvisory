@@ -14,7 +14,8 @@ export function ExportPdfButton() {
       const { exportViewPdf } = await import("@/lib/export/view-pdf");
       await exportViewPdf();
       setStatus("done");
-    } catch {
+    } catch (error) {
+      console.error("PDF export failed", error instanceof Error ? error.message : "Unknown rendering error");
       setStatus("error");
     }
   }

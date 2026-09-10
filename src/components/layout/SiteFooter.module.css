@@ -4,7 +4,7 @@
   color: #607579;
   border-top: 1px solid #dce7e8;
   background: #fff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
 }
 
 .inner {

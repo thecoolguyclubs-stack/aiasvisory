@@ -323,10 +323,8 @@ function selectStrengths(evidence: CustomerEvidenceItem[]) {
     "service",
     "limit",
   ];
-  const ordered = [
-    ...evidence.filter((item) => positiveKinds.includes(item.kind)),
-    ...evidence.filter((item) => !positiveKinds.includes(item.kind)),
-  ];
+  // A restriction is not a strength, even when fewer than three benefits are known.
+  const ordered = evidence.filter((item) => positiveKinds.includes(item.kind));
   const selected: CustomerEvidenceItem[] = [];
   const seenTopics = new Set<string>();
   const seenKinds = new Set<CustomerEvidenceItem["kind"]>();
