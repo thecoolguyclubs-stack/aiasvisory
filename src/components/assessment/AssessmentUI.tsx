@@ -1,5 +1,7 @@
 import type { CSSProperties, ReactNode } from "react";
 import Image from "next/image";
+import Link from "next/link";
+import { ExportPdfButton } from "@/components/advisory/ExportPdfButton";
 
 import type {
   AssessmentOption,
@@ -296,10 +298,10 @@ export function AssessmentHeader({
   return (
     <header className={styles.header}>
       <div className={styles.headerInner}>
-        <div className={styles.brand} aria-label="insurancemarket">
+        <Link href="/" className={styles.brand} aria-label="insurancemarket — Αρχική">
           <span className={styles.brandMark} aria-hidden="true" />
           <span className={styles.brandName}>insurancemarket</span>
-        </div>
+        </Link>
 
         {displayStep ? (
           <div className={styles.progressBlock}>
@@ -321,6 +323,7 @@ export function AssessmentHeader({
         ) : (
           <p className={styles.headerStatus}>{statusText}</p>
         )}
+        <ExportPdfButton />
       </div>
     </header>
   );

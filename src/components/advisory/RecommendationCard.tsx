@@ -58,10 +58,15 @@ export function RecommendationCard({
         </span>
       </div>
 
+      <div className={styles.programIdentity}>
+        <h2>{recommendation.programName}</h2>
+        <p>{presentation.subtitle}</p>
+      </div>
+
       <div className={styles.scorePanel}>
         <div className={styles.scoreHeader}>
           <div className={styles.scoreCopy}>
-            <span className={styles.scoreLabel}>Βαθμός συμβατότητας</span>
+            <span className={styles.scoreLabel}>Συμβατότητα αναγκών</span>
             <strong className={styles.scoreValue}>
               {recommendation.matchScore}%
             </strong>
@@ -81,16 +86,9 @@ export function RecommendationCard({
         </div>
       </div>
 
-      <div className={styles.priceBlock}>
-        <PriceAvailability compact />
-      </div>
 
-      <div className={styles.programIdentity}>
-        <h2>{recommendation.programName}</h2>
-        <p>{presentation.subtitle}</p>
-      </div>
 
-      <details className={styles.reasonBox}>
+      <details open className={styles.reasonBox}>
         <summary>
           <span>Γιατί σου ταιριάζει</span>
         </summary>
@@ -127,6 +125,9 @@ export function RecommendationCard({
         {recommendation.missingEvidence.length > 0 && <p>Δεν έχει τεκμηριωθεί πλήρως: {recommendation.missingEvidence.map((item) => item.title).join(" · ")}.</p>}
       </details>
 
+      <div className={styles.priceBlock}>
+        <PriceAvailability compact />
+      </div>
       <div className={styles.cardActions}>
         <Link
           className={styles.primaryLink}

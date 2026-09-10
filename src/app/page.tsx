@@ -55,8 +55,8 @@ export default function Home() {
                 <span aria-hidden="true">→</span>
               </Link>
               <div className={styles.ratingCapsule}>
-                <span aria-hidden="true">★★★★★</span>
-                <strong>4,8/5 αξιολόγηση</strong>
+                <span aria-hidden="true">✓</span>
+                <strong>7 βήματα · Οι δικές σου ανάγκες</strong>
               </div>
             </div>
             <ResumeAssessmentLink className={styles.secondaryCta} />

@@ -2807,3 +2807,24 @@
 .careAccessQuestion { margin-top: 28px; border-top: 1px solid #dce8e8; padding-top: 24px; }
 .careAccessQuestion h2 { margin: 0 0 16px; font-size: clamp(18px, 3vw, 23px); line-height: 1.4; }
 @media (max-width: 420px) { .birthdayInputs { gap: 6px; } .birthdayInputs select { padding: 6px 3px; } }
+
+/* Common application shell and calm assessment surfaces. */
+.assessment { --ink:#173e43; --muted:#50676d; --teal:#087c76; --teal-dark:#087c76; background:radial-gradient(ellipse at 100% 0,#e8eeeb 0,transparent 45%),#f6f8f7; }
+.header { --header-height:80px; --page-shell-width:1184px; border-bottom:1px solid #dbe5e2; color:#173e43; background:#ffffffed; }
+.headerInner { gap:24px; }
+.headerStatus { margin-left:auto; font-size:12px; color:#5b726e; }
+.progressBlock { margin-left:auto; }
+.stage { padding-top:40px; padding-bottom:56px; }
+.stepCard { border-color:#d5e1dc; border-radius:22px; box-shadow:0 12px 40px #173e4307; background:#fff; }
+.stepTitle { letter-spacing:-.6px; }
+.choiceCard { border-color:#dbe5e2; border-radius:14px; box-shadow:none; }
+.choiceCard.selected { border-color:#087c76; background:#edf6f1; box-shadow:0 0 0 1px #087c76; }
+.primaryButton { background:#087c76; border-radius:10px; box-shadow:none; }
+.careAccessQuestion { border:1px solid #dbe5e2; padding:24px; border-radius:16px; background:linear-gradient(120deg,#f0f7f3,#faf5f7); }
+.careAccessQuestion h2 { font-size:21px; }
+.careAccessQuestion .choiceGrid { grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+.careAccessQuestion .choiceCard { align-items:flex-start; min-height:150px; padding:18px; background:white; }
+.careAccessQuestion .choiceText > span { font-size:14px; line-height:1.5; }
+.careAccessQuestion .choiceDescription { font-size:12px; line-height:1.6; }
+@media(max-width:760px) { .headerInner { width:calc(100% - 32px); gap:10px; flex-wrap:wrap; } .headerStatus { display:none; } .brandName { font-size:22px; } .brand { gap:6px; } .brandMark { width:21px; } .careAccessQuestion .choiceGrid { grid-template-columns:1fr; } .careAccessQuestion .choiceCard { min-height:0; } .careAccessQuestion { padding:18px; } .stage { padding-top:24px; } }
+@media(max-width:540px) { .header { height:auto; min-height:80px; padding:12px 0; } .assessment { grid-template-rows:auto minmax(0,1fr); } .headerInner { row-gap:8px; } .progressBlock { order:3; width:100%; flex-direction:row; align-items:center; gap:12px; } .progressTrack { flex:1; } .progressBlock > span { font-size:11px; white-space:nowrap; } .brandName { font-size:20px; } }

@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 
 import { AssessmentHeader } from "@/components/assessment/AssessmentUI";
 
+import { AdvisoryNavigation } from "./AdvisoryNavigation";
 import { InsurerLogo } from "./InsurerLogo";
 import styles from "./advisory.module.css";
 
@@ -36,6 +37,7 @@ export function AdvisoryShell({
           contentClassName,
         )}
       >
+        <AdvisoryNavigation />
         {backHref && backLabel && (
           <Link className={styles.backLink} href={backHref}>
             <span aria-hidden="true">←</span>
@@ -111,18 +113,20 @@ export function ProfileMetricCard({
 }
 
 export function ContentSection({
+  id,
   eyebrow,
   title,
   children,
   className,
 }: {
+  id?: string;
   eyebrow?: string;
   title: string;
   children: ReactNode;
   className?: string;
 }) {
   return (
-    <section className={cx(styles.contentSection, className)}>
+    <section id={id} className={cx(styles.contentSection, className)}>
       {eyebrow && <p className={styles.sectionEyebrow}>{eyebrow}</p>}
       <h2>{title}</h2>
       {children}

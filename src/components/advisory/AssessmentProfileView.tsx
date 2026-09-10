@@ -1,7 +1,7 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
+import { careAccessOptions } from "@/lib/assessment/preferences";
 
 import {
   generateInsuranceProfile,
@@ -28,7 +28,7 @@ export function AssessmentProfileView() {
     .filter((item): item is { id: string; insight: NeedInsight } =>
       Boolean(item.insight),
     );
-  const additionalNeedInsights = submission.answers.additionalNeeds
+  const additionalNeedInsights = [...new Set([...submission.answers.additionalNeeds, ...(submission.answers.careAccess === "freedom" ? ["provider_freedom"] : [])])]
     .map((id) => ({ id, insight: getAdditionalNeedInsight(id) }))
     .filter((item): item is { id: string; insight: NeedInsight } =>
       Boolean(item.insight),
@@ -85,13 +85,6 @@ export function AssessmentProfileView() {
               περάσουμε στις ενδεικτικές επιλογές.
             </p>
           </div>
-          <button
-            className={styles.pdfDownloadButton}
-            onClick={() => window.print()}
-            type="button"
-          >
-            Λήψη PDF
-          </button>
         </header>
         <section className={styles.needSummaryPanel}>
           <div className={styles.needSummaryCopy}>
@@ -99,28 +92,18 @@ export function AssessmentProfileView() {
               <span className={styles.summaryCheck} aria-hidden="true">
                 ✓
               </span>
-              <span className={styles.summaryEyebrow}>Συνολική αξιολόγηση</span>
+              <span className={styles.summaryEyebrow}>Ο στόχος της αξιολόγησής σου</span>
             </div>
-            <strong>
-              Ανάγκη για ουσιαστική κάλυψη με ελεγχόμενη συμμετοχή.
-            </strong>
-            <p>
-              Με βάση τις επιλογές σου, το προφίλ σου δείχνει ποιες
-              νοσοκομειακές καλύψεις είναι πιο σημαντικές, ποιο επίπεδο
-              συμμετοχής σε εξυπηρετεί και ποιες πρόσθετες παροχές μπορούν να
-              κάνουν το πρόγραμμα πιο ολοκληρωμένο για τις πραγματικές σου
-              ανάγκες.
-            </p>
+            <strong>{profile.mainGoal.title}</strong>
+            <p>Η αξιολόγηση δίνει προτεραιότητα σε: {profile.priorities.join(" · ") || "ανάγκες που θα επιβεβαιωθούν με σύμβουλο"}.</p>
+            <p>Προσωπική συμμετοχή που επέλεξες: <b>{profile.deductiblePreference}</b>. Το ποσό αυτό είναι προτίμηση, όχι επιβεβαιωμένος όρος προγράμματος.</p>
           </div>
-          <div className={styles.summaryArtwork} aria-hidden="true">
-            <Image
-              alt="Γραφιστικό ασφάλειας υγείας"
-              className={styles.summaryArtworkImage}
-              height={370}
-              src="/graphics/profile-healthcare-illustration.svg"
-              width={390}
-            />
-          </div>
+          <aside className={styles.profileBrief}>
+            <span>ΤΟ ΔΙΚΟ ΣΟΥ ΣΗΜΕΙΟ ΕΚΚΙΝΗΣΗΣ</span>
+            <strong>{profile.insuredPeople.count.toString().padStart(2, "0")}</strong>
+            <p>{profile.insuredPeople.count === 1 ? "άτομο προς ασφάλιση" : "άτομα προς ασφάλιση"}</p>
+            <div>{profile.currentInsurance.detail}</div>
+          </aside>
         </section>
         <aside className={styles.profileNoticeStrip}>
           <span className={styles.profileNoticeIcon} aria-hidden="true">
@@ -244,6 +227,14 @@ export function AssessmentProfileView() {
           </section>
         </div>
 
+        <section className={styles.profileAccess}>
+          <div><p className={styles.sectionEyebrow}>ΠΡΟΣΒΑΣΗ ΣΤΗ ΦΡΟΝΤΙΔΑ</p>
+          <h2>{careAccessOptions.find(option => option.id === submission.answers.careAccess)?.label ?? "Δεν έχει δηλωθεί προτίμηση δικτύου"}</h2>
+          <p>{careAccessOptions.find(option => option.id === submission.answers.careAccess)?.description ?? "Η προτίμηση μπορεί να συμπληρωθεί στις απαντήσεις σου."}</p></div>
+          <div><p className={styles.sectionEyebrow}>ΥΠΑΡΧΟΝ ΣΥΜΒΟΛΑΙΟ</p>
+          <h2>{profile.hasUploadedPolicy ? "Έχει επιλεγεί αρχείο" : "Δεν έχει επισυναφθεί αρχείο"}</h2>
+          <p>Η δήλωση υπάρχουσας ασφάλισης δεν αρκεί για σύγκριση όρων. Χρειάζεται ολοκληρωμένη ανάλυση του συμβολαίου.</p></div>
+        </section>
         <div className={styles.profileFooter}>
           <div className={styles.profileFootnote}>
             <span aria-hidden="true">i</span>

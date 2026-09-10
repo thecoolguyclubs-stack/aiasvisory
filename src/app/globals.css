@@ -3,11 +3,12 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  color-scheme: light;
+  --brand-ink: #173e43;
+  --brand-teal: #087c76;
+  --brand-paper: #f6f8f7;
+  --brand-pink: #ba467e;
 }
 
 html {
@@ -47,8 +48,17 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+button, input, select, textarea { font: inherit; }
+button, a, input, select, summary { touch-action: manipulation; }
+:focus-visible { outline: 3px solid #087c76; outline-offset: 4px; }
+::selection { background: #cdece6; color: #173e43; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+@media print {
+  @page { size: A4; margin: 14mm; }
+  body { display: block; background: white; color: #173e43; }
+  [data-export-ignore], button { display: none !important; }
+  * { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
 }

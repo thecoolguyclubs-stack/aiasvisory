@@ -34,6 +34,7 @@ function AdvisorDecisionSummary({
     recommendations.find(
       (recommendation) => recommendation.category === "best-match",
     ) ?? recommendations[0];
+  if (!bestRecommendation) return <section className={styles.statePanel}><h2>Δεν βρέθηκαν τεκμηριωμένες επιλογές</h2><p>Επανεξέτασε τις ανάγκες σου με ασφαλιστικό σύμβουλο.</p></section>;
   const hasPolicyComparison = recommendations.some(
     (recommendation) => recommendation.policyComparison,
   );
@@ -51,21 +52,20 @@ function AdvisorDecisionSummary({
   return (
     <section className={styles.advisorDecisionPanel}>
       <div className={styles.advisorDecisionMain}>
-        <p className={styles.sectionEyebrow}>ADVISOR OS RESULT</p>
+        <p className={styles.sectionEyebrow}>Η ΑΞΙΟΛΟΓΗΣΗ ΜΕ ΜΙΑ ΜΑΤΙΑ</p>
         <h2>
-          Πρώτη κατεύθυνση:{" "}
+          Πρώτη επιλογή προς εξέταση:{" "}
           <span>{bestRecommendation.programName}</span>
         </h2>
         <p>
-          Το σύστημα αξιολόγησε τις απαντήσεις σου, τα διαθέσιμα product facts
+          Το σύστημα αξιολόγησε τις απαντήσεις σου, τα διαθέσιμα στοιχεία προγραμμάτων
           και {hasPolicyComparison ? "το υπάρχον συμβόλαιο" : "τις δηλωμένες προτεραιότητες"}.
-          Η παρακάτω τριάδα δεν είναι απλή λίστα προϊόντων, αλλά ταξινόμηση με
-          βάση τεκμηρίωση, περιορισμούς και σημεία που χρειάζονται σύμβουλο.
+          Οι επιλογές παρουσιάζονται με τα δυνατά σημεία, τους περιορισμούς και τις εκκρεμότητές τους. Η βαθμολογία δείχνει αντιστοίχιση αναγκών, όχι εγγύηση κάλυψης ή αποδοχής.
         </p>
       </div>
       <dl className={styles.advisorDecisionMetrics}>
         <div>
-          <dt>Καλύτερο score</dt>
+          <dt>Υψηλότερη συμβατότητα</dt>
           <dd>{strongestScore}%</dd>
         </div>
         <div>
@@ -78,7 +78,7 @@ function AdvisorDecisionSummary({
         </div>
         <div>
           <dt>Υπάρχον συμβόλαιο</dt>
-          <dd>{hasPolicyComparison ? "Συγκρίθηκε" : "Δεν ανέβηκε"}</dd>
+          <dd>{hasPolicyComparison ? "Διαθέσιμη σύγκριση" : "Χωρίς σύγκριση"}</dd>
         </div>
       </dl>
     </section>
@@ -219,6 +219,7 @@ export function ResultsView() {
               το υπάρχον συμβόλαιό σου.
             </aside>
           )}
+          <div className={styles.resultsSectionHeading}><div><p className={styles.sectionEyebrow}>ΟΙ ΕΠΙΛΟΓΕΣ ΣΟΥ</p><h2>Δες τι προσφέρει κάθε κατεύθυνση</h2></div><Link href="/assessment/profile" className={styles.secondaryLink}>Δες το προφίλ σου →</Link></div>
           <section
             aria-label="Προτεινόμενα ασφαλιστικά προγράμματα"
             className={styles.resultsGrid}

@@ -244,6 +244,12 @@ export function ProgramDetailView({ programId }: { programId: string }) {
         </aside>
       </section>
 
+      <nav className={styles.detailJumpLinks} aria-label="Ενότητες προγράμματος" data-export-ignore>
+        <a href="#program-overview">Βασικά στοιχεία</a>
+        {presentation.customerEvidence.length > 0 && <a href="#program-evidence">Καλύψεις &amp; όροι</a>}
+        {recommendation.policyComparison && <a href="#program-comparison">Το συμβόλαιό σου</a>}
+        {confirmationItems.length > 0 && <a href="#program-confirmations">Σημεία προσοχής</a>}
+      </nav>
       {detailState.status === "loading" && (
         <section aria-live="polite" className={styles.inlineStatePanel}>
           <span className={styles.loadingMark} aria-hidden="true" />
@@ -289,6 +295,7 @@ export function ProgramDetailView({ programId }: { programId: string }) {
       {programFacts.length > 0 && (
         <ContentSection
           className={styles.detailInfoSection}
+          id="program-overview"
           eyebrow="ΣΤΟΙΧΕΙΑ ΠΡΟΓΡΑΜΜΑΤΟΣ"
           title="Βασικές πληροφορίες"
         >
@@ -306,6 +313,7 @@ export function ProgramDetailView({ programId }: { programId: string }) {
       {presentation.customerEvidence.length > 0 && (
         <ContentSection
           className={styles.detailInfoSection}
+          id="program-evidence"
           eyebrow="ΟΡΟΙ / ΚΑΛΥΨΕΙΣ"
           title="Τεκμηριωμένα στοιχεία του προγράμματος"
         >
@@ -319,6 +327,7 @@ export function ProgramDetailView({ programId }: { programId: string }) {
       {recommendation.policyComparison && (
         <ContentSection
           className={styles.detailInfoSection}
+          id="program-comparison"
           eyebrow="ΑΝΤΙΚΕΙΜΕΝΙΚΗ ΣΥΓΚΡΙΣΗ ΟΡΩΝ"
           title="Σύγκριση με το υπάρχον συμβόλαιό σου"
         >
@@ -331,6 +340,7 @@ export function ProgramDetailView({ programId }: { programId: string }) {
       {confirmationItems.length > 0 && (
         <ContentSection
           className={styles.detailInfoSection}
+          id="program-confirmations"
           eyebrow="ΕΛΕΓΧΟΣ ΣΥΜΒΟΥΛΟΥ"
           title="Σημεία που θα επιβεβαιώσει ο σύμβουλος"
         >

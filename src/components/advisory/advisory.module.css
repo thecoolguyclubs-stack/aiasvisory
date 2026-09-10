@@ -4662,3 +4662,127 @@
     box-shadow: none;
   }
 }
+
+/* Shared advisory visual system: quiet surfaces, teal guidance and rose accents. */
+.advisoryPage { --ink:#173e43; --muted:#50676d; --teal:#087c76; --teal-dark:#087c76; background:radial-gradient(ellipse at 100% 0,#e8eeeb 0,transparent 40%),#f6f8f7; }
+.pageContent { gap:28px; padding-top:28px; }
+.advisoryNavigation { display:flex; gap:8px; padding:0 0 20px; border-bottom:1px solid #dbe5e2; }
+.advisoryNavigation a { display:flex; align-items:center; gap:9px; padding:10px 15px; color:#526966; font-size:13px; border-radius:10px; }
+.advisoryNavigation a > span { font-size:10px; font-weight:800; color:#708580; }
+.advisoryNavigation a[aria-current] { background:#e3efea; color:#185a51; font-weight:750; }
+.advisoryNavigation a:hover { background:#eaf1ed; }
+.profileBoard { width:100%; min-height:0; padding:0; gap:24px; border:0; border-radius:0; background:none; box-shadow:none; overflow:visible; }
+.profileBoard::before,.profileBoard::after { display:none; }
+.profileHeroHeader { min-height:0; padding:8px 0 4px; }
+.profileHeroHeader h1,.pageHeading h1 { font-size:clamp(30px,3.5vw,46px); letter-spacing:-1.1px; line-height:1.17; }
+.profileHeroCopy > p { max-width:680px; font-size:15px; line-height:1.7; }
+.profileHeroBadge { padding:0; border:0; background:transparent; color:#087c76; letter-spacing:1.2px; font-size:11px; }
+.needSummaryPanel { display:grid; grid-template-columns:minmax(0,1fr) 260px; min-height:0; margin:0; padding:32px; gap:40px; border:1px solid #cbded6; border-radius:22px; background:linear-gradient(110deg,#e8f4ef,#f6f8f3 72%,#f7edf1); box-shadow:none; }
+.needSummaryPanel::before { display:none; }
+.needSummaryCopy { padding:0; max-width:none; }
+.needSummaryPanel strong { font-size:26px; line-height:1.35; color:#173e43; }
+.needSummaryPanel p { font-size:14px; line-height:1.8; max-width:680px; }
+.profileBrief { border-left:1px solid #ccdcd4; padding-left:32px; display:flex; flex-direction:column; justify-content:center; gap:6px; }
+.profileBrief > span { font-size:10px; font-weight:750; letter-spacing:1px; color:#526e66; }
+.profileBrief > strong { font-size:64px; line-height:1.1; font-weight:500; letter-spacing:-3px; }
+.profileBrief > p { margin:0; }
+.profileBrief > div { margin-top:12px; font-size:12px; color:#526e66; line-height:1.5; }
+.profileNoticeStrip { margin:0; padding:12px 16px; background:transparent; border:1px solid #dbe5e2; border-radius:12px; }
+.metricsGrid { margin:0; gap:14px; grid-template-columns:repeat(4,minmax(0,1fr)); }
+.metricCard { display:flex; flex-direction:column; align-items:flex-start; gap:18px; padding:22px; min-height:0; border:1px solid #dbe5e2; border-radius:16px; background:#fff; box-shadow:none; }
+.metricNumber { color:#668379; background:#f0f5f2; border:0; width:32px; height:32px; font-size:11px; }
+.metricCard p { font-size:10px; letter-spacing:.8px; color:#60756f; }
+.metricCard h2 { margin:10px 0; font-size:18px; line-height:1.4; }
+.metricCard div > span { font-size:12px; line-height:1.6; }
+.profileDetailGrid { margin:0; gap:20px; }
+.profilePanel { padding:28px; border:1px solid #dbe5e2; border-radius:18px; box-shadow:none; background:#fff; }
+.profilePanel h2 { font-size:22px; line-height:1.35; }
+.insightCardGrid { display:flex; flex-direction:column; gap:0; }
+.insightCard { min-height:0; border:0; border-bottom:1px solid #e7ece9; border-radius:0; padding:18px 0; background:transparent; box-shadow:none; }
+.insightCard:last-child { border-bottom:0; }
+.insightCard small { font-size:13px; line-height:1.7; }
+.inlineSummary { margin-top:22px; border:0; border-radius:12px; background:#f1f6f3; padding:18px; }
+.profileAccess { display:grid; grid-template-columns:1fr 1fr; gap:28px; padding:28px; background:white; border:1px solid #dbe5e2; border-radius:18px; }
+.profileAccess h2 { font-size:18px; margin:12px 0; line-height:1.5; }
+.profileAccess p:last-child { font-size:13px; line-height:1.7; color:var(--muted); }
+.profileFooter { padding:22px 0 0; margin:0; gap:20px; }
+.primaryLink,.primaryButton { background:#087c76; border-radius:10px; box-shadow:none; }
+.secondaryLink,.secondaryButton { border-radius:10px; }
+.pageHeading { max-width:860px; padding:8px 0; gap:14px; }
+.advisorDecisionPanel { padding:30px; border:1px solid #cbded6; border-radius:20px; background:linear-gradient(110deg,#e8f4ef,#f6f8f3 72%,#f7edf1); box-shadow:none; gap:32px; }
+.advisorDecisionPanel::before { display:none; }
+.advisorDecisionMain h2 { font-size:25px; line-height:1.45; }
+.advisorDecisionMain > p:last-child { font-size:14px; line-height:1.8; }
+.advisorDecisionMetrics { gap:12px; }
+.advisorDecisionMetrics > div { background:#ffffff9c; border:1px solid #d9e5de; border-radius:12px; padding:16px; }
+.advisorDecisionMetrics dd { font-size:22px; line-height:1.3; }
+.resultsSectionHeading { display:flex; align-items:center; justify-content:space-between; gap:16px; padding-top:8px; }
+.resultsSectionHeading h2 { font-size:22px; margin-top:10px; }
+.resultsGrid { gap:18px; align-items:start; }
+.recommendationCard { padding:24px; gap:20px; border:1px solid #d5e1dc; border-radius:18px; background:#fff; box-shadow:0 5px 18px #173e4306; }
+.recommendationCard:hover { transform:none; box-shadow:0 8px 24px #173e430c; }
+.recommendationHeader { flex-direction:column; align-items:flex-start; gap:14px; }
+.recommendationVisual { width:auto; gap:10px; }
+.recommendationBadge { font-size:10px; padding:7px 10px; line-height:1.5; border-radius:7px; }
+.programIdentity h2 { font-size:24px; line-height:1.25; letter-spacing:-.4px; }
+.programIdentity p:last-child { font-size:13px; line-height:1.7; }
+.scorePanel { padding:16px; border:1px solid #e1eae5; border-radius:12px; background:#f6f9f7; }
+.scoreHeader { align-items:flex-start; flex-wrap:wrap; gap:10px; }
+.scoreCopy { flex-direction:row; align-items:center; justify-content:space-between; width:100%; }
+.scoreValue { font-size:32px; line-height:1; font-weight:650; }
+.scoreLabel { font-size:11px; }
+.scoreTier { font-size:10px; padding:0; background:transparent!important; }
+.reasonBox { padding:16px; background:#f7f9f7; border:1px solid #e1eae5; border-radius:12px; }
+.reasonBox p { font-size:13px; line-height:1.8; }
+.reasonBox summary { line-height:1.5; font-size:13px; }
+.miniFeatureList { gap:12px; }
+.miniFeatureList li { font-size:13px; line-height:1.65; }
+.priceBlock { margin-top:auto; border-top:1px solid #e4ebe7; padding-top:18px; }
+.demoPriceSummary,.demoPriceDetail { display:flex; flex-direction:column; gap:8px; }
+.demoPriceSummary { padding:0; background:transparent; border:0; }
+.demoPriceSummary strong { font-size:14px; }
+.demoPriceSummary small { font-size:11px; line-height:1.6; }
+.demoPriceDetail { padding:24px 28px; border:1px solid #dbe5e2; background:#fff; border-radius:16px; }
+.demoPriceDetail > span { font-size:11px; text-transform:uppercase; letter-spacing:1px; color:var(--muted); }
+.demoPriceDetail > strong { font-size:20px; color:var(--ink); }
+.demoPriceDetail > small { font-size:13px; color:var(--muted); line-height:1.6; }
+.detailHero { padding:32px; border:1px solid #cbded6; border-radius:20px; background:linear-gradient(110deg,#e8f4ef,#f6f8f3 72%,#f7edf1); box-shadow:none; gap:36px; }
+.detailTitleBlock h1 { font-size:clamp(32px,4vw,48px); line-height:1.16; }
+.detailTitleBlock > p:last-child { max-width:580px; font-size:15px; line-height:1.8; }
+.detailScoreCard { padding:24px; border:1px solid #d7e3dc; background:#ffffffc9; border-radius:16px; box-shadow:none; }
+.detailScoreSummary strong { font-size:54px; font-weight:600; }
+.detailScoreSummary > span { font-size:12px; line-height:1.6; }
+.contentSection,.explanationSection { padding:28px; border:1px solid #dbe5e2; border-radius:18px; background:#fff; box-shadow:none; }
+.contentSection > h2 { font-size:24px; line-height:1.4; margin-bottom:20px; }
+.customerEvidenceGrid { gap:14px; }
+.customerEvidenceCard { background:#f8faf8; border:1px solid #e1e9e3; border-radius:12px; padding:20px; }
+.customerEvidenceCard h3 { font-size:15px; line-height:1.5; }
+.customerEvidenceCard p { font-size:13px; line-height:1.8; }
+.customerEvidenceCard small { font-size:11px; line-height:1.6; }
+.comparisonRow { border-radius:14px; box-shadow:none; }
+.comparisonColumns > div { padding:18px; border-radius:10px; }
+.finalCta { border-radius:18px; background:linear-gradient(115deg,#173e43,#21645d); box-shadow:none; }
+.figmaLeadCard,.figmaConfirmationCard { border:1px solid #dbe5e2; border-radius:20px; box-shadow:0 12px 36px #173e4308; }
+.figmaLeadSummary { background:linear-gradient(150deg,#e8f4ef,#f7edf1); }
+.resultsDisclaimer { background:transparent; border:1px solid #dbe5e2; border-radius:12px; padding:18px; }
+.detailJumpLinks { display:flex; gap:10px; flex-wrap:wrap; }
+.detailJumpLinks a { padding:10px 14px; font-size:12px; font-weight:700; border:1px solid #dbe5e2; border-radius:8px; background:white; }
+@media(max-width:1000px) { .metricsGrid { grid-template-columns:repeat(2,minmax(0,1fr)); } .resultsGrid { grid-template-columns:1fr; } .recommendationHeader { flex-direction:row; align-items:center; justify-content:space-between; } }
+@media(max-width:760px) {
+  .pageContent { width:calc(100% - 32px); padding-top:20px; gap:22px; }
+  .advisoryNavigation { gap:2px; justify-content:space-between; }
+  .advisoryNavigation a { padding:10px 5px; gap:5px; font-size:11px; }
+  .advisoryNavigation a > span { display:none; }
+  .needSummaryPanel { grid-template-columns:1fr; padding:24px; gap:24px; }
+  .profileBrief { border-left:0; border-top:1px solid #ccdcd4; padding:20px 0 0; }
+  .profileBrief > strong { font-size:42px; }
+  .profileDetailGrid,.profileAccess { grid-template-columns:1fr; }
+  .profilePanel,.profileAccess,.contentSection,.explanationSection { padding:22px; }
+  .metricCard { padding:18px; }
+  .metricCard h2 { font-size:16px; }
+  .resultsSectionHeading { align-items:flex-start; flex-direction:column; }
+  .advisorDecisionPanel,.detailHero { padding:24px; }
+  .profileHeroHeader h1,.pageHeading h1 { font-size:32px; }
+}
+@media(max-width:400px) { .metricsGrid { grid-template-columns:1fr; } .recommendationHeader { align-items:flex-start; flex-direction:column; } }
+@media print { .advisoryNavigation,.detailJumpLinks { display:none; } .profileBoard { padding:0; } .resultsGrid { display:block; } .recommendationCard { break-inside:avoid; margin-bottom:20px; } .profilePanel,.metricCard,.customerEvidenceCard { break-inside:avoid; } }
