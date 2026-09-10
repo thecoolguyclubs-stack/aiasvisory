@@ -24,6 +24,67 @@ import styles from "./advisory.module.css";
 import { RecommendationCard } from "./RecommendationCard";
 import { useStoredSubmission } from "./useStoredSubmission";
 
+function AdvisorDecisionSummary({
+  response,
+}: {
+  response: LiveRecommendationsResponse;
+}) {
+  const recommendations = response.recommendations;
+  const bestRecommendation =
+    recommendations.find(
+      (recommendation) => recommendation.category === "best-match",
+    ) ?? recommendations[0];
+  const hasPolicyComparison = recommendations.some(
+    (recommendation) => recommendation.policyComparison,
+  );
+  const evidenceCount = new Set(
+    recommendations.flatMap((recommendation) =>
+      recommendation.evidenceReferences.map(
+        (reference) => `${reference.type}:${reference.id}`,
+      ),
+    ),
+  ).size;
+  const strongestScore = Math.max(
+    ...recommendations.map((recommendation) => recommendation.matchScore),
+  );
+
+  return (
+    <section className={styles.advisorDecisionPanel}>
+      <div className={styles.advisorDecisionMain}>
+        <p className={styles.sectionEyebrow}>ADVISOR OS RESULT</p>
+        <h2>
+          Πρώτη κατεύθυνση:{" "}
+          <span>{bestRecommendation.programName}</span>
+        </h2>
+        <p>
+          Το σύστημα αξιολόγησε τις απαντήσεις σου, τα διαθέσιμα product facts
+          και {hasPolicyComparison ? "το υπάρχον συμβόλαιο" : "τις δηλωμένες προτεραιότητες"}.
+          Η παρακάτω τριάδα δεν είναι απλή λίστα προϊόντων, αλλά ταξινόμηση με
+          βάση τεκμηρίωση, περιορισμούς και σημεία που χρειάζονται σύμβουλο.
+        </p>
+      </div>
+      <dl className={styles.advisorDecisionMetrics}>
+        <div>
+          <dt>Καλύτερο score</dt>
+          <dd>{strongestScore}%</dd>
+        </div>
+        <div>
+          <dt>Επιλογές</dt>
+          <dd>{recommendations.length}</dd>
+        </div>
+        <div>
+          <dt>Στοιχεία τεκμηρίωσης</dt>
+          <dd>{evidenceCount}</dd>
+        </div>
+        <div>
+          <dt>Υπάρχον συμβόλαιο</dt>
+          <dd>{hasPolicyComparison ? "Συγκρίθηκε" : "Δεν ανέβηκε"}</dd>
+        </div>
+      </dl>
+    </section>
+  );
+}
+
 export function ResultsView() {
   const submission = useStoredSubmission();
   const [requestKey, setRequestKey] = useState(0);
@@ -148,6 +209,7 @@ export function ResultsView() {
 
       {result.status === "success" && (
         <>
+          <AdvisorDecisionSummary response={result.response} />
           {result.response.recommendations.some(
             (recommendation) => recommendation.policyComparison,
           ) && (

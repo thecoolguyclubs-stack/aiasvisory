@@ -710,6 +710,99 @@
   color: var(--teal-dark);
 }
 
+.advisorDecisionPanel {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(300px, 0.85fr);
+  gap: 26px;
+  padding: 28px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #bfdcdd;
+  border-radius: 22px;
+  background:
+    radial-gradient(circle at top right, rgba(203, 69, 135, 0.16), transparent 34%),
+    linear-gradient(135deg, #ffffff 0%, #f2fbfb 58%, #eef7fb 100%);
+  box-shadow: 0 24px 56px rgba(22, 42, 73, 0.09);
+}
+
+.advisorDecisionPanel::before {
+  width: 5px;
+  position: absolute;
+  top: 22px;
+  bottom: 22px;
+  left: 0;
+  border-radius: 999px;
+  background: linear-gradient(180deg, var(--teal-dark), var(--magenta));
+  content: "";
+}
+
+.advisorDecisionMain {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-left: 8px;
+}
+
+.advisorDecisionMain h2 {
+  max-width: 760px;
+  color: var(--ink);
+  font-size: clamp(24px, 2.4vw, 34px);
+  line-height: 1.16;
+  font-weight: 880;
+  letter-spacing: -0.55px;
+}
+
+.advisorDecisionMain h2 span {
+  color: var(--teal-dark);
+}
+
+.advisorDecisionMain > p:last-child {
+  max-width: 760px;
+  color: #496174;
+  font-size: 14px;
+  line-height: 1.62;
+}
+
+.advisorDecisionMetrics {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.advisorDecisionMetrics > div {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 104px;
+  padding: 16px;
+  border: 1px solid rgba(15, 159, 150, 0.18);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.74);
+  box-shadow: 0 10px 22px rgba(22, 42, 73, 0.045);
+}
+
+.advisorDecisionMetrics dt {
+  color: #62798c;
+  font-size: 10px;
+  line-height: 1.35;
+  font-weight: 850;
+  letter-spacing: 0.45px;
+  text-transform: uppercase;
+}
+
+.advisorDecisionMetrics dd {
+  color: var(--ink);
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: -0.4px;
+  overflow-wrap: anywhere;
+}
+
 .resultsGrid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -3348,6 +3441,10 @@
     gap: 20px;
   }
 
+  .advisorDecisionPanel {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
   .recommendationCard {
     min-height: 0;
   }
@@ -3612,6 +3709,19 @@
     gap: 16px;
     padding: 23px 18px 18px;
     border-radius: 16px;
+  }
+
+  .advisorDecisionPanel {
+    padding: 22px 18px;
+    border-radius: 16px;
+  }
+
+  .advisorDecisionMetrics {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .advisorDecisionMetrics > div {
+    min-height: 0;
   }
 
   .policyAnalysisBanner,
