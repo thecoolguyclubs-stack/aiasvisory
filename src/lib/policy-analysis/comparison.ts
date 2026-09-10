@@ -228,7 +228,7 @@ function proposedSummary(facts: ComparableProductFact[], fallback: string) {
 }
 
 const noCleanStructuredFact =
-  "Δεν βρέθηκε καθαρό δομημένο στοιχείο — χρειάζεται επιβεβαίωση από σύμβουλο.";
+  "Δεν υπάρχει ακόμη αριθμητικά επιβεβαιωμένο στοιχείο για ασφαλή σύγκριση. Χρειάζεται έλεγχος από σύμβουλο.";
 
 const scopeLabels: Record<ComparableProductFact["scope"], string | null> = {
   annual: "ανά έτος",
@@ -331,6 +331,13 @@ function compactProposedFact(fact: ComparableProductFact) {
   }
   if (fact.measureType === "network") return `Δίκτυο: ${fact.title}.`;
   if (fact.measureType === "exclusion") return "Περιορισμός που χρειάζεται επιβεβαίωση όρων.";
+  if (
+    exactText.length > 0 &&
+    exactText.length <= 120 &&
+    !/(άρθρο|σελ\.?|pdf|κεφάλαιο|παράγραφος)/iu.test(exactText)
+  ) {
+    return `${measureDisplayLabels[fact.measureType]}: ${exactText}.`;
+  }
   return null;
 }
 
@@ -387,7 +394,7 @@ function compactConclusion(
 ) {
   if (!hasComparableCleanFact(item)) {
     if ((item.proposedFacts ?? []).some((fact) => compactProposedFact(fact))) {
-      return "Το προτεινόμενο πρόγραμμα εμφανίζει σχετική τεκμηριωμένη παροχή, με επιβεβαίωση όρων από σύμβουλο.";
+      return "Υπάρχει σχετική τεκμηρίωση στο προτεινόμενο πρόγραμμα, με τελικό έλεγχο όρων από σύμβουλο.";
     }
     return "Η σύγκριση χρειάζεται επιβεβαίωση από σύμβουλο.";
   }
@@ -410,7 +417,7 @@ function compactConclusion(
     return "Το προτεινόμενο πρόγραμμα έχει λιγότερο ευνοϊκό συγκρίσιμο όρο.";
   }
   if (item.status === "similar") {
-    return "Τα διαθέσιμα structured στοιχεία δείχνουν παρόμοια εικόνα.";
+    return "Τα διαθέσιμα δομημένα στοιχεία δείχνουν παρόμοια εικόνα.";
   }
   return "Η σύγκριση χρειάζεται επιβεβαίωση από σύμβουλο.";
 }

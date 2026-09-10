@@ -171,7 +171,7 @@ const scopeLabels: Record<ComparableProductFact["scope"], string | null> = {
 };
 
 const needsStructuredConfirmation =
-  "Δεν βρέθηκε καθαρό δομημένο στοιχείο — χρειάζεται επιβεβαίωση από σύμβουλο.";
+  "Δεν υπάρχει ακόμη αριθμητικά επιβεβαιωμένο στοιχείο για ασφαλή σύγκριση. Χρειάζεται έλεγχος από σύμβουλο.";
 
 function comparableValue(fact: ComparableProductFact) {
   if (fact.valueNumber !== null) {

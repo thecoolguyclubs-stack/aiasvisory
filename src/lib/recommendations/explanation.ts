@@ -304,12 +304,12 @@ const claimTitle = (claim: AllowedClaim) =>
 function categoryLead(category: LiveRecommendationCategory) {
   switch (category) {
     case "premium-choice":
-      return "Η συγκεκριμένη επιλογή παρουσιάζεται ως πιο ενισχυμένη κατεύθυνση μέσα στην τρέχουσα τριάδα.";
+      return "Η συγκεκριμένη επιλογή λειτουργεί ως πιο ενισχυμένη κατεύθυνση μέσα στην τρέχουσα τριάδα.";
     case "smart-budget-choice":
-      return "Η συγκεκριμένη επιλογή παρουσιάζεται ως πιο ισορροπημένη κατεύθυνση μέσα στην τρέχουσα τριάδα.";
+      return "Η συγκεκριμένη επιλογή κρατά πιο ισορροπημένη κατεύθυνση μέσα στην τρέχουσα τριάδα.";
     case "best-match":
     default:
-      return "Η συγκεκριμένη επιλογή παρουσιάζεται ως η πιο κοντινή αντιστοίχιση μέσα στην τρέχουσα τριάδα.";
+      return "Η συγκεκριμένη επιλογή είναι η πιο κοντινή αντιστοίχιση μέσα στην τρέχουσα τριάδα.";
   }
 }
 
@@ -344,7 +344,7 @@ export function buildDeterministicExplanation(
   );
   const productName = truncateWordsWithoutEllipsis(input.productName, 8);
   const insurer = truncateWordsWithoutEllipsis(input.insurer, 6);
-  const paragraph = `Για το ${productName} της ${insurer}, ${categoryLead(input.category).toLocaleLowerCase("el-GR")} Η επεξήγηση συνδέει μόνο ${joinGreek(needs)} με συγκεκριμένα στοιχεία των διαθέσιμων όρων. Τεκμηριώνονται ${joinGreek(titles)} και ξεχωρίζουν ${strengthSummary}. Η αξιολόγηση βασίζεται σε αυτά τα στοιχεία και όχι σε γενικές υποθέσεις για τις δυνατότητες του προγράμματος. Παράλληλα, ${tradeOff}. ${missingEvidence} Οι τελικές καλύψεις και η εφαρμογή τους χρειάζονται επιβεβαίωση από ασφαλιστικό σύμβουλο.`
+  const paragraph = `Για το ${productName} της ${insurer}, ${categoryLead(input.category).toLocaleLowerCase("el-GR")} Η αξιολόγηση βασίζεται σε διαθέσιμους όρους και συνδέει ${joinGreek(needs)} με συγκεκριμένη τεκμηρίωση. Εμφανίζονται ${joinGreek(titles)}, ενώ ως βασικά θετικά σημεία προκύπτουν ${strengthSummary}. Έτσι η πρόταση δεν πατά σε γενικές υποθέσεις για το προϊόν. Παράλληλα, ${tradeOff}. ${missingEvidence} Πριν προχωρήσει ο πελάτης, οι τελικές καλύψεις, οι εξαιρέσεις και ο τρόπος εφαρμογής τους πρέπει να επιβεβαιωθούν από ασφαλιστικό σύμβουλο.`
     .replace(/\s+/g, " ")
     .trim();
 

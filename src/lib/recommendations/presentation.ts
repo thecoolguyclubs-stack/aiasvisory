@@ -35,7 +35,7 @@ interface NeedDescriptor {
 
 const categoryLabels: Record<LiveRecommendationCategory, string> = {
   "best-match": "Καλύτερη αντιστοίχιση",
-  "premium-choice": "Επιλογή πληρέστερης προστασίας",
+  "premium-choice": "Ενισχυμένη επιλογή",
   "smart-budget-choice": "Ισορροπημένη επιλογή",
 };
 
@@ -363,12 +363,12 @@ function categoryReasonLead(
 ) {
   switch (category) {
     case "premium-choice":
-      return `Στην παρούσα σύγκριση, το ${programName} ξεχωρίζει ως πιο ενισχυμένη κατεύθυνση για ${needPhrase}.`;
+      return `Το ${programName} λειτουργεί ως πιο ενισχυμένη κατεύθυνση για ${needPhrase}.`;
     case "smart-budget-choice":
-      return `Στην παρούσα σύγκριση, το ${programName} κρατά πιο ισορροπημένη κατεύθυνση για ${needPhrase} και το επίπεδο συμμετοχής.`;
+      return `Το ${programName} κρατά ισορροπία ανάμεσα σε ${needPhrase} και στο επίπεδο συμμετοχής.`;
     case "best-match":
     default:
-      return `Στην παρούσα σύγκριση, το ${programName} έρχεται πιο κοντά σε ${needPhrase}.`;
+      return `Το ${programName} έρχεται πιο κοντά σε ${needPhrase}.`;
   }
 }
 
@@ -390,7 +390,7 @@ function cardReason(
       ? `Χρειάζεται παράλληλα έλεγχος στο σημείο «${restrictionItem.title}», πριν θεωρηθεί δεδομένη η εφαρμογή του στην πράξη.`
       : "Οι ακριβείς προϋποθέσεις εφαρμογής των παραπάνω παροχών χρειάζονται επιβεβαίωση από ασφαλιστικό σύμβουλο.";
 
-  return `${categoryReasonLead(recommendation.category, recommendation.programName, needPhrase)} Στους διαθέσιμους όρους του προϊόντος ξεχωρίζουν ${strengthPhrase}, στοιχεία που συνδέονται με όσα δήλωσες και όχι με γενικές υποθέσεις. ${ending}`;
+  return `${categoryReasonLead(recommendation.category, recommendation.programName, needPhrase)} Η αξιολόγηση στηρίζεται κυρίως σε ${strengthPhrase}, ώστε η πρόταση να πατά σε συγκεκριμένα διαθέσιμα στοιχεία και όχι σε γενικές υποθέσεις. ${ending}`;
 }
 
 export function buildRecommendationPresentation(
@@ -423,9 +423,12 @@ export function buildRecommendationPresentation(
 
   return {
     categoryLabel: categoryLabels[recommendation.category],
-    subtitle: `Τεκμηριωμένες ενδείξεις: ${joinGreek(
-      strengths.slice(0, 2).map((item) => item.title),
-    )}`,
+    subtitle:
+      strengths.length > 0
+        ? `Κύρια τεκμηρίωση: ${joinGreek(
+            strengths.slice(0, 2).map((item) => item.title),
+          )}`
+        : "Η πρόταση χρειάζεται πρόσθετη επιβεβαίωση τεκμηρίωσης.",
     reason: cardReason(
       recommendation,
       relatedNeeds,

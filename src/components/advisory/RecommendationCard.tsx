@@ -31,6 +31,12 @@ export function RecommendationCard({
       : recommendation.matchScore >= 70
         ? styles.matchMedium
         : styles.matchLow;
+  const scoreTierLabel =
+    recommendation.matchScore >= 80
+      ? "Ισχυρή αντιστοίχιση"
+      : recommendation.matchScore >= 70
+        ? "Καλή αντιστοίχιση"
+        : "Θέλει επιβεβαίωση";
 
   return (
     <article
@@ -60,6 +66,9 @@ export function RecommendationCard({
               {recommendation.matchScore}%
             </strong>
           </div>
+          <span className={`${styles.scoreTier} ${scoreToneClass}`}>
+            {scoreTierLabel}
+          </span>
         </div>
         <div
           aria-hidden="true"
