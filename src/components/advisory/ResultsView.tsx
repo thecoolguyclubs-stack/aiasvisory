@@ -159,7 +159,7 @@ export function ResultsView() {
   if (!submission) return <AdvisoryLoading />;
 
   return (
-    <AdvisoryShell wide>
+    <AdvisoryShell wide contentClassName={styles.resultsContent}>
       <PageHeading
         description="Αξιολόγηση με βάση τις ανάγκες σου και τα διαθέσιμα στοιχεία των ασφαλιστικών προγραμμάτων."
         eyebrow="ΠΡΟΣΩΠΟΠΟΙΗΜΕΝΗ ΑΞΙΟΛΟΓΗΣΗ"

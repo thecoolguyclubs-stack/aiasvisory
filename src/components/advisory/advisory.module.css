@@ -4813,3 +4813,8 @@
 }
 @media(max-width:400px) { .metricsGrid { grid-template-columns:1fr; } .recommendationHeader { align-items:flex-start; flex-direction:column; } }
 @media print { .advisoryNavigation,.detailJumpLinks { display:none; } .profileBoard { padding:0; } .resultsGrid { display:block; } .recommendationCard { break-inside:avoid; margin-bottom:20px; } .profilePanel,.metricCard,.customerEvidenceCard { break-inside:avoid; } }
+
+/* Scale the complete results content together, including its layout footprint. */
+@media (min-width: 761px) {
+  .pageContent.resultsContent { zoom: 0.85; }
+}
