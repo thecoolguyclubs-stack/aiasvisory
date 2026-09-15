@@ -106,8 +106,9 @@ export function AssessmentFlow() {
       clearRecommendationSnapshot();
       clearExplanations();
       clearLeadSubmission();
-      window.history.replaceState(window.history.state, "", "/assessment");
-      router.replace("/assessment");
+      // Consume the reset flag once. Next synchronizes native history updates;
+      // a second router replacement can restore the stale reset URL.
+      window.history.replaceState(null, "", "/assessment");
     }
 
     const storedSession = startFresh ? null : readAssessmentSession();

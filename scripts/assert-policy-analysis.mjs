@@ -869,7 +869,7 @@ assert.ok(mismatchedAnnualLimit);
 assert.equal(mismatchedAnnualLimit.status, "needs_confirmation");
 assert.equal(
   compactPolicyComparisonDisplay(mismatchedAnnualLimit).conclusionText,
-  "Το προτεινόμενο πρόγραμμα εμφανίζει σχετική τεκμηριωμένη παροχή, με επιβεβαίωση όρων από σύμβουλο.",
+  "Υπάρχει σχετική τεκμηρίωση στο προτεινόμενο πρόγραμμα, με τελικό έλεγχο όρων από σύμβουλο.",
 );
 assert.equal(
   mismatchedAnnualLimit.proposedProgramSummary,
@@ -902,7 +902,7 @@ assert.equal(
   unknownComparison.unknownItems.some(
     (item) =>
       compactPolicyComparisonDisplay(item).proposedProgramText ===
-        "Δεν βρέθηκε καθαρό δομημένο στοιχείο — χρειάζεται επιβεβαίωση από σύμβουλο." &&
+        "Δεν υπάρχει ακόμη αριθμητικά επιβεβαιωμένο στοιχείο για ασφαλή σύγκριση. Χρειάζεται έλεγχος από σύμβουλο." &&
       compactPolicyComparisonDisplay(item).conclusionText ===
         "Η σύγκριση χρειάζεται επιβεβαίωση από σύμβουλο.",
   ),

@@ -20,10 +20,7 @@
   grid-template-rows: var(--header-height) minmax(0, 1fr);
   overflow-x: clip;
   color: var(--ink);
-  background:
-    radial-gradient(circle at 88% 10%, rgba(15, 159, 150, 0.1), transparent 28%),
-    radial-gradient(circle at 9% 36%, rgba(203, 69, 135, 0.07), transparent 30%),
-    #f8fbfd;
+  background: #f8fbfd;
   font-family: "Nunito Sans", var(--font-geist-sans), "Segoe UI", sans-serif;
   line-height: 1.32;
 }
@@ -46,8 +43,7 @@
   justify-content: center;
   padding: 0;
   border-bottom: 1px solid var(--border);
-  background: rgba(255, 255, 255, 0.9);
-  backdrop-filter: blur(14px);
+  background: rgba(255, 255, 255, 0.94);
   position: relative;
   z-index: 2;
 }
@@ -129,7 +125,7 @@
   align-items: flex-start;
   justify-content: center;
   padding: clamp(48px, 8vh, 80px) 24px 72px;
-  background: transparent;
+  background: #f8fbfd;
 }
 
 .stepCard,
@@ -142,12 +138,10 @@
   gap: 16px;
   padding: 32px 36px 28px;
   overflow: hidden;
-  border: 1px solid #cbdfe5;
-  border-radius: 20px;
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, #ffffff 70%),
-    radial-gradient(circle at 92% 0%, rgba(15, 159, 150, 0.1), transparent 34%);
-  box-shadow: 0 24px 58px rgba(22, 42, 73, 0.08);
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  background: var(--surface);
+  box-shadow: 0 14px 34px rgba(22, 42, 73, 0.06);
 }
 
 .stepCard.medium,
@@ -175,8 +169,8 @@
 }
 
 .stepCard.priorityStepCard {
-  width: min(100%, 1030px);
-  gap: 16px;
+  width: min(100%, 1142px);
+  gap: 12px;
 }
 
 .stepCard.deductibleStepCard {
@@ -266,8 +260,8 @@
   padding: 16px 18px 16px 24px;
   color: var(--ink);
   border: 1px solid var(--border);
-  border-radius: 15px;
-  background: rgba(255, 255, 255, 0.92);
+  border-radius: 16px;
+  background: var(--surface);
   font-size: 15px;
   font-weight: 700;
   line-height: 1.45;
@@ -630,8 +624,8 @@
 
 .choiceCard:hover {
   border-color: var(--border-strong);
-  background: #ffffff;
-  box-shadow: 0 14px 30px rgba(22, 42, 73, 0.06);
+  background: var(--surface-alt);
+  box-shadow: 0 10px 24px rgba(22, 42, 73, 0.04);
 }
 
 .choiceCard:active {
@@ -750,9 +744,9 @@
 }
 
 .choiceGrid.priorityGrid {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  justify-content: stretch;
-  gap: 14px;
+  grid-template-columns: repeat(3, minmax(0, 330px));
+  justify-content: center;
+  gap: 18px 40px;
 }
 
 .choiceGrid.additionalNeedsGrid {
@@ -924,18 +918,17 @@
 }
 
 .multiChoice.priorityChoiceCard {
-  min-height: 132px;
-  flex-direction: row;
+  min-height: 250px;
+  flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  gap: 14px;
-  padding: 18px 48px 18px 18px;
-  border-color: #d4e3ea;
-  border-radius: 16px;
-  background:
-    linear-gradient(180deg, #ffffff 0%, #fbfdfd 100%);
-  box-shadow: 0 10px 24px rgba(22, 42, 73, 0.035);
-  text-align: left;
+  gap: 8px;
+  padding: 24px 22px 16px;
+  border-color: #cfe1ea;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 12px 28px rgba(22, 42, 73, 0.04);
+  text-align: center;
 }
 
 .priorityChoiceCard::before {
@@ -975,8 +968,8 @@
 }
 
 .priorityChoiceIcon {
-  width: 76px;
-  height: 76px;
+  width: 126px;
+  height: 126px;
   flex: 0 0 auto;
   display: grid;
   place-items: center;
@@ -997,8 +990,8 @@
 }
 
 .priorityChoiceIconImage {
-  width: 62px;
-  height: 62px;
+  width: 104px;
+  height: 104px;
   object-fit: contain;
 }
 
@@ -1006,32 +999,34 @@
   min-width: 0;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 6px;
+  align-items: center;
+  gap: 7px;
   color: var(--ink);
 }
 
 .priorityChoiceTitle {
-  min-height: 0;
+  min-height: 42px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   color: var(--ink);
   font-size: 15px;
   line-height: 1.28;
   font-weight: 850;
   overflow-wrap: anywhere;
+  text-wrap: balance;
 }
 
 .priorityChoiceDescription {
   max-width: 286px;
-  min-height: 0;
+  min-height: 44px;
   display: block;
   color: #7187a5;
   font-size: 12px;
-  line-height: 1.45;
+  line-height: 1.35;
   font-weight: 600;
   overflow-wrap: anywhere;
+  text-wrap: balance;
 }
 
 .multiChoice.additionalNeedChoiceCard {
@@ -2097,7 +2092,7 @@
   }
 
   .choiceGrid.priorityGrid {
-    grid-template-columns: minmax(0, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 14px;
   }
 
@@ -2182,18 +2177,18 @@
   }
 
   .multiChoice.priorityChoiceCard {
-    min-height: 124px;
-    padding: 16px 44px 16px 16px;
+    min-height: 228px;
+    padding: 22px 18px 16px;
   }
 
   .priorityChoiceIcon {
-    width: 68px;
-    height: 68px;
+    width: 108px;
+    height: 108px;
   }
 
   .priorityChoiceIconImage {
-    width: 56px;
-    height: 56px;
+    width: 88px;
+    height: 88px;
   }
 
   .approachGrid {
@@ -2594,9 +2589,9 @@
   }
 
   .multiChoice.priorityChoiceCard {
-    min-height: 112px;
+    min-height: 192px;
     gap: 8px;
-    padding: 14px 40px 14px 14px;
+    padding: 16px 42px 16px;
   }
 
   .priorityChoiceCheck {
@@ -2607,13 +2602,13 @@
   }
 
   .priorityChoiceIcon {
-    width: 58px;
-    height: 58px;
+    width: 78px;
+    height: 78px;
   }
 
   .priorityChoiceIconImage {
-    width: 48px;
-    height: 48px;
+    width: 64px;
+    height: 64px;
   }
 
   .priorityChoiceTitle {

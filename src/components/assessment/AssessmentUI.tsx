@@ -1,5 +1,6 @@
 import type { CSSProperties, ReactNode } from "react";
 import Image from "next/image";
+import { InsuredIcon, InsuranceIcon, PriorityIcon, DeductibleIcon, AdditionalNeedIcon } from "./AssessmentIllustrations";
 import Link from "next/link";
 import { ExportPdfButton } from "@/components/advisory/ExportPdfButton";
 
@@ -448,13 +449,7 @@ export function SingleChoiceOptions({
                   )}
                   aria-hidden="true"
                 >
-                  <Image
-                    alt=""
-                    className={styles.insuredChoiceIconImage}
-                    height={104}
-                    src={insuredMeta.src}
-                    width={104}
-                  />
+                  <InsuredIcon type={option.id} />
                 </span>
                 <span className={styles.insuredChoiceText}>
                   <span className={styles.insuredChoiceTitle}>
@@ -480,17 +475,7 @@ export function SingleChoiceOptions({
                   )}
                   aria-hidden="true"
                 >
-                  <Image
-                    alt=""
-                    className={cx(
-                      styles.insuranceChoiceIconImage,
-                      insuranceMeta.imageClassName,
-                    )}
-                    height={104}
-                    src={insuranceMeta.src}
-                    unoptimized
-                    width={104}
-                  />
+                  <InsuranceIcon type={option.id} className={insuranceMeta.imageClassName} />
                 </span>
                 <span className={styles.insuranceChoiceText}>
                   <span className={styles.insuranceChoiceTitle}>
@@ -516,13 +501,7 @@ export function SingleChoiceOptions({
                   )}
                   aria-hidden="true"
                 >
-                  <Image
-                    alt=""
-                    className={styles.deductibleChoiceIconImage}
-                    height={104}
-                    src={deductibleMeta.src}
-                    width={104}
-                  />
+                  <DeductibleIcon type={option.id} />
                 </span>
                 <span className={styles.deductibleChoiceText}>
                   <span className={styles.deductibleChoiceTitle}>
@@ -661,17 +640,7 @@ export function MultiChoiceOptions({
                   )}
                   aria-hidden="true"
                 >
-                  <Image
-                    alt=""
-                    className={cx(
-                      styles.additionalNeedIconImage,
-                      additionalMeta.imageClassName,
-                    )}
-                    height={104}
-                    src={additionalMeta.src}
-                    unoptimized
-                    width={104}
-                  />
+                  <AdditionalNeedIcon type={option.id} className={additionalMeta.imageClassName} />
                 </span>
                 <span className={styles.additionalNeedText}>
                   <span className={styles.additionalNeedTitle}>
@@ -698,13 +667,17 @@ export function MultiChoiceOptions({
                   )}
                   aria-hidden="true"
                 >
-                  <Image
+                  {option.id === "hospital-network" || option.id === "surgery" ? (
+                    <PriorityIcon type={option.id} />
+                  ) : (
+                    <Image
                     alt=""
                     className={styles.priorityChoiceIconImage}
                     height={104}
                     src={priorityMeta.src}
                     width={104}
                   />
+                  )}
                 </span>
                 <span className={styles.priorityChoiceText}>
                   <span className={styles.priorityChoiceTitle}>
