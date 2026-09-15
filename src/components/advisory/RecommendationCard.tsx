@@ -49,9 +49,6 @@ export function RecommendationCard({
             insurer={recommendation.insurer}
             programId={recommendation.programId}
           />
-          <strong className={styles.recommendationInsurerName}>
-            {recommendation.insurer}
-          </strong>
         </div>
         <span className={styles.recommendationBadge}>
           {presentation.categoryLabel}
@@ -59,6 +56,7 @@ export function RecommendationCard({
       </div>
 
       <div className={styles.programIdentity}>
+        <p className={styles.recommendationInsurerName}>{recommendation.insurer}</p>
         <h2>{recommendation.programName}</h2>
         <p>{presentation.subtitle}</p>
       </div>

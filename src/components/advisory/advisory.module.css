@@ -4718,23 +4718,50 @@
 .advisorDecisionMetrics dd { font-size:22px; line-height:1.3; }
 .resultsSectionHeading { display:flex; align-items:center; justify-content:space-between; gap:16px; padding-top:8px; }
 .resultsSectionHeading h2 { font-size:22px; margin-top:10px; }
-.resultsGrid { gap:18px; align-items:start; }
-.recommendationCard { padding:24px; gap:20px; border:1px solid #d5e1dc; border-radius:18px; background:#fff; box-shadow:0 5px 18px #173e4306; }
-.recommendationCard:hover { transform:none; box-shadow:0 8px 24px #173e430c; }
-.recommendationHeader { flex-direction:column; align-items:flex-start; gap:14px; }
-.recommendationVisual { width:auto; gap:10px; }
-.recommendationBadge { font-size:10px; padding:7px 10px; line-height:1.5; border-radius:7px; }
-.programIdentity h2 { font-size:24px; line-height:1.25; letter-spacing:-.4px; }
-.programIdentity p:last-child { font-size:13px; line-height:1.7; }
-.scorePanel { padding:16px; border:1px solid #e1eae5; border-radius:12px; background:#f6f9f7; }
+/* Soft, continuous surfaces for the recommendation comparison. */
+.resultsGrid { gap:24px; align-items:stretch; }
+.recommendationCard {
+  padding:28px; gap:22px; border:1px solid #dce9e4; border-radius:36px;
+  background:radial-gradient(ellipse at 0 0, var(--program-tint), transparent 340px), #fff;
+  box-shadow:0 16px 44px #173e4308;
+}
+.recommendationCard::before { display:none; }
+.recommendationCard:hover { transform:none; border-color:#b7d8cd; box-shadow:0 20px 52px #173e4310; }
+.recommendationCard.premium-choice { --program-tint:#faf0f6; }
+.recommendationCard.smart-budget-choice { --program-tint:#faf5e9; }
+.recommendationHeader { display:flex; flex-direction:row; align-items:center; justify-content:space-between; gap:12px; min-height:80px; }
+.recommendationVisual { width:auto; gap:0; }
+.recommendationVisual .insurerLogo { --insurer-logo-box-size:80px; border-radius:26px; border-color:#ffffff; box-shadow:0 8px 24px #173e430c; }
+.recommendationBadge { font-size:10px; padding:9px 13px; line-height:1.5; border-radius:999px; max-width:165px; }
+.recommendationInsurerName { min-height:36px; text-align:left; color:#526e70; font-size:12px; line-height:1.5; font-weight:650; }
+.recommendationCard .programIdentity { gap:10px; }
+.recommendationCard .programIdentity h2 { min-height:60px; font-size:24px; line-height:1.25; letter-spacing:-.4px; color:#173e43; }
+.recommendationCard .programIdentity p:last-child { min-height:66px; font-size:13px; line-height:1.7; }
+.recommendationCard .scorePanel { padding:20px; border:0; border-radius:26px; background:linear-gradient(125deg,#edf6f2,#f6faf8); box-shadow:inset 0 0 0 1px #e3eee8; }
 .scoreHeader { align-items:flex-start; flex-wrap:wrap; gap:10px; }
 .scoreCopy { flex-direction:row; align-items:center; justify-content:space-between; width:100%; }
-.scoreValue { font-size:32px; line-height:1; font-weight:650; }
+.scoreValue { font-size:36px; line-height:1; font-weight:650; letter-spacing:-1px; }
 .scoreLabel { font-size:11px; }
-.scoreTier { font-size:10px; padding:0; background:transparent!important; }
-.reasonBox { padding:16px; background:#f7f9f7; border:1px solid #e1eae5; border-radius:12px; }
+.scoreTier { font-size:10px; padding:0; background:transparent!important; border:0; }
+.recommendationCard .reasonBox { padding:18px; background:#f6f9f7; border:0; border-radius:26px; box-shadow:none; }
 .reasonBox p { font-size:13px; line-height:1.8; }
 .reasonBox summary { line-height:1.5; font-size:13px; }
+.recommendationCard .reasonBox summary { padding:6px 0 12px; }
+.recommendationCard .reasonBox[open] summary { border-bottom-color:#e1ebe5; }
+.recommendationCard .primaryLink { border-radius:999px; background:linear-gradient(115deg,#087c76,#169b87); border:0; min-height:50px; box-shadow:0 8px 18px #087c7614; }
+.recommendationCard .primaryLink:hover { background:#086d67; }
+.recommendationCard .tertiaryLink { border-radius:999px; }
+.recommendationCard a:focus-visible, .recommendationCard summary:focus-visible { outline:3px solid #087c76; outline-offset:4px; }
+.resultsSectionHeading .secondaryLink { border-radius:999px; padding-inline:24px; }
+@media(max-width:1100px) {
+  .recommendationCard { padding:22px; }
+  .recommendationHeader { gap:8px; }
+  .recommendationBadge { padding:8px 10px; }
+}
+@media(max-width:760px) {
+  .recommendationCard { border-radius:30px; }
+  .recommendationCard .programIdentity h2, .recommendationCard .programIdentity p:last-child, .recommendationInsurerName { min-height:0; }
+}
 .miniFeatureList { gap:12px; }
 .miniFeatureList li { font-size:13px; line-height:1.65; }
 .priceBlock { margin-top:auto; border-top:1px solid #e4ebe7; padding-top:18px; }
